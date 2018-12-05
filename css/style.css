@@ -9,6 +9,7 @@ body {
     margin: 0;
     overflow-x: hidden;
     font-family: 'Merriweather', sans-serif;
+	background-color: #2D2D2D;
 }
 
 /* ----- Fonte ----- */
@@ -24,14 +25,14 @@ h4,
 h5,
 h6 {
     font-family: 'Mate', serif;
-    color: #000;
+    color: #fff;
 }
 
 p {
     font-family: 'Merriweather', sans-serif;
     font-size: 14px;
     line-height: 19px;
-    color: #000;
+    color: #fff;
 }
 
 /* ----- HEADER ----- */
@@ -47,10 +48,30 @@ header #video-background {
     z-index: -100;
 }
 
+#bookingknap a {
+	text-align: center;
+	width: 90%;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	line-height: 50px;
+	background: #b11f25;
+	margin-top: 330px;
+	padding: 0 70px;
+	display: inline-block;
+	font-weight: 700;
+	font-size: 16px;
+	color: #f8f6ee;
+	font-family: 'Vidaloka', serif;
+	text-decoration: none;
+	border-bottom: 8px solid #e51721;
+	text-transform: uppercase;
+	letter-spacing: 0.6px;
+	z-index: 1;
+}
+
+
 /* ----- MENU ----- */
-
-/*-- MENU --*/
-
 nav {
     position: absolute;
     width: 100%;
@@ -69,8 +90,8 @@ label {
     display: block;
     cursor: pointer;
     font-size: 50px;
-    font-weight: 600;
-    color: #f8f6ee;
+    font-weight: lighter;
+    color: #7E1515;
     margin: 28px 15px 15px 15px;
 
 }
@@ -98,8 +119,9 @@ label {
     width: 100%;
     display: none;
     background-color: #000;
-    height: 600px;
-    font-family: 'Vidaloka', serif;
+    height: 500px;
+	font-weight: ;
+    font-family: 'Mate SC', serif;
     text-transform: uppercase;
     letter-spacing: 0.6px;
     opacity: 0.9;
@@ -111,7 +133,7 @@ label {
     display: block;
     border-bottom: 1px solid #333;
     padding: 20px;
-    color: #f8f6ee;
+    color: #7E1515;
 
 }
 
@@ -135,6 +157,7 @@ label {
 
 @media (min-width:1025px) {
 
+/* ----- MENU ----- */
     nav {
         width: 100%;
 
@@ -161,7 +184,7 @@ label {
 
     .menu a {
         text-decoration: none;
-        color: #f8f6ee;
+        color: #fff;
         margin: 0px;
         line-height: 0px;
         display: inline-block;
@@ -173,14 +196,9 @@ label {
         display: none;
     }
 
-    .box {
-        background-color: #e51721;
-        border-radius: 6px;
-    }
-
     .box:hover {
         background-color: #fff;
-        color: #e51721;
+        color: #7E1515;
         -webkit-transition: all 0.6s;
         -moz-transition: all 0.6s;
         -o-transition: all 0.6s;
@@ -196,4 +214,21 @@ label {
         color: black;
         font-size: 14px;
     }
+	
+/* ----- HEADER ----- */
+	
+	#bookingknap a {
+		width: 350px;
+		margin-top: 25%;
+		z-index: 2;
+	}
+
+	#bookingknap a:hover {
+		background-color: #e51721;
+		-webkit-transition: all 0.6s;
+		-moz-transition: all 0.6s;
+		-o-transition: all 0.6s;
+		transition: all 0.6s;
+		z-index: 2;
+	}
 }
