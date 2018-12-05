@@ -17,7 +17,7 @@ body {
 h1,
 h2 {
     font-family: 'Mate SC', serif;
-    color: #000;
+    color: #fff;
 }
 
 h3,
@@ -37,32 +37,20 @@ p {
 
 /* ----- HEADER ----- */
 
-header #video-background {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-}
-
 #bookingknap a {
     text-align: center;
-    width: 90%;
+    width: 60%;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     line-height: 50px;
     background: #b11f25;
-    margin-top: 330px;
-    padding: 0 70px;
+    margin-top: 80px;
     display: inline-block;
     font-weight: 700;
     font-size: 16px;
     color: #f8f6ee;
-    font-family: 'Vidaloka', serif;
+    font-family: 'Mate', serif;
     text-decoration: none;
     border-bottom: 8px solid #e51721;
     text-transform: uppercase;
@@ -138,6 +126,22 @@ label {
 
 }
 
+/* ----- LANDING IMG ----- */
+
+#landing {
+    height: 50%;
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.35;
+}
+
+.landingtext {
+    text-align: center;
+    padding-top: 170px;
+}
+
 
 /* ----- DESKTOP ----- */
 
@@ -169,9 +173,9 @@ label {
     label {
         display: none;
     }
-    
+
     /* Lavet med inspiration fra https://www.littlesnippets.net/snip1275 */
-    
+
     .snip1275 {
         text-align: center;
         font-weight: 500;
@@ -231,7 +235,7 @@ label {
 
     #bookingknap a {
         width: 350px;
-        margin-top: 25%;
+        margin-top: 240px;
         z-index: 2;
     }
 
@@ -242,5 +246,25 @@ label {
         -o-transition: all 0.6s;
         transition: all 0.6s;
         z-index: 2;
+    }
+
+    /* ----- LANDING IMG ----- */
+
+    #landing {
+        height: 70%;
+        top: 135px;
+    }
+
+    .landingtext {
+        text-align: center;
+        padding-top: 500px;
+    }
+    
+    .landingtext h1 {
+        font-size: 70px;
+    }
+    
+    .landingtext h2 {
+        font-size: 55px;
     }
 }
