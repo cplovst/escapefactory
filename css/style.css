@@ -1,8 +1,22 @@
-/* Fonte */
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+	font-family: 'Merriweather', sans-serif;
+}
+
+/* ----- Fonte ----- */
 
 h1,
 h2 {
     font-family: 'Mate SC', serif;
+	color: #000;
 }
 
 h3,
@@ -10,8 +24,176 @@ h4,
 h5,
 h6 {
     font-family: 'Mate', serif;
+	color: #000;
 }
 
 p {
     font-family: 'Merriweather', sans-serif;
+	font-size: 14px;
+	line-height: 19px;
+	color: #000;
+}
+
+/* ----- HEADER ----- */
+
+header #video-background {
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+}
+
+/* ----- MENU ----- */
+
+/*-- MENU --*/
+
+nav {
+	position: absolute;
+	width: 100%;
+	z-index: 2;
+
+}
+
+.nav {
+	text-align: right;
+	height: 70px;
+	line-height: 30px;
+
+}
+
+label {
+	display: block;
+	cursor: pointer;
+	font-size: 50px;
+	font-weight: 600;
+	color: #f8f6ee;
+	margin: 28px 15px 15px 15px;
+
+}
+
+.box {
+	background-color: #e51721;
+	border-radius: 0px;
+	box-shadow: 0px 0px 0px;
+	color: #fff;
+
+}
+
+.box:hover {
+	background-color: #fff;
+	color: #e51721;
+	-webkit-transition: all 0.6s;
+	-moz-transition: all 0.6s;
+	-o-transition: all 0.6s;
+	transition: all 0.6s;
+
+}
+
+.menu {
+	text-align: center;
+	width: 100%;
+	display: none;
+	background-color: #000;
+	height: 600px;
+	font-family: 'Vidaloka', serif;
+	text-transform: uppercase;
+	letter-spacing: 0.6px;
+	opacity: 0.9;
+	font-size: 16px;
+}
+
+.menu a {
+	text-decoration: none;
+	display: block;
+	border-bottom: 1px solid #333;
+	padding: 20px;
+	color: #f8f6ee;
+
+}
+
+.menu a:hover {
+	color: #e51721;
+
+}
+
+#toggle {
+	display: none;
+
+}
+
+#toggle:checked + .menu {
+	display: block;
+
+}
+
+
+/* ----- DESKTOP ----- */
+
+@media (min-width:1025px) {
+
+nav {
+		width: 100%;
+
+
+	}
+
+	.nav {
+		height: 70px;
+		line-height: 150px;
+		text-align: right;
+		padding: 0;
+		padding-right: 10%;
+
+	}
+
+	.menu {
+		margin: 0;
+		padding: 0;
+		display: inline-block;
+		text-align: right;
+		background: none;
+		font-size: 14px;
+	}
+
+	.menu a {
+		text-decoration: none;
+		color: #f8f6ee;
+		margin: 0px;
+		line-height: 0px;
+		display: inline-block;
+		border-bottom: none;
+	}
+
+
+	label {
+		display: none;
+	}
+
+	.box {
+		background-color: #e51721;
+		border-radius: 6px;
+	}
+
+	.box:hover {
+		background-color: #fff;
+		color: #e51721;
+		-webkit-transition: all 0.6s;
+		-moz-transition: all 0.6s;
+		-o-transition: all 0.6s;
+		transition: all 0.6s;
+	}
+
+	form {
+		max-width: 500px;
+	}
+
+	form label {
+		margin-bottom: 8px;
+		color: black;
+		font-size: 14px;
+}
 }
