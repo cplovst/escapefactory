@@ -410,12 +410,18 @@ label {
 
 /*----VORES RUM SIDEN STARTER-----*/
 
-.detrerum img {
+.enigmaimg, .alkymistimg, .oberstimg {
 
     width: 100%;
-    height: 150px;
+    height: 180px;
 
 }
+
+
+
+
+   
+
 
 /* The Modal (background) */
 .modal {
@@ -469,17 +475,26 @@ label {
     position: relative;
 }
 
-#myBtn, .minknap {
+#myBtn {
   
     background: #7c2000;
     border: none;
+    
     padding: 1% 5%;
     font-size: 20px;
     position: absolute;
-    top: 50%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
    
+}
+
+.tekstonimg {
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
 }
 
 
@@ -666,14 +681,23 @@ label {
         justify-content: space-around;
     }
 
-    .detrerum img {
-        width: 299px;
-        height=411px;
+    .detrerum {
+        
+    width: auto;
+          
+        
+        
     }
+    
+    .detrerum img {
+        width: 310px;
+height: 400px;
+    }
+}
 
     /*-----VORES RUM SIDEN SLUTTER-----*/
 
-/*-----VORES RUM SIDEN SLUTTER-----*/   
+
     
     
 /* ---------TEAMBUILDING START ----- */ 
