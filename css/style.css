@@ -8,7 +8,7 @@
 body {
     margin: 0;
     overflow-x: hidden;
-    font-family: 'Merriweather', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
     background-color: #252525;
 }
 
@@ -29,7 +29,7 @@ h6 {
 }
 
 p {
-    font-family: 'Merriweather', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
     font-size: 14px;
     line-height: 19px;
     color: #fff;
@@ -126,6 +126,8 @@ label {
 
 }
 
+/* ----- FORSIDE ----- */
+
 /* ----- LANDING IMG ----- */
 
 #landing {
@@ -143,21 +145,35 @@ label {
 }
 
 .landingbox {
-    margin-bottom: 510px;
+    margin-bottom: 508px;
 }
 
 /* ----- MARMOR BG ----- */
 
 .marmorbox {
-    width: 100%;
     height: 800px;
+}
+
+.marmorbox h2 {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.marmorbox p {
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    font-size: 16px;
 }
 
 .marmor {
     width: 100%;
-    z-index: -1;
+    height: 800px;
+    z-index: -2;
     opacity: 0.1;
-    height: 100%;
+    position: absolute;
 }
 
 
@@ -449,6 +465,8 @@ text-align: center;
         width: 100%;
     }
 
+    /* ----- FORSIDE ----- */
+    
     /* ----- HEADER ----- */
 
     #bookingknap a {
