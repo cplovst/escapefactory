@@ -258,7 +258,7 @@ label {
 
 .teambuilding-header {
     display: flex;
-    height: 30vh;
+    height: 40vh;
     background-size: cover;
     background-image: url(../images/Mafia.png);
     background-position: center;
@@ -274,7 +274,6 @@ label {
 }
 
 .wrapper-bokse h3 {
-    padding: 3%;
     text-align: center;
 }
 
@@ -289,7 +288,7 @@ label {
     height: 30vh;
     background-color: #7E1515;
     margin: 3vh;
-    padding-left: 3%;
+    padding-top: 3%;
     color: #fff;
     list-style-position: inside;
     text-align: left;
@@ -655,40 +654,11 @@ label {
 
     /*-----VORES RUM SIDEN SLUTTER-----*/
 
-
-
+    
     /* ---------TEAMBUILDING START ----- */
 
     .teambuilding-header {
-        height: 80vh;
-    }
-
-    .wrapper-bokse {
-        text-align: center;
-        line-height: 1.8em
-    }
-
-    #fordele {
-        display: inline-block;
-        width: 45vh;
-        height: 35vh;
-        padding: 0% 2% 0% 2%;
-        vertical-align: top;
-
-    }
-
-    #praktisk-info {
-        display: inline-block;
-        width: 45vh;
-        height: 35vh;
-        padding: 0% 2% 0% 2%;
-        vertical-align: top;
-    }
-
-    /* ---------TEAMBUILDING START ----- */
-
-    .teambuilding-header {
-        height: 50vh;
+        height: 70vh;
     }
 
     .wrapper-bokse {
@@ -697,19 +667,20 @@ label {
 
     #fordele {
         display: inline-block;
-        width: 35vh;
-        height: 40vh;
-        padding: 3%;
+        width: 25%;
+        height: 35vh;
+        padding: 1% 2% 2% 2%;
         vertical-align: top;
 
     }
-
+    
     #praktisk-info {
         display: inline-block;
-        width: 35vh;
-        height: 40vh;
-        padding: 3%;
+        width: 25%;
+        height: 35vh;
+        padding: 1% 2% 2% 2%;
         vertical-align: top;
+
     }
 
     .teambuilding-h2 {
@@ -731,11 +702,10 @@ label {
     .fulde-udbytte {
         padding: 0% 8% 0% 8%;
 
-
     }
 
     #kontakt-knap {
-        width: 30%;
+        width: 20%;
     }
 
     #teambuilding-tekstafsnit {
@@ -748,9 +718,6 @@ label {
         padding: 0% 15% 0% 15%;
     }
 
-    #kontakt-knap {
-        width: 30%;
 
-    }
 
     /* ---------TEAMBUILDING SLUT ----- */
