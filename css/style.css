@@ -126,6 +126,8 @@ label {
 
 }
 
+/* ----- FORSIDE ----- */
+
 /* ----- LANDING IMG ----- */
 
 #landing {
@@ -454,6 +456,8 @@ text-align: center;
         width: 100%;
     }
 
+    /* ----- FORSIDE ----- */
+    
     /* ----- HEADER ----- */
 
     #bookingknap a {
