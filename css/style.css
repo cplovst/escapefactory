@@ -137,10 +137,10 @@ label {
     background-size: cover;
     background-image: url(../images/landingimg.jpg);
     background-position: top;
-    
+    opacity: 0.35;
 }
 
-#landing h1 {
+.landingbox h1 {
     top: 125px;
     text-align: center;
     width: 100%;
@@ -149,10 +149,10 @@ label {
     transform: translateX(-50%);
     line-height: 50px;
     color: #fff;
-    font-size: 40px
+    font-size: 40px;
 }
 
-#landing h2 {
+.landingbox h2 {
     top: 215px;
     text-align: center;
     width: 100%;
@@ -168,7 +168,8 @@ label {
 
 .marmorbox h2 {
     text-align: center;
-    padding-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     font-size: 25px;
     text-transform: uppercase;
 }
@@ -178,7 +179,7 @@ label {
     width: 70%;
     margin-left: 15%;
     font-size: 12px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .marmor {
@@ -201,7 +202,6 @@ label {
 .marmorgrid img {
     width: auto;
     height: 30px;
-    margin-top: 20px;
 }
 
 
@@ -518,7 +518,7 @@ label {
 
     #bookingknap a {
         width: 350px;
-        margin-top: 200px;
+        margin-top: 500px;
         z-index: 2;
     }
 
@@ -538,30 +538,19 @@ label {
         background-position: top;
     }
 
-    #landing h1 {
-        top: 330px;
+    .landingbox h1 {
+        top: 400px;
         font-size: 70px;
     }
 
-    #landing h2 {
-        top: 400px;
+    .landingbox h2 {
+        top: 470px;
         font-size: 60px;
 
     }
 
     .landingtext h2 {
         font-size: 55px;
-    }
-
-    .landingbox {
-        margin-bottom: 50px;
-    }
-
-
-    /*----VORES RUM SIDEN STARTER-----*/
-
-    .landingbox {
-        margin-bottom: 508px;
     }
 
     /* ----- MARMOR BG ----- */
