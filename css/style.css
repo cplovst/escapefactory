@@ -121,12 +121,10 @@ label {
 
 #toggle {
     display: none;
-
 }
 
 #toggle:checked + .menu {
     display: block;
-
 }
 
 /* ----- FORSIDE ----- */
@@ -139,10 +137,11 @@ label {
     background-size: cover;
     background-image: url(../images/landingimg.jpg);
     background-position: top;
+    
 }
 
 #landing h1 {
-    top: 170px;
+    top: 125px;
     text-align: center;
     width: 100%;
     position: absolute;
@@ -154,7 +153,7 @@ label {
 }
 
 #landing h2 {
-    top: 220px;
+    top: 215px;
     text-align: center;
     width: 100%;
     position: absolute;
@@ -163,10 +162,6 @@ label {
     line-height: 50px;
     color: #fff;
     font-size: 30px;
-}
-
-.landingbox {
-    margin-bottom: 20px;
 }
 
 /* ----- MARMOR BG ----- */
@@ -265,7 +260,6 @@ label {
     color: #fff;
     list-style-position: inside;
     text-align: left;
-
 }
 
 
@@ -299,8 +293,6 @@ label {
     text-transform: uppercase;
     letter-spacing: 0.6px;
     margin: 10% 0% 10% 0%;
-
-
 }
 
 #bookingknap-teambuilding a {
@@ -308,8 +300,6 @@ label {
     margin-top: 25%;
     text-decoration: none;
     color: #fff;
-
-
 }
 
 #bookingknap-teambuilding a:hover {
@@ -319,7 +309,6 @@ label {
     -o-transition: all 0.6s;
     transition: all 0.6s;
 }
-
 
 /* IKONER der illustrerer max antal og tid */
 
