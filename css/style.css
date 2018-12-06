@@ -177,7 +177,7 @@ label {
 
 
     
-/*---- Øverste to info-bokse på siden ---- */
+/*---- Øverste to info-bokse på siden: FORDELE OG PRAKTISK INFO ---- */
 
 .teambuilding-h2 {
     color: #fff;
@@ -248,7 +248,8 @@ label {
     border-bottom: 8px solid #e51721;
     text-transform: uppercase;
     letter-spacing: 0.6px;
-    margin: 5%
+    margin: 10% 0% 10% 0%;
+    
 
 }
 
@@ -271,7 +272,8 @@ label {
 
 
 #ikoner {
-text-align: center;    
+text-align: center;   
+padding: 8%
 }
 
 .ikon-bar li {
