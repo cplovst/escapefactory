@@ -423,7 +423,7 @@ label {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 200px; /* Location of the box */
+    padding-top: 150px; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -438,14 +438,14 @@ label {
     background: #7e1515;
     
     margin: auto;
-    padding: 50px;
-    border: 1px solid #888;
-    width: 80%;
+    padding: 30px;
+   
+    width: 90%;
 }
 
 /* The Close Button */
 .close {
-    color: #aaaaaa;
+    color: #ffff;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -453,7 +453,7 @@ label {
 
 .close:hover,
 .close:focus {
-    color: #000;
+    color: grey;
     text-decoration: none;
     cursor: pointer;
 }
@@ -470,7 +470,7 @@ label {
     position: relative;
 }
 
-#myBtn {
+#myBtn, .minknap {
   
     background: #7c2000;
     border: none;
