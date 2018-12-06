@@ -271,43 +271,47 @@ label {
 .teambuilding-h2 {
     text-align: center;
     padding: 2%;
+    
 }
 
+
 .wrapper-bokse h3 {
-    text-align: center;
+    padding: 3%;
 }
 
 .wrapper-bokse {
     text-align: center;
     padding: 3%;
+
 }
+
 
 #fordele {
+
     display: inline-block;
     width: 80%;
-    height: 30vh;
-    background-color: #7E1515;
-    margin: 3vh;
-    padding-top: 3%;
-    color: #fff;
-    list-style-position: inside;
-    text-align: left;
-    line-height: 1.5em;
-
-}
-
-#praktisk-info {
-    display: inline-block;
-    width: 80%;
-    height: 30vh;
+    height: 25vh;
+    border: 1px solid #7E1515;
     background-color: #7E1515;
     margin: 3vh;
     padding-left: 3%;
     color: #fff;
     list-style-position: inside;
     text-align: left;
-    line-height: 1.5em;
 
+}
+
+#praktisk-info {
+    display: inline-block;
+    width: 80%;
+    height: 25vh;
+    border: 1px solid #7E1515;
+    background-color: #7E1515;
+    margin: 3vh;
+    padding-left: 3%;
+    color: #fff;
+    list-style-position: inside;
+    text-align: left;
 }
 
 
@@ -773,7 +777,7 @@ label {
         width: 310px;
 height: 400px;
     }
-}
+
 
     /*-----VORES RUM SIDEN SLUTTER-----*/
 
@@ -867,3 +871,4 @@ height: 400px;
 
 
     /* ---------TEAMBUILDING SLUT ----- */
+}
