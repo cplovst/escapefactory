@@ -233,6 +233,7 @@ label {
 
 .wrapper-bokse h3 {
     padding: 3%;
+    text-align: center;
 }
 
 .wrapper-bokse {
@@ -279,6 +280,9 @@ label {
 #teambuilding-tekstafsnit {
     letter-spacing: 0.6px;
     padding: 3%;
+    text-align: justify;
+    text-justify: inter-word;
+    
 
 }
 
@@ -349,6 +353,7 @@ label {
     background-size: cover;
     background-image: url(../images/teambuild-baggrund.png);
     background-position: center;
+    
 
 }
 
@@ -356,6 +361,7 @@ label {
 
     letter-spacing: 0.6px;
     padding: 3%;
+  
 
 }
 
@@ -703,7 +709,7 @@ height: 400px;
 /* ---------TEAMBUILDING START ----- */ 
     
 .teambuilding-header {
-    height: 50vh;
+    height: 80vh;
 }
     
 .wrapper-bokse {
@@ -713,17 +719,17 @@ height: 400px;
     
 #fordele {
     display: inline-block;
-    width: 35vh;
-    height: 40vh;
-    padding: 3%;
+    width: 45vh;
+    height: 35vh;
+    padding: 0% 2% 0% 2%;
     vertical-align: top;
 
 }
 #praktisk-info {
     display: inline-block;
-    width: 35vh;
-    height: 40vh;
-    padding: 3%;
+    width: 45vh;
+    height: 35vh;
+    padding: 0% 2% 0% 2%;
     vertical-align: top;
 
         
@@ -742,19 +748,21 @@ height: 400px;
 
 
 #teambuilding-tekstafsnit {
-    padding: 0% 8% 0% 8%;
+    padding: 0% 15% 0% 15%;
+    
 }
 
 
 .fulde-udbytte {
-    padding: 0% 8% 0% 8%;
+    padding: 0% 15% 0% 15%;
     
 
 }
 
 #kontakt-knap {
     width: 30%;
-}
+    
+    }
     
     
     
