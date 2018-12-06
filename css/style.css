@@ -240,6 +240,7 @@ label {
     text-align: center;
     padding: 3%;
 
+
 }
 
 
@@ -247,28 +248,29 @@ label {
 
     display: inline-block;
     width: 80%;
-    height: 25vh;
-    border: 1px solid #7E1515;
+    height: 30vh;
     background-color: #7E1515;
     margin: 3vh;
     padding-left: 3%;
     color: #fff;
     list-style-position: inside;
     text-align: left;
+    line-height: 1.5em;
 
 }
 
 #praktisk-info {
     display: inline-block;
     width: 80%;
-    height: 25vh;
-    border: 1px solid #7E1515;
+    height: 30vh;
     background-color: #7E1515;
     margin: 3vh;
     padding-left: 3%;
     color: #fff;
     list-style-position: inside;
     text-align: left;
+    line-height: 1.5em;
+
 }
 
 
@@ -626,7 +628,7 @@ label {
     
 .wrapper-bokse {
     text-align: center;
-    
+    line-height: 1.8em
 }
     
 #fordele {
