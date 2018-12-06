@@ -45,7 +45,7 @@ p {
     transform: translateX(-50%);
     line-height: 40px;
     background: #b11f25;
-    margin-top: 30px;
+    top: 300px;
     display: inline-block;
     font-weight: 700;
     font-size: 16px;
@@ -64,13 +64,16 @@ nav {
     position: absolute;
     width: 100%;
     z-index: 2;
+    background-color: #252525;
+
 
 }
 
 .nav {
     text-align: right;
-    height: 70px;
+    height: 50px;
     line-height: 30px;
+
 
 }
 
@@ -80,7 +83,7 @@ label {
     font-size: 30px;
     font-weight: lighter;
     color: #7E1515;
-    margin: 28px 15px 15px 15px;
+    margin: 20px 15px 15px 15px;
 
 
 }
@@ -118,12 +121,10 @@ label {
 
 #toggle {
     display: none;
-
 }
 
 #toggle:checked + .menu {
     display: block;
-
 }
 
 /* ----- FORSIDE ----- */
@@ -131,55 +132,83 @@ label {
 /* ----- LANDING IMG ----- */
 
 #landing {
-    width: 100vw;
+    display: flex;
+    height: 60vh;
     background-size: cover;
-    position: absolute;
-    top: 80px;
-    z-index: -1;
+    background-image: url(../images/landingimg.jpg);
+    background-position: top;
     opacity: 0.35;
 }
 
-.landingtext {
+.landingbox h1 {
+    top: 125px;
     text-align: center;
-    padding-top: 170px;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 50px;
+    color: #fff;
+    font-size: 40px;
 }
 
-.landingbox {
-    margin-bottom: 508px;
+.landingbox h2 {
+    top: 215px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 50px;
+    color: #fff;
+    font-size: 30px;
 }
 
 /* ----- MARMOR BG ----- */
 
-.marmorbox {
-    height: 800px;
-}
-
 .marmorbox h2 {
     text-align: center;
-    padding-top: 100px;
-    font-size: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 25px;
     text-transform: uppercase;
 }
 
 .marmorbox p {
     text-align: center;
-    width: 60%;
-    margin-left: 20%;
-    font-size: 16px;
+    width: 70%;
+    margin-left: 15%;
+    font-size: 12px;
+    margin-top: 30px;
 }
 
 .marmor {
     width: 100%;
-    height: 800px;
+    height: 550px;
     z-index: -2;
     opacity: 0.1;
     position: absolute;
 }
 
+.marmorgrid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 10px;
+    text-align: center;
+}
 
+.marmorgrid img {
+    width: auto;
+    height: 30px;
+}
+
+
+/* ----- FORSIDE SLUT ----- */
 
 /*------ TEAMBUILDINGSIDE \/ ------ */
-    
+
 /* --- MORTEN HEADER TEAMBUILDING --- */
 
 
@@ -192,23 +221,29 @@ label {
 }
 
 
-    
+
 /*---- Øverste to info-bokse på siden: FORDELE OG PRAKTISK INFO ---- */
 
 .teambuilding-h2 {
-    color: #fff;
     text-align: center;
-    padding: 3%;
+    padding: 2%;
     
 }
 
 
+.wrapper-bokse h3 {
+    padding: 3%;
+}
 
-#wrapper {
-
+.wrapper-bokse {
     text-align: center;
+    padding: 3%;
+
 }
-#div1 {
+
+
+#fordele {
+
     display: inline-block;
     width: 80%;
     height: 25vh;
@@ -218,11 +253,11 @@ label {
     padding-left: 3%;
     color: #fff;
     list-style-position: inside;
-text-align: left;
+    text-align: left;
 
 }
 
-#div2 {
+#praktisk-info {
     display: inline-block;
     width: 80%;
     height: 25vh;
@@ -232,8 +267,7 @@ text-align: left;
     padding-left: 3%;
     color: #fff;
     list-style-position: inside;
-text-align: left;
-
+    text-align: left;
 }
 
 
@@ -243,9 +277,9 @@ text-align: left;
 /* TEKST-AFSNIT: "Hos Escape Factory tilbyder vi teambuilding..." */
 
 #teambuilding-tekstafsnit {
- letter-spacing: 0.6px;
-    padding: 3%;    
-    
+    letter-spacing: 0.6px;
+    padding: 3%;
+
 }
 
 /* BOOK HER-KNAP PÅ TEAMBUILDING SIDEN */
@@ -267,33 +301,28 @@ text-align: left;
     text-transform: uppercase;
     letter-spacing: 0.6px;
     margin: 10% 0% 10% 0%;
-    
-
 }
 
-    #bookingknap-teambuilding a {
-        width: 350px;
-        margin-top: 25%;
-        text-decoration: none;
-        color: #fff;
+#bookingknap-teambuilding a {
+    width: 350px;
+    margin-top: 25%;
+    text-decoration: none;
+    color: #fff;
+}
 
-
-    }
-
-    #bookingknap-teambuilding a:hover {
-        background-color: #7E1515;
-        -webkit-transition: all 0.6s;
-        -moz-transition: all 0.6s;
-        -o-transition: all 0.6s;
-        transition: all 0.6s;
-    }
-
+#bookingknap-teambuilding a:hover {
+    background-color: #7E1515;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;
+}
 
 /* IKONER der illustrerer max antal og tid */
 
 #ikoner {
-text-align: center;   
-padding: 8%
+    text-align: center;
+    padding: 8%
 }
 
 .ikon-bar li {
@@ -304,6 +333,7 @@ padding: 8%
     color: #fff;
 
 }
+
 .icon-pics {
     width: 25px;
     text-align: center;
@@ -314,7 +344,7 @@ padding: 8%
 
 /*EL-KHOLY muligheden - tekstafsnit */
 
-.fulde-udbytte { 
+.fulde-udbytte {
     display: flex;
     height: 60vh;
     background-size: cover;
@@ -325,9 +355,9 @@ padding: 8%
 
 .fulde-udbytte p {
 
- letter-spacing: 0.6px;
-    padding: 3%;    
-    
+    letter-spacing: 0.6px;
+    padding: 3%;
+
 }
 
 
@@ -336,6 +366,8 @@ padding: 8%
     margin: 2%;
 }
 
+
+/* ---- HERUNDER kontakt-knap til TEAMBUILDING SIDEN ---- */
 
 #kontakt-knap {
     text-align: center;
@@ -353,35 +385,37 @@ padding: 8%
     border-bottom: 8px solid #e51721;
     text-transform: uppercase;
     letter-spacing: 0.6px;
-    
+
 }
 
-    #kontakt-knap a {
-        width: 350px;
-        margin-top: 25%;
-        text-decoration: none;
-        color: #fff;
+#kontakt-knap a {
+    width: 350px;
+    margin-top: 25%;
+    text-decoration: none;
+    color: #fff;
 
 
-    }
+}
 
-    #kontakt-knap a:hover {
-        background-color: #7E1515;
-        -webkit-transition: all 0.6s;
-        -moz-transition: all 0.6s;
-        -o-transition: all 0.6s;
-        transition: all 0.6s;
-    }
+#kontakt-knap a:hover {
+    background-color: #7E1515;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;
+}
 
+
+/* -----------HER SLUTTER KODE FOR TEAMBUILDING-SIDEN--------- */
 
 
 /*----VORES RUM SIDEN STARTER-----*/
 
 .detrerum img {
-    
+
     width: 100%;
-height: 150px;
-  
+    height: 150px;
+
 }
 
 /* The Modal (background) */
@@ -460,10 +494,11 @@ height: 150px;
     /* ----- MENU ----- */
     nav {
         width: 100%;
+
     }
 
     .nav {
-        height: 70px;
+        height: 150px;
         line-height: 150px;
     }
 
@@ -542,12 +577,12 @@ height: 150px;
     }
 
     /* ----- FORSIDE ----- */
-    
+
     /* ----- HEADER ----- */
 
     #bookingknap a {
         width: 350px;
-        margin-top: 100px;
+        margin-top: 500px;
         z-index: 2;
     }
 
@@ -563,46 +598,141 @@ height: 150px;
     /* ----- LANDING IMG ----- */
 
     #landing {
-        top: 135px;
-        height: 70%;
+        height: 90vh;
+        background-position: top;
     }
 
-    .landingtext {
-        text-align: center;
-        padding-top: 400px;
-    }
-
-    .landingtext h1 {
+    .landingbox h1 {
+        top: 400px;
         font-size: 70px;
+    }
+
+    .landingbox h2 {
+        top: 470px;
+        font-size: 60px;
+
     }
 
     .landingtext h2 {
         font-size: 55px;
     }
-    
-    
- /*----VORES RUM SIDEN STARTER-----*/
 
-.detrerum {
-    display: flex;
-    justify-content: space-around;
-    
-}
-    
+    /* ----- MARMOR BG ----- */
+
+    .marmorbox h2 {
+        text-align: center;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        font-size: 55px;
+        text-transform: uppercase;
+    }
+
+    .marmorbox p {
+        text-align: center;
+        width: 60%;
+        margin-left: 20%;
+        font-size: 16px;
+        margin-top: 70px;
+    }
+
+    .marmor {
+        width: 100%;
+        height: 650px;
+        z-index: -2;
+        opacity: 0.1;
+        position: absolute;
+    }
+
+    .marmorgrid {
+        width: 80%;
+        margin-left: 10%;
+        grid-template-columns: auto auto auto auto auto auto;
+        font-size: 20px;
+    }
+
+    .marmorgrid img {
+        height: 80px;
+    }
+
+    .marmorgrid h3 {
+        margin-top: 30px;
+    }
+
+    /* ----- FORSIDE SLUT ----- */
+
+    /*----VORES RUM SIDEN STARTER-----*/
+
+    .detrerum {
+        display: flex;
+        justify-content: space-around;
+    }
+
     .detrerum img {
         width: 299px;
-    height=411px;
+        height=411px;
     }
-    
 
-
-
+    /*-----VORES RUM SIDEN SLUTTER-----*/
 
 /*-----VORES RUM SIDEN SLUTTER-----*/   
     
     
+/* ---------TEAMBUILDING START ----- */ 
     
-    
-    
-    
+.teambuilding-header {
+    height: 50vh;
 }
+    
+.wrapper-bokse {
+    text-align: center;
+}
+    
+#fordele {
+    display: inline-block;
+    width: 35vh;
+    height: 40vh;
+    padding: 3%
+}
+#praktisk-info {
+    display: inline-block;
+    width: 35vh;
+    height: 40vh;
+    padding: 3%
+}    
+    
+    
+    
+ .teambuilding-h2 {
+     font-size: 200%;   
+    }
+
+
+#bookingknap-teambuilding {
+    width: 30%;
+
+}
+
+
+#teambuilding-tekstafsnit {
+    padding: 8% 8% 8% 8%;
+}
+
+
+.fulde-udbytte {
+    padding: 0% 8% 0% 8%;
+    
+
+}
+
+#kontakt-knap {
+    width: 30%;
+}
+    
+    
+    
+    
+/* ---------TEAMBUILDING SLUT ----- */ 
+    
+    
+    
+
