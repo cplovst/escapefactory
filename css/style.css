@@ -193,7 +193,7 @@ label {
 
 
     
-/*---- Øverste to info-bokse på siden ---- */
+/*---- Øverste to info-bokse på siden: FORDELE OG PRAKTISK INFO ---- */
 
 .teambuilding-h2 {
     color: #fff;
@@ -202,13 +202,15 @@ label {
     
 }
 
+
+
 #wrapper {
 
-    
+    text-align: center;
 }
 #div1 {
     display: inline-block;
-    width: 60vh;
+    width: 80%;
     height: 25vh;
     border: 1px solid #7E1515;
     background-color: #7E1515;
@@ -216,13 +218,13 @@ label {
     padding-left: 3%;
     color: #fff;
     list-style-position: inside;
-
+text-align: left;
 
 }
 
 #div2 {
     display: inline-block;
-    width: 60vh;
+    width: 80%;
     height: 25vh;
     border: 1px solid #7E1515;
     background-color: #7E1515;
@@ -230,7 +232,7 @@ label {
     padding-left: 3%;
     color: #fff;
     list-style-position: inside;
-
+text-align: left;
 
 }
 
@@ -246,7 +248,7 @@ label {
     
 }
 
-/* BOOK HER KNAP PÅ TEAMBUILDING SIDEN */
+/* BOOK HER-KNAP PÅ TEAMBUILDING SIDEN */
 
 #bookingknap-teambuilding {
     text-align: center;
@@ -264,7 +266,8 @@ label {
     border-bottom: 8px solid #e51721;
     text-transform: uppercase;
     letter-spacing: 0.6px;
-    margin: 5%
+    margin: 10% 0% 10% 0%;
+    
 
 }
 
@@ -286,8 +289,11 @@ label {
     }
 
 
+/* IKONER der illustrerer max antal og tid */
+
 #ikoner {
-text-align: center;    
+text-align: center;   
+padding: 8%
 }
 
 .ikon-bar li {
@@ -306,6 +312,7 @@ text-align: center;
 
 }
 
+/*EL-KHOLY muligheden - tekstafsnit */
 
 .fulde-udbytte { 
     display: flex;
