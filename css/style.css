@@ -39,20 +39,20 @@ p {
 
 #bookingknap a {
     text-align: center;
-    width: 60%;
+    width: 200px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    line-height: 50px;
+    line-height: 40px;
     background: #b11f25;
-    margin-top: 80px;
+    margin-top: 30px;
     display: inline-block;
     font-weight: 700;
     font-size: 16px;
     color: #f8f6ee;
     font-family: 'Mate', serif;
     text-decoration: none;
-    border-bottom: 8px solid #e51721;
+    border-bottom: 5px solid #e51721;
     text-transform: uppercase;
     letter-spacing: 0.6px;
     z-index: 1;
@@ -129,10 +129,10 @@ label {
 /* ----- LANDING IMG ----- */
 
 #landing {
-    height: 50%;
-    position: absolute;
+    width: 100vw;
+	background-size: cover;
+    position:absolute;
     top: 80px;
-    width: 100%;
     z-index: -1;
     opacity: 0.35;
 }
@@ -235,7 +235,7 @@ label {
 
     #bookingknap a {
         width: 350px;
-        margin-top: 240px;
+        margin-top: 100px;
         z-index: 2;
     }
 
@@ -251,13 +251,12 @@ label {
     /* ----- LANDING IMG ----- */
 
     #landing {
-        height: 70%;
-        top: 135px;
-    }
+    top: 135px;
+     }
 
     .landingtext {
         text-align: center;
-        padding-top: 500px;
+        padding-top: 400px;
     }
     
     .landingtext h1 {
