@@ -160,6 +160,198 @@ label {
     height: 100%;
 }
 
+
+
+/*------ TEAMBUILDINGSIDE \/ ------ */
+    
+/* --- MORTEN HEADER TEAMBUILDING --- */
+
+
+.teambuilding-header {
+    display: flex;
+    height: 30vh;
+    background-size: cover;
+    background-image: url(../images/Mafia.png);
+    background-position: center;
+}
+
+
+    
+/*---- Øverste to info-bokse på siden ---- */
+
+.teambuilding-h2 {
+    color: #fff;
+    text-align: center;
+    padding: 3%;
+    
+}
+
+#wrapper {
+
+    
+}
+#div1 {
+    display: inline-block;
+    width: 60vh;
+    height: 25vh;
+    border: 1px solid #7E1515;
+    background-color: #7E1515;
+    margin: 3vh;
+    padding-left: 3%;
+    color: #fff;
+    list-style-position: inside;
+
+
+}
+
+#div2 {
+    display: inline-block;
+    width: 60vh;
+    height: 25vh;
+    border: 1px solid #7E1515;
+    background-color: #7E1515;
+    margin: 3vh;
+    padding-left: 3%;
+    color: #fff;
+    list-style-position: inside;
+
+
+}
+
+
+/* KODE FOR DE TO INFOBOKSE SLUTTER HER ^ */
+
+
+/* TEKST-AFSNIT: "Hos Escape Factory tilbyder vi teambuilding..." */
+
+#teambuilding-tekstafsnit {
+ letter-spacing: 0.6px;
+    padding: 3%;    
+    
+}
+
+/* BOOK HER KNAP PÅ TEAMBUILDING SIDEN */
+
+#bookingknap-teambuilding {
+    text-align: center;
+    width: 90%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 50px;
+    background: #7E1515;
+    padding: 0 70px;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 16px;
+    color: #f8f6ee;
+    border-bottom: 8px solid #e51721;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    margin: 5%
+
+}
+
+    #bookingknap-teambuilding a {
+        width: 350px;
+        margin-top: 25%;
+        text-decoration: none;
+        color: #fff;
+
+
+    }
+
+    #bookingknap-teambuilding a:hover {
+        background-color: #7E1515;
+        -webkit-transition: all 0.6s;
+        -moz-transition: all 0.6s;
+        -o-transition: all 0.6s;
+        transition: all 0.6s;
+    }
+
+
+#ikoner {
+text-align: center;    
+}
+
+.ikon-bar li {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+    color: #fff;
+
+}
+.icon-pics {
+    width: 25px;
+    text-align: center;
+    vertical-align: -29%;
+    padding-left: 4px;
+
+}
+
+
+.fulde-udbytte { 
+    display: flex;
+    height: 60vh;
+    background-size: cover;
+    background-image: url(../images/teambuild-baggrund.png);
+    background-position: center;
+
+}
+
+.fulde-udbytte p {
+
+ letter-spacing: 0.6px;
+    padding: 3%;    
+    
+}
+
+
+
+#consult-tekst {
+    margin: 2%;
+}
+
+
+#kontakt-knap {
+    text-align: center;
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 50px;
+    background: #7E1515;
+    padding: 0 70px;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 16px;
+    color: #f8f6ee;
+    border-bottom: 8px solid #e51721;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    
+}
+
+    #kontakt-knap a {
+        width: 350px;
+        margin-top: 25%;
+        text-decoration: none;
+        color: #fff;
+
+
+    }
+
+    #kontakt-knap a:hover {
+        background-color: #7E1515;
+        -webkit-transition: all 0.6s;
+        -moz-transition: all 0.6s;
+        -o-transition: all 0.6s;
+        transition: all 0.6s;
+    }
+
+
+
 /* ----- DESKTOP ----- */
 
 @media (min-width:1025px) {
