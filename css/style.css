@@ -639,6 +639,41 @@ label {
         margin-top: 30px;
     }
 
+    /* ----- RØD TEKSTUR BG MED IKONER ----- */
+
+    .roedbox h2 {
+        
+    }
+
+    .roedbox h3 {
+        
+    }
+
+    #roed {
+        height: 500px;
+        width: 100%;
+    }
+
+    .content-for-alle {
+        width: 80%;
+        margin-left: 10%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .ikon-forside {
+        
+    }
+
+    .content-for-alle h3 {
+        
+    }
+
+    .content-for-alle p {
+        width: 100%;
+        margin-left: 0;
+    }
+
     /* ----- FORSIDE SLUT ----- */
 
     /*----VORES RUM SIDEN STARTER-----*/
