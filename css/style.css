@@ -321,32 +321,23 @@ label {
 
 /* TEKST-AFSNIT: "Hos Escape Factory tilbyder vi teambuilding..." */
 
-/*
-.fulde-udbytte {
-    height: 100vh;
-    background-size: cover;
-    background-image: url(../images/teambuliding-baggrund.jpg);
-    background-position: center;
-
-
-}
-.fulde-udbytte p {
-
-    letter-spacing: 0.6px;
-    padding: 3%;
-}
-*/
-
-
 .teambuilding-tekstafsnit {
     letter-spacing: 0.6px;
     text-align: justify;
     text-justify: inter-word;
     background-size: cover;
-    background-image: url(../images/dark-texture.jpeg);
-    background-position: center;
+    background-image: url(../images/lys-i-loft.jpg);
+    background-position: top;
 
 }
+
+
+/* 
+ background-size: cover;
+    background-image: url(../images/landingimg.jpg);
+    background-position: top;
+
+*/ 
 
 .teambuilding-tekstafsnit {
 
@@ -862,7 +853,7 @@ height: 400px;
     }
 
 
-    #teambuilding-tekstafsnit {
+    .teambuilding-tekstafsnit {
         padding: 0% 8% 0% 8%;
     }
 
@@ -876,7 +867,7 @@ height: 400px;
         width: 20%;
     }
 
-    #teambuilding-tekstafsnit {
+    .teambuilding-tekstafsnit {
         padding: 0% 15% 0% 15%;
 
     }
