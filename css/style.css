@@ -373,7 +373,7 @@ label {
 
 /* BOOK HER-KNAP PÅ TEAMBUILDING SIDEN */
 
-#bookingknap-teambuilding {
+.bookingknap-teambuilding {
     text-align: center;
     width: 80%;
     position: relative;
@@ -392,14 +392,14 @@ label {
     margin-top: 10%;
 }
 
-#bookingknap-teambuilding a {
+.bookingknap-teambuilding a {
     width: 350px;
     margin-top: 25%;
     text-decoration: none;
     color: #fff;
 }
 
-#bookingknap-teambuilding a:hover {
+.bookingknap-teambuilding a:hover {
     background-color: #7E1515;
     -webkit-transition: all 0.6s;
     -moz-transition: all 0.6s;
