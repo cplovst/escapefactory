@@ -266,7 +266,7 @@ label {
     display: flex;
     height: 40vh;
     background-size: cover;
-    background-image: url(../images/Mafia.png);
+    background-image: url(../images/bog-paa-bord.jpg);
     background-position: center;
 }
 
@@ -328,8 +328,6 @@ label {
 
 .teambuilding-tekstafsnit {
     letter-spacing: 0.6px;
-    text-align: justify;
-    text-justify: inter-word;
     background-size: cover;
     background-image: url(../images/lys-i-loft.jpg);
     background-position: top;
