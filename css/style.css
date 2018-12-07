@@ -884,11 +884,54 @@ Modificeret snippet fra CodePen: https://codepen.io/bootpen/pen/BooWaR
 }
     
     .detrerum img {
-    width: 299px;
-    height: 411px;
+        width: 310px;
+        height: 400px;
     }
+
+
+    /*-----VORES RUM SIDEN SLUTTER-----*/
+
+
+
+
+
+    /* ---------TEAMBUILDING START ----- */
+
+    /* HEADERBILLDE på TEAMBUILDING-siden */
+
+    .teambuilding-header {
+        height: 80vh;
+    }
+
+
+    /* DE TO BOKSE, FORDELE OG PRAKTISK INFO */
+
+    .wrapper-bokse {
+        text-align: center;
+
+    }
+
+    #fordele {
+        display: inline-block;
+        width: 35%;
+        height: 35vh;
+        padding: 1% 2% 2% 2%;
+        vertical-align: top;
+
+    }
+
+    #praktisk-info {
+        display: inline-block;
+        width: 35%;
+        height: 35vh;
+        padding: 1% 2% 2% 2%;
+        vertical-align: top;
+
+    }
+    
+    
+    
     
 }
 
 
-/*--------RUMMENE SLUTTER-------*/
