@@ -787,10 +787,15 @@ height: 400px;
     
     
 /* ---------TEAMBUILDING START ----- */ 
+
+/* HEADERBILLDE på TEAMBUILDING-siden */
     
 .teambuilding-header {
     height: 80vh;
 }
+    
+    
+/* DE TO BOKSE, FORDELE OG PRAKTISK INFO */    
     
 .wrapper-bokse {
     text-align: center;
