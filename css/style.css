@@ -295,7 +295,7 @@ label {
 
     display: inline-block;
     width: 80%;
-    height: 25vh;
+    height: 30vh;
     border: 1px solid #7E1515;
     background-color: #7E1515;
     margin: 3vh;
@@ -309,7 +309,7 @@ label {
 #praktisk-info {
     display: inline-block;
     width: 80%;
-    height: 25vh;
+    height: 30vh;
     border: 1px solid #7E1515;
     background-color: #7E1515;
     margin: 3vh;
@@ -397,7 +397,7 @@ label {
 /*EL-KHOLY muligheden - tekstafsnit */
 
 .fulde-udbytte {
-    height: 60vh;
+    height: 100vh;
     background-size: cover;
     background-image: url(../images/teambuild-baggrund.png);
     background-position: center;
