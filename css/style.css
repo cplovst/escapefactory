@@ -502,7 +502,7 @@ label {
 
 /* The Modal (background) */
 
-.modal {
+.modal, .modal1, .modal2  {
     display: none;
     /* Hidden by default */
     position: fixed;
@@ -526,158 +526,35 @@ label {
 }
 
 /* Modal Content */
-.modal-content {
+
+.modal-content, .modal-indhold1, .modal-indhold {
     background: #7e1515;
     margin: auto;
     padding: 30px;
     width: 90%;
 }
+
+
+
+
+
+
 
 /* The Close Button */
-.close {
-    color: #ffff;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: grey;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.alkymisten {
-    position: relative;
-}
-
-.enigma {
-    position: relative;
-}
-
-.oberst {
-    position: relative;
-}
-
-#myBtn {
-    background: #7c2000;
-    border: none;
-    padding: 1% 5%;
-    font-size: 20px;
-    position: absolute;
-    top: 85%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.tekstonimg {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-}
-
-
-/*-----VORES RUM SIDEN SLUTTER-----*/
-
-.modal,
-.modal2 {
-    display: none;
-    /* Hidden by default */
-    position: fixed;
-    /* Stay in place */
-    z-index: 1;
-    /* Sit on top */
-    padding-top: 150px;
-    /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%;
-    /* Full width */
-    height: 100%;
-    /* Full height */
-    overflow: auto;
-    /* Enable scroll if needed */
-    background-color: rgb(0, 0, 0);
-    /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.7);
-    /* Black w/ opacity */
-}
-
-
-.modal1 {
-    display: none;
-    /* Hidden by default */
-    position: fixed;
-    /* Stay in place */
-    z-index: 1;
-    /* Sit on top */
-    padding-top: 150px;
-    /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%;
-    /* Full width */
-    height: 100%;
-    /* Full height */
-    overflow: auto;
-    /* Enable scroll if needed */
-    background-color: rgb(0, 0, 0);
-    /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.7);
-    /* Black w/ opacity */
-}
 
 
 
 
-/* Modal Content */
-.modal-content {
-    background: #7e1515;
-    margin: auto;
+ .close,
+    .luk1,
+    .luk {
+        color: #ffff;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
 
 
-    margin: auto;
-    padding: 30px;
-
-
-    width: 90%;
-}
-
-.modal-indhold1 {
-    background: #7e1515;
-    margin: auto;
-    padding: 30px;
-    width: 90%;
-}
-
-
-.modal-indhold {
-    background: #7e1515;
-
-    margin: auto;
-    padding: 30px;
-
-    width: 90%;
-}
-
-/* The Close Button */
-.close,
-.luk1 {
-    color: #ffff;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: grey;
-    text-decoration: none;
-    cursor: pointer;
-}
 
 .luk1:hover,
 .luk1:focus {
@@ -686,13 +563,15 @@ label {
     cursor: pointer;
 }
 
-
-.luk {
-    color: #ffff;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+.close:hover,
+.close:focus {
+    color: grey;
+    text-decoration: none;
+    cursor: pointer;
 }
+
+
+
 
 .luk:hover,
 .luk:focus {
@@ -702,6 +581,13 @@ label {
 }
 
 
+
+
+
+
+
+/*De tre billeder*/
+
 .alkymisten {
     position: relative;
 }
@@ -710,20 +596,17 @@ label {
     position: relative;
 }
 
-
-
-
 .oberst {
     position: relative;
 }
+
+/*styling af knapper*/
 
 #myBtn,
 #minknap,
 #minknap1 {
 
-
-
-    background: #7c2000;
+background: #7c2000;
     border: none;
 
     padding: 1% 5%;
@@ -745,7 +628,11 @@ label {
 
 
 /*-----VORES RUM SIDEN SLUTTER-----*/
+
+
+
 /* ----- DESKTOP ----- */
+
 @media (min-width:1025px) {
 
     /* ----- MENU ----- */
@@ -855,15 +742,9 @@ label {
         background-position: top;
     }
 
-    /* The Close Button */
-    .close,
-    .luk1, .luk {
-        color: #ffff;
-        float: right;
-        font-size: 28px;
-        font-weight: bold;
-    }
-    
+
+   
+
     .landingbox h1 {
         top: 400px;
         font-size: 70px;
@@ -887,13 +768,8 @@ label {
         text-transform: uppercase;
     }
 
-    .luk:hover,
-    .luk:focus {
-        color: grey;
-        text-decoration: none;
-        cursor: pointer;
-    }
-    
+   
+
     .marmorbox p {
         text-align: center;
         width: 60%;
@@ -917,12 +793,8 @@ label {
         font-size: 20px;
     }
 
-   /*de tre billeder*/
-
-.alkymisten {
-        position: relative;
-    }
     
+
     .marmorgrid img {
         height: 80px;
     }
@@ -948,28 +820,5 @@ label {
         grid-template-columns: auto auto auto;
     }
 
-/*Styling af knapperne*/
 
-    #myBtn,
-    #minknap,
-    #minknap1 {
-            background: #7c2000;
-            border: none;
-            padding: 1% 5%;
-            font-size: 10px;
-            position: absolute;
-            top: 85%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-
-/*tekst på billedet*/
-
-        .tekstonimg {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-    
-/*-----VORES RUM SIDEN SLUTTER-----*/
+}
