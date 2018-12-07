@@ -643,11 +643,22 @@ label {
 #ikoner-i-modal img{
     width: 8%;
     height: 8%;
-    
+      
+}
+
+#ikoner-i-modal1 img{
+      width: 8%;
+    height: 8%;
     
 }
 
-#ikoner-i-modal {
+#ikoner-i-modal2 img {
+      width: 8%;
+    height: 8%;
+    
+}
+
+#ikoner-i-modal, #ikoner-i-modal1, #ikoner-i-modal2 {
     display: flex;
     
     justify-content: center;
@@ -942,6 +953,16 @@ Modificeret snippet fra CodePen: https://codepen.io/bootpen/pen/BooWaR
     /*ikoner i modal*/
     
     #ikoner-i-modal img{
+    width: 4%;
+   
+}
+    
+     #ikoner-i-modal1 img{
+    width: 4%;
+   
+}
+    
+    #ikoner-i-modal2 img{
     width: 4%;
    
 }
