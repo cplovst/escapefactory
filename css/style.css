@@ -327,26 +327,9 @@ label {
     text-justify: inter-word;
     background-size: cover;
     background-image: url(../images/lys-i-loft.jpg);
-    background-position: top;
-
+    background-position: bottom;
+    padding: 3%;
 }
-
-
-/* 
- background-size: cover;
-    background-image: url(../images/landingimg.jpg);
-    background-position: top;
-
-*/ 
-
-.teambuilding-tekstafsnit {
-
-letter-spacing: 0.6px;
-padding: 3%;
-    
-}
-
-
 
 /* BAGGRUNDBILLEDE ved Teambuilding-tekstafsnittet */
 
