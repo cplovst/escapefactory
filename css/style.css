@@ -912,7 +912,7 @@ Modificeret snippet fra CodePen: https://codepen.io/bootpen/pen/BooWaR
 
     #fordele {
         display: inline-block;
-        width: 25%;
+        width: 35%;
         height: 35vh;
         padding: 1% 2% 2% 2%;
         vertical-align: top;
@@ -921,7 +921,7 @@ Modificeret snippet fra CodePen: https://codepen.io/bootpen/pen/BooWaR
 
     #praktisk-info {
         display: inline-block;
-        width: 25%;
+        width: 35%;
         height: 35vh;
         padding: 1% 2% 2% 2%;
         vertical-align: top;
@@ -935,17 +935,6 @@ Modificeret snippet fra CodePen: https://codepen.io/bootpen/pen/BooWaR
 
     #bookingknap-teambuilding {
         width: 30%;
-
-    }
-
-
-    .teambuilding-tekstafsnit {
-        padding: 0% 8% 0% 8%;
-    }
-
-
-    .fulde-udbytte {
-        padding: 0% 8% 0% 8%;
 
     }
 
