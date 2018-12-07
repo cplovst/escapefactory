@@ -489,6 +489,14 @@ label {
 
 /*----VORES RUM SIDEN STARTER-----*/
 
+.detrerum img {
+    
+    width: 100%;
+height: 150px;
+  
+}
+
+
 .enigmaimg,
 .alkymistimg,
 .oberstimg {
@@ -819,6 +827,26 @@ background: #7c2000;
         display: grid;
         grid-template-columns: auto auto auto;
     }
-
-
+    
+    
+    
+    /*---RUMMENE STARTER---*/
+    .detrerum {
+    display: flex;
+    justify-content: space-around;
+    
 }
+    
+    .detrerum img {
+        width: 299px;
+    height=411px;
+    }
+   
+
+
+    
+    
+}
+
+
+/*--------RUMMENE SLUTTER-------*/
