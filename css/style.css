@@ -151,7 +151,7 @@ label {
     position: absolute;
     line-height: 50px;
     color: #fff;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .landingbox h2 {
@@ -262,7 +262,6 @@ label {
 
 /* --- MORTEN HEADER TEAMBUILDING --- */
 
-
 .teambuilding-header {
     display: flex;
     height: 40vh;
@@ -325,7 +324,6 @@ label {
 
 /* KODE FOR DE TO INFOBOKSE SLUTTER HER ^ */
 
-
 /* TEKST-AFSNIT: "Hos Escape Factory tilbyder vi teambuilding..." */
 
 .teambuilding-tekstafsnit {
@@ -334,15 +332,30 @@ label {
     text-justify: inter-word;
     background-size: cover;
     background-image: url(../images/lys-i-loft.jpg);
-    background-position: bottom;
-    padding: 3%;
     background-position: top;
 
 }
 
 
+/* 
+ background-size: cover;
+    background-image: url(../images/landingimg.jpg);
+    background-position: top;
+
+*/
+
+.teambuilding-tekstafsnit {
+
+    letter-spacing: 0.6px;
+    padding: 3%;
+    background-position: bottom;
+    padding: 3%;
+    background-position: top;
+}
+
 /* BAGGRUNDBILLEDE ved Teambuilding-tekstafsnittet */
 
+/* BAGGRUNDBILLEDE ved Teambuilding-tekstafsnittet */
 
 /* BOOK HER-KNAP PÅ TEAMBUILDING SIDEN */
 
@@ -474,8 +487,15 @@ label {
 
 /* -----------HER SLUTTER KODE FOR TEAMBUILDING-SIDEN--------- */
 
-
 /*----VORES RUM SIDEN STARTER-----*/
+
+.detrerum img {
+    
+    width: 100%;
+height: 150px;
+  
+}
+
 
 .enigmaimg,
 .alkymistimg,
@@ -486,14 +506,11 @@ label {
 
 }
 
-
-
-
-
 /*med inspiration fra https://www.w3schools.com/howto/howto_css_modals.asp*/
 
 /* The Modal (background) */
-.modal {
+
+.modal, .modal1, .modal2  {
     display: none;
     /* Hidden by default */
     position: fixed;
@@ -517,21 +534,41 @@ label {
 }
 
 /* Modal Content */
-.modal-content {
-    background: #7e1515;
 
+.modal-content, .modal-indhold1, .modal-indhold {
+    background: #7e1515;
     margin: auto;
     padding: 30px;
-
     width: 90%;
 }
 
+
+
+
+
+
+
 /* The Close Button */
-.close {
-    color: #ffff;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+
+
+
+
+ .close,
+    .luk1,
+    .luk {
+        color: #ffff;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+
+
+.luk1:hover,
+.luk1:focus {
+    color: grey;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .close:hover,
@@ -540,6 +577,24 @@ label {
     text-decoration: none;
     cursor: pointer;
 }
+
+
+
+
+.luk:hover,
+.luk:focus {
+    color: grey;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/*De tre billeder*/
 
 .alkymisten {
     position: relative;
@@ -553,9 +608,13 @@ label {
     position: relative;
 }
 
-#myBtn {
+/*styling af knapper*/
 
-    background: #7c2000;
+#myBtn,
+#minknap,
+#minknap1 {
+
+background: #7c2000;
     border: none;
 
     padding: 1% 5%;
@@ -577,6 +636,7 @@ label {
 
 
 /*-----VORES RUM SIDEN SLUTTER-----*/
+
 
 
 /* ----- DESKTOP ----- */
@@ -612,7 +672,6 @@ label {
     }
 
     /* Lavet med inspiration fra https://www.littlesnippets.net/snip1275 */
-
     .snip1275 {
         text-align: center;
         font-weight: 500;
@@ -669,9 +728,7 @@ label {
     }
 
     /* ----- FORSIDE ----- */
-
     /* ----- HEADER ----- */
-
     #bookingknap a {
         width: 350px;
         margin-top: 350px;
@@ -688,11 +745,13 @@ label {
     }
 
     /* ----- LANDING IMG ----- */
-
     #landing {
         height: 90vh;
         background-position: top;
     }
+
+
+   
 
     .landingbox h1 {
         top: 400px;
@@ -702,7 +761,6 @@ label {
     .landingbox h2 {
         top: 470px;
         font-size: 60px;
-
     }
 
     .landingtext h2 {
@@ -710,7 +768,6 @@ label {
     }
 
     /* ----- MARMOR BG ----- */
-
     .marmorbox h2 {
         text-align: center;
         padding-top: 70px;
@@ -718,6 +775,8 @@ label {
         font-size: 55px;
         text-transform: uppercase;
     }
+
+   
 
     .marmorbox p {
         text-align: center;
@@ -742,6 +801,8 @@ label {
         font-size: 20px;
     }
 
+    
+
     .marmorgrid img {
         height: 80px;
     }
@@ -751,7 +812,6 @@ label {
     }
 
     /* ----- RØD TEKSTUR BG MED IKONER ----- */
-
     .roedbox h2 {}
 
     .roedbox h3 {}
@@ -767,31 +827,16 @@ label {
         display: grid;
         grid-template-columns: auto auto auto;
     }
-
-    .ikon-forside {}
-
-    .content-for-alle h3 {}
-
-    .content-for-alle p {
-        width: 100%;
-        margin-left: 0;
-    }
-
-    /* ----- FORSIDE SLUT ----- */
-
-    /*----VORES RUM SIDEN STARTER-----*/
-
+    
+    
+    
+    /*---RUMMENE STARTER---*/
     .detrerum {
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .detrerum {
-
-        width: auto;
-
-    }
-
+    display: flex;
+    justify-content: space-around;
+    
+}
+    
     .detrerum img {
         width: 310px;
         height: 400px;
@@ -837,43 +882,10 @@ label {
         vertical-align: top;
 
     }
-
-    .teambuilding-h2 {
-        font-size: 200%;
-    }
-
-
-    #bookingknap-teambuilding {
-        width: 30%;
-
-    }
-
-
-    .teambuilding-tekstafsnit {
-        padding: 0% 8% 0% 8%;
-    }
-
-
-    .fulde-udbytte {
-        padding: 0% 8% 0% 8%;
-
-    }
-
-    #kontakt-knap {
-        width: 20%;
-    }
-
-    .teambuilding-tekstafsnit {
-        padding: 0% 15% 0% 15%;
-
-    }
-
-
-    .fulde-udbytte {
-        padding: 0% 15% 0% 15%;
-    }
-
-
-
-    /* ---------TEAMBUILDING SLUT ----- */
+    
+    
+    
+    
 }
+
+
