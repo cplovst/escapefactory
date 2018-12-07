@@ -214,11 +214,10 @@ label {
 /* ----- RØD TEKSTUR BG MED IKONER ----- */
 
 .roedbox {
-    margin-top: 20px;
 	background-size: cover;
     background-image: url(../images/rod-tekstur.jpg);
 	background-position: top;
-
+    height: 850px;
 }
 
 .roedbox h2 {
