@@ -848,7 +848,6 @@ background: #7c2000;
 
 
 
-
     /* ---------TEAMBUILDING START ----- */
 
     /* HEADERBILLDE på TEAMBUILDING-siden */
@@ -867,7 +866,7 @@ background: #7c2000;
 
     #fordele {
         display: inline-block;
-        width: 35%;
+        width: 25%;
         height: 35vh;
         padding: 1% 2% 2% 2%;
         vertical-align: top;
@@ -876,14 +875,51 @@ background: #7c2000;
 
     #praktisk-info {
         display: inline-block;
-        width: 35%;
+        width: 25%;
         height: 35vh;
         padding: 1% 2% 2% 2%;
         vertical-align: top;
 
     }
-    
-    
+
+    .teambuilding-h2 {
+        font-size: 200%;
+    }
+
+
+    #bookingknap-teambuilding {
+        width: 30%;
+
+    }
+
+
+    .teambuilding-tekstafsnit {
+        padding: 0% 8% 0% 8%;
+    }
+
+
+    .fulde-udbytte {
+        padding: 0% 8% 0% 8%;
+
+    }
+
+    #kontakt-knap {
+        width: 20%;
+    }
+
+    .teambuilding-tekstafsnit {
+        padding: 0% 15% 0% 15%;
+
+    }
+
+
+    .fulde-udbytte {
+        padding: 0% 15% 0% 15%;
+    }
+
+
+
+    /* ---------TEAMBUILDING SLUT ----- */
     
     
 }
