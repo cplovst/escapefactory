@@ -173,10 +173,10 @@ label {
     background-image: url(../images/marmor.jpg);
     background-position: top;
     padding-bottom: 50px;
+    text-align: center;
 }
 
 .marmorbox h2 {
-    text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
     font-size: 25px;
@@ -184,7 +184,6 @@ label {
 }
 
 .marmorbox p {
-    text-align: center;
     width: 90%;
     margin-left: 5%;
     font-size: 12px;
@@ -205,7 +204,6 @@ label {
     padding: 10px;
     text-transform: uppercase;
     font-size: 10px;
-    text-align: center;
 }
 
 .marmorgrid img {
@@ -230,6 +228,7 @@ label {
 .roedbox h2 {
     text-align: center;
     padding-top: 40px;
+    font-size: 25px;
 }
 
 .roedbox h3 {
@@ -256,6 +255,26 @@ label {
     margin-left: 5%;
 }
 
+/* ----- MARMOR BG MED PRISER PÅ FORSIDE ----- */
+
+#lilleh3 {
+    margin-top: -25px;
+    font-size: 15px;
+}
+
+.pris-box {
+    margin-top: 50px;
+    padding-top: 8px;
+    height: 80px;
+    background-color: rgba(126, 21, 21, 0.5);
+    width: 50%;
+    margin-left: 25%;
+}
+
+.pris {
+    font-size: 35px;
+}
+
 /* ----- FORSIDE SLUT ----- */
 
 /*------ TEAMBUILDINGSIDE \/ ------ */
@@ -269,9 +288,6 @@ label {
     background-image: url(../images/Mafia.png);
     background-position: center;
 }
-
-
-
 /*---- Øverste to info-bokse på siden: FORDELE OG PRAKTISK INFO ---- */
 
 .teambuilding-h2 {
@@ -646,44 +662,44 @@ label {
 /*******************************
 Modificeret snippet fra CodePen: https://codepen.io/bootpen/pen/BooWaR
 *******************************/
-	.panel-group .panel {
-		border-radius: 0;
-		box-shadow: none;
-		border: none;
+.panel-group .panel {
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
 
-	}
+}
 
-	.panel-default > .panel-heading {
-		padding: 0;
-		border-radius: 0;
-		color: #fff;
-		background-color: #7E1515;
+.panel-default > .panel-heading {
+    padding: 0;
+    border-radius: 0;
+    color: #fff;
+    background-color: #7E1515;
 
-	}
+}
 
-	.panel-title {
-		font-size: 14px;
+.panel-title {
+    font-size: 14px;
 
-	}
+}
 
-	.panel-title > a {
-		display: block;
-		padding: 10px;
-		text-decoration: none;
+.panel-title > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
 
-	}
+}
 
-	.more-less {
-		float: right;
-		color: #fff;
+.more-less {
+    float: right;
+    color: #fff;
 
-	}
+}
 
-	.panel-default > .panel-heading + .panel-collapse > .panel-body {
-		color: #252525;
-		background-color: #7E1515;
-		border: none;
-	}
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    color: #252525;
+    background-color: #7E1515;
+    border: none;
+}
 
 /*-----FAQ SIDEN SLUTTER-----*/
 
@@ -815,28 +831,18 @@ Modificeret snippet fra CodePen: https://codepen.io/bootpen/pen/BooWaR
     }
 
     /* ----- MARMOR BG ----- */
+    
     .marmorbox h2 {
-        text-align: center;
         padding-top: 70px;
         padding-bottom: 70px;
         font-size: 55px;
-        text-transform: uppercase;
     }
 
     .marmorbox p {
-        text-align: center;
         width: 60%;
         margin-left: 20%;
         font-size: 16px;
         margin-top: 70px;
-    }
-
-    .marmor {
-        width: 100%;
-        height: 650px;
-        z-index: -2;
-        opacity: 0.1;
-        position: absolute;
     }
 
     .marmorgrid {
@@ -856,37 +862,84 @@ Modificeret snippet fra CodePen: https://codepen.io/bootpen/pen/BooWaR
 
     /* ----- RØD TEKSTUR BG MED IKONER ----- */
 
+    .roedbox h2 {
+        font-size: 55px;
+        padding-top: 70px;
+    }
+    
+    .roedbox h3 {
+        font-size: 20px;
+    }
+    
     .content-for-alle {
         display: grid;
         grid-template-columns: 10% 26.67% 26.67% 26.67% 10%;
     }
-    
+
     .familie {
-        grid-column-start: 2;    
+        grid-column-start: 2;
     }
-    
+
     .familie p {
         width: 60%;
         margin-left: 20%;
     }
-    
+
     .venner {
         grid-column-start: 3;
     }
-    
+
     .venner p {
         width: 60%;
         margin-left: 20%;
     }
-    
+
     .virksomhed {
         grid-column-start: 4;
     }
-    
+
     .virksomhed p {
         width: 60%;
         margin-left: 20%;
     }
+
+    /* ----- MARMOR BG MED PRISER PÅ FORSIDE ----- */
+
+    #lilleh3 {
+        margin-top: -50px;
+        font-size: 20px;
+    }
+    
+    .pris-box {
+        margin-left: 0;
+        height: 200px;
+        padding-top: 20px;
+    }
+    
+    #pris-grid {
+        display: grid;
+        grid-template-columns: 25% 20% 10% 20% 25%;
+    }
+    
+    #pris1 {
+        grid-column-start: 2;
+        width: 100%;
+    }
+    
+    #pris2 {
+        grid-column-start: 4;
+        width: 100%;
+    }
+    
+    .pris-box {
+        font-size: 30px;
+    }
+    
+    .pris {
+        font-size: 100px;
+    }
+
+    /* ----- FORSIDE SLUTTER ----- */
 
     /*---RUMMENE STARTER---*/
     .detrerum {
