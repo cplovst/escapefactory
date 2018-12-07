@@ -12,6 +12,10 @@ body {
     background-color: #252525;
 }
 
+.text-center {
+    text-align: center;
+}
+
 /* ----- Fonte ----- */
 
 h1,
