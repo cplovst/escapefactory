@@ -321,6 +321,8 @@ label {
 
 /* TEKST-AFSNIT: "Hos Escape Factory tilbyder vi teambuilding..." */
 
+
+
 #teambuilding-tekstafsnit {
     letter-spacing: 0.6px;
     padding: 3%;
@@ -329,6 +331,15 @@ label {
 
 
 }
+
+
+
+
+
+/* BAGGRUNDBILLEDE ved Teambuilding-tekstafsnittet */
+
+
+
 
 /* BOOK HER-KNAP PÅ TEAMBUILDING SIDEN */
 
@@ -395,11 +406,14 @@ label {
 .fulde-udbytte {
     height: 100vh;
     background-size: cover;
-    background-image: url(../images/teambuild-baggrund.png);
+    background-image: url(../images/);
     background-position: center;
 
 
 }
+
+
+
 
 .fulde-udbytte p {
 
