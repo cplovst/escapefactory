@@ -33,6 +33,7 @@ p {
     font-size: 14px;
     line-height: 19px;
     color: #fff;
+	text-align: center;
 }
 
 /* ----- HEADER ----- */
@@ -141,7 +142,7 @@ label {
 }
 
 .landingbox h1 {
-    top: 125px;
+    top: 180px;
     text-align: center;
     width: 100%;
     position: absolute;
@@ -151,7 +152,7 @@ label {
 }
 
 .landingbox h2 {
-    top: 215px;
+    top: 225px;
     text-align: center;
     width: 100%;
     position: absolute;
@@ -646,7 +647,7 @@ label {
 
     #bookingknap a {
         width: 350px;
-        margin-top: 500px;
+        margin-top: 350px;
         z-index: 2;
     }
 
