@@ -637,6 +637,52 @@ background: #7c2000;
 
 /*-----VORES RUM SIDEN SLUTTER-----*/
 
+/*-----FAQ SIDEN STARTER-----*/
+
+/*******************************
+Modificeret snippet fra CodePen: https://codepen.io/bootpen/pen/BooWaR
+*******************************/
+	.panel-group .panel {
+		border-radius: 0;
+		box-shadow: none;
+		border: none;
+
+	}
+
+	.panel-default > .panel-heading {
+		padding: 0;
+		border-radius: 0;
+		color: #fff;
+		background-color: #7E1515;
+		
+	}
+
+	.panel-title {
+		font-size: 14px;
+		
+	}
+
+	.panel-title > a {
+		display: block;
+		padding: 10px;
+		text-decoration: none;
+		
+	}
+
+	.more-less {
+		float: right;
+		color: #fff;
+		
+	}
+
+	.panel-default > .panel-heading + .panel-collapse > .panel-body {
+		color: #252525;
+		background-color: #7E1515;
+		border: none;
+	}
+
+/*-----FAQ SIDEN SLUTTER-----*/
+
 
 
 /* ----- DESKTOP ----- */
