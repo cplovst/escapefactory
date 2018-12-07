@@ -800,9 +800,6 @@ Modificeret snippet fra CodePen: https://codepen.io/bootpen/pen/BooWaR
         background-position: top;
     }
 
-
-
-
     .landingbox h1 {
         top: 400px;
         font-size: 70px;
@@ -825,8 +822,6 @@ Modificeret snippet fra CodePen: https://codepen.io/bootpen/pen/BooWaR
         font-size: 55px;
         text-transform: uppercase;
     }
-
-
 
     .marmorbox p {
         text-align: center;
@@ -851,8 +846,6 @@ Modificeret snippet fra CodePen: https://codepen.io/bootpen/pen/BooWaR
         font-size: 20px;
     }
 
-
-
     .marmorgrid img {
         height: 80px;
     }
@@ -865,7 +858,34 @@ Modificeret snippet fra CodePen: https://codepen.io/bootpen/pen/BooWaR
 
     .content-for-alle {
         display: grid;
-        grid-template-columns: 10% auto auto auto 10%;
+        grid-template-columns: 10% 26.67% 26.67% 26.67% 10%;
+    }
+    
+    .familie {
+        grid-column-start: 2;    
+    }
+    
+    .familie p {
+        width: 60%;
+        margin-left: 20%;
+    }
+    
+    .venner {
+        grid-column-start: 3;
+    }
+    
+    .venner p {
+        width: 60%;
+        margin-left: 20%;
+    }
+    
+    .virksomhed {
+        grid-column-start: 4;
+    }
+    
+    .virksomhed p {
+        width: 60%;
+        margin-left: 20%;
     }
 
     /*---RUMMENE STARTER---*/
