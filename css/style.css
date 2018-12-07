@@ -168,6 +168,13 @@ label {
 
 /* ----- MARMOR BG ----- */
 
+.marmorbox {
+	background-size: cover;
+    background-image: url(../images/marmor.jpg);
+	background-position: top;
+	padding-bottom: 50px;
+}
+
 .marmorbox h2 {
     text-align: center;
     padding-top: 30px;
@@ -182,14 +189,6 @@ label {
     margin-left: 5%;
     font-size: 12px;
     margin-top: 15px;
-}
-
-.marmor {
-    width: 100%;
-    height: 600px;
-    z-index: -2;
-    opacity: 0.1;
-    position: absolute;
 }
 
 .marmorgrid {
@@ -214,7 +213,6 @@ label {
 /* ----- RØD TEKSTUR BG MED IKONER ----- */
 
 .roedbox {
-    margin-top: 20px;
 	background-size: cover;
     background-image: url(../images/rod-tekstur.jpg);
 	background-position: top;
