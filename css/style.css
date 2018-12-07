@@ -515,8 +515,7 @@ label {
 /*med inspiration fra https://www.w3schools.com/howto/howto_css_modals.asp*/
 
 /* The Modal (background) */
-<<<<<<< HEAD
-=======
+
 .modal {
     display: none;
     /* Hidden by default */
@@ -684,7 +683,7 @@ label {
 
     /* The Close Button */
     .close,
-    .luk1 {
+    .luk1, .luk {
         color: #ffff;
         float: right;
         font-size: 28px;
@@ -706,13 +705,6 @@ label {
     }
 
 
-    .luk {
-        color: #ffff;
-        float: right;
-        font-size: 28px;
-        font-weight: bold;
-    }
-
     .luk:hover,
     .luk:focus {
         color: grey;
@@ -721,7 +713,10 @@ label {
     }
 
 
-    .alkymisten {
+   /*de tre billeder*/
+
+
+.alkymisten {
         position: relative;
     }
 
@@ -736,6 +731,10 @@ label {
         position: relative;
     }
 
+
+
+/*Styling af knapperne*/
+
     #myBtn,
     #minknap,
     #minknap1 {
@@ -746,13 +745,15 @@ label {
             border: none;
 
             padding: 1% 5%;
-            font-size: 20px;
+            font-size: 10px;
             position: absolute;
             top: 85%;
             left: 50%;
             transform: translate(-50%, -50%);
 
         }
+
+/*tekst på billedet*/
 
         .tekstonimg {
             position: absolute;
@@ -763,8 +764,9 @@ label {
         }
 
 
-        /*-----VORES RUM SIDEN SLUTTER-----*/
-        /* ----- DESKTOP ----- */
+     /*-----VORES RUM SIDEN SLUTTER-----*/
+       
+/* ----- DESKTOP ----- */
         @media (min-width:1025px) {
 
             /* ----- MENU ----- */
@@ -945,11 +947,10 @@ label {
                 display: grid;
                 grid-template-columns: auto auto auto;
             }
-=======
+
     .ikon-forside {}
 
     .content-for-alle h3 {}
->>>>>>> e05eeeac944aba987899a5bec6b2f63f922ea176
 
             .ikon-forside {}
 
@@ -967,9 +968,8 @@ label {
                 justify-content: space-around;
             }
 
-<<<<<<< HEAD
             .detrerum {
-=======
+
     .detrerum {
 
         width: auto;
@@ -980,7 +980,7 @@ label {
         width: 310px;
         height: 400px;
     }
->>>>>>> e05eeeac944aba987899a5bec6b2f63f922ea176
+
 
                 width: auto;
 
@@ -992,22 +992,21 @@ label {
             }
 
 
-<<<<<<< HEAD
             /*-----VORES RUM SIDEN SLUTTER-----*/
+            
+            
             /* ---------TEAMBUILDING START ----- */
             /* HEADERBILLDE på TEAMBUILDING-siden */
             .teambuilding-header {
                 height: 80vh;
             }
-=======
->>>>>>> e05eeeac944aba987899a5bec6b2f63f922ea176
 
 
             /* DE TO BOKSE, FORDELE OG PRAKTISK INFO */
             .wrapper-bokse {
                 text-align: center;
 
-<<<<<<< HEAD
+
             }
 
             #fordele {
@@ -1030,18 +1029,17 @@ label {
         text-align: center;
 
     }
->>>>>>> e05eeeac944aba987899a5bec6b2f63f922ea176
 
-            }
+            
 
-<<<<<<< HEAD
+
             #praktisk-info {
                 display: inline-block;
                 width: 25%;
                 height: 35vh;
                 padding: 1% 2% 2% 2%;
                 vertical-align: top;
-=======
+
     }
 
     #praktisk-info {
@@ -1050,7 +1048,6 @@ label {
         height: 35vh;
         padding: 1% 2% 2% 2%;
         vertical-align: top;
->>>>>>> e05eeeac944aba987899a5bec6b2f63f922ea176
 
             }
 
@@ -1065,15 +1062,13 @@ label {
             }
 
 
-<<<<<<< HEAD
             .teambuilding-tekstafsnit {
                 padding: 0% 8% 0% 8%;
             }
-=======
+
     .teambuilding-tekstafsnit {
         padding: 0% 8% 0% 8%;
     }
->>>>>>> e05eeeac944aba987899a5bec6b2f63f922ea176
 
 
             .fulde-udbytte {
@@ -1085,13 +1080,12 @@ label {
                 width: 20%;
             }
 
-<<<<<<< HEAD
+
             .teambuilding-tekstafsnit {
-                padding: 0% 15% 0% 15%;
-=======
+                padding: 0% 15% 0% 15%; }
+
     .teambuilding-tekstafsnit {
         padding: 0% 15% 0% 15%;
->>>>>>> e05eeeac944aba987899a5bec6b2f63f922ea176
 
             }
 
@@ -1102,10 +1096,8 @@ label {
 
 
 
-<<<<<<< HEAD
             /* ---------TEAMBUILDING SLUT ----- */
         }
-=======
+
     /* ---------TEAMBUILDING SLUT ----- */
-}
->>>>>>> e05eeeac944aba987899a5bec6b2f63f922ea176
+
