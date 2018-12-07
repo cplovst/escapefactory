@@ -639,6 +639,20 @@ label {
 }
 
 
+/*Booking knap ovenpå billedet inde i modal box*/
+
+
+
+
+
+                    
+
+
+
+
+
+
+
 /*-----VORES RUM SIDEN SLUTTER-----*/
 
 /*-----FAQ SIDEN STARTER-----*/
@@ -903,6 +917,12 @@ Modificeret snippet fra CodePen: https://codepen.io/bootpen/pen/BooWaR
 
         width: 299px;
         height: 411px;
+    }
+    
+    #alkymist2, #oberst2, #enigma2 {
+        width: 100%;
+        height: 350px;
+        
     }
     
     /*---RUMMENE SLUTTER--*/
