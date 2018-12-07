@@ -490,10 +490,10 @@ label {
 /*----VORES RUM SIDEN STARTER-----*/
 
 .detrerum img {
-    
+
     width: 100%;
-height: 150px;
-  
+    height: 150px;
+
 }
 
 
@@ -510,7 +510,9 @@ height: 150px;
 
 /* The Modal (background) */
 
-.modal, .modal1, .modal2  {
+.modal,
+.modal1,
+.modal2 {
     display: none;
     /* Hidden by default */
     position: fixed;
@@ -535,7 +537,9 @@ height: 150px;
 
 /* Modal Content */
 
-.modal-content, .modal-indhold1, .modal-indhold {
+.modal-content,
+.modal-indhold1,
+.modal-indhold {
     background: #7e1515;
     margin: auto;
     padding: 30px;
@@ -553,14 +557,14 @@ height: 150px;
 
 
 
- .close,
-    .luk1,
-    .luk {
-        color: #ffff;
-        float: right;
-        font-size: 28px;
-        font-weight: bold;
-    }
+.close,
+.luk1,
+.luk {
+    color: #ffff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
 
 
 
@@ -614,7 +618,7 @@ height: 150px;
 #minknap,
 #minknap1 {
 
-background: #7c2000;
+    background: #7c2000;
     border: none;
 
     padding: 1% 5%;
@@ -751,7 +755,7 @@ background: #7c2000;
     }
 
 
-   
+
 
     .landingbox h1 {
         top: 400px;
@@ -776,7 +780,7 @@ background: #7c2000;
         text-transform: uppercase;
     }
 
-   
+
 
     .marmorbox p {
         text-align: center;
@@ -801,7 +805,7 @@ background: #7c2000;
         font-size: 20px;
     }
 
-    
+
 
     .marmorgrid img {
         height: 80px;
@@ -812,36 +816,24 @@ background: #7c2000;
     }
 
     /* ----- RØD TEKSTUR BG MED IKONER ----- */
-    .roedbox h2 {}
-
-    .roedbox h3 {}
-
-    #roed {
-        height: 500px;
-        width: 100%;
-    }
 
     .content-for-alle {
-        width: 80%;
-        margin-left: 10%;
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: 10% auto auto auto 10%;
     }
-    
-    
-    
+
     /*---RUMMENE STARTER---*/
     .detrerum {
-    display: flex;
-    justify-content: space-around;
-    
-}
-    
-    .detrerum img {
-    width: 299px;
-    height: 411px;
+        display: flex;
+        justify-content: space-around;
+
     }
-    
+
+    .detrerum img {
+        width: 299px;
+        height: 411px;
+    }
+
 }
 
 
