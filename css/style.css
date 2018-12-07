@@ -266,7 +266,7 @@ label {
     display: flex;
     height: 40vh;
     background-size: cover;
-    background-image: url(../images/Mafia.png);
+    background-image: url(../images/bog-paa-bord.jpg);
     background-position: center;
 }
 
@@ -328,8 +328,6 @@ label {
 
 .teambuilding-tekstafsnit {
     letter-spacing: 0.6px;
-    text-align: justify;
-    text-justify: inter-word;
     background-size: cover;
     background-image: url(../images/lys-i-loft.jpg);
     background-position: top;
@@ -928,4 +926,71 @@ Modificeret snippet fra CodePen: https://codepen.io/bootpen/pen/BooWaR
     /*---RUMMENE SLUTTER--*/
 
 
+
+    /* ---------TEAMBUILDING DESKTOP START ----- */
+
+    /* Headerbillede på teambuilding-siden */
+
+    .teambuilding-header {
+        height: 80vh;
+    }
+
+
+    /* DE TO BOKSE, FORDELE OG PRAKTISK INFO -- på TEAMBUILDING-SIDEN */
+
+    .wrapper-bokse {
+        text-align: center;
+        line-height: 150%;
+
+    }
+
+    #fordele {
+        display: inline-block;
+        width: 35%;
+        height: 35vh;
+        padding: 1% 2% 2% 2%;
+        vertical-align: top;
+
+    }
+
+    #praktisk-info {
+        display: inline-block;
+        width: 35%;
+        height: 35vh;
+        padding: 1% 2% 2% 2%;
+        vertical-align: top;
+
+    }
+
+    .teambuilding-h2 {
+        font-size: 200%;
+    }
+
+
+    #bookingknap-teambuilding {
+        width: 30%;
+
+    }
+
+    #kontakt-knap {
+        width: 20%;
+    }
+
+    .teambuilding-tekstafsnit {
+        padding: 0% 15% 0% 15%;
+
+    }
+
+
+    .fulde-udbytte {
+        padding: 0% 15% 0% 15%;
+    }
+
+
+
+    /* ---------TEAMBUILDING DESKTOP SLUT ----- */
+    
+    
+    
+    
 }
