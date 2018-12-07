@@ -332,8 +332,7 @@ label {
     text-justify: inter-word;
     background-size: cover;
     background-image: url(../images/lys-i-loft.jpg);
-<<<<<<< HEAD
-    background-position: top;
+    <<<<<<< HEAD background-position: top;
 
 }
 
@@ -349,24 +348,21 @@ label {
 
     letter-spacing: 0.6px;
     padding: 3%;
-=======
-    background-position: bottom;
+    =======background-position: bottom;
     padding: 3%;
     background-position: top;
->>>>>>> e05eeeac944aba987899a5bec6b2f63f922ea176
-
+    > > > > > > > e05eeeac944aba987899a5bec6b2f63f922ea176
 }
 
 
 <<<<<<< HEAD
-
 /* BAGGRUNDBILLEDE ved Teambuilding-tekstafsnittet */
 
 =======
 /* BAGGRUNDBILLEDE ved Teambuilding-tekstafsnittet */
 
 
->>>>>>> e05eeeac944aba987899a5bec6b2f63f922ea176
+> > > > > > > e05eeeac944aba987899a5bec6b2f63f922ea176
 /* BOOK HER-KNAP PÅ TEAMBUILDING SIDEN */
 
 #bookingknap-teambuilding {
@@ -515,8 +511,7 @@ label {
 /*med inspiration fra https://www.w3schools.com/howto/howto_css_modals.asp*/
 
 /* The Modal (background) */
-<<<<<<< HEAD
-=======
+
 .modal {
     display: none;
     /* Hidden by default */
@@ -604,373 +599,370 @@ label {
 
 .modal,
 .modal2 {
-  display: none;
-        /* Hidden by default */
-        position: fixed;
-        /* Stay in place */
-        z-index: 1;
-        /* Sit on top */
-        padding-top: 150px;
-        /* Location of the box */
-        left: 0;
-        top: 0;
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 150px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Black w/ opacity */
+}
+
+
+.modal1 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 150px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Black w/ opacity */
+}
+
+
+
+
+/* Modal Content */
+.modal-content {
+    background: #7e1515;
+    margin: auto;
+
+
+    margin: auto;
+    padding: 30px;
+
+
+    width: 90%;
+}
+
+.modal-indhold1 {
+    background: #7e1515;
+    margin: auto;
+    padding: 30px;
+    width: 90%;
+}
+
+
+.modal-indhold {
+    background: #7e1515;
+
+    margin: auto;
+    padding: 30px;
+
+    width: 90%;
+}
+
+/* The Close Button */
+.close,
+.luk1 {
+    color: #ffff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: grey;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.luk1:hover,
+.luk1:focus {
+    color: grey;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.luk {
+    color: #ffff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.luk:hover,
+.luk:focus {
+    color: grey;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.alkymisten {
+    position: relative;
+}
+
+.enigma {
+    position: relative;
+}
+
+
+
+
+.oberst {
+    position: relative;
+}
+
+#myBtn,
+#minknap,
+#minknap1 {
+
+
+
+    background: #7c2000;
+    border: none;
+
+    padding: 1% 5%;
+    font-size: 20px;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.tekstonimg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+/*-----VORES RUM SIDEN SLUTTER-----*/
+/* ----- DESKTOP ----- */
+@media (min-width:1025px) {
+
+    /* ----- MENU ----- */
+    nav {
         width: 100%;
-        /* Full width */
-        height: 100%;
-        /* Full height */
-        overflow: auto;
-        /* Enable scroll if needed */
-        background-color: rgb(0, 0, 0);
-        /* Fallback color */
-        background-color: rgba(0, 0, 0, 0.7);
-    /* Black w/ opacity */ }
 
+    }
 
-    .modal1 {
+    .nav {
+        height: 150px;
+        line-height: 150px;
+    }
+
+    .menu {
+        display: inline-block;
+        background: none;
+        font-size: 14px;
+    }
+
+    .menu a {
+        text-decoration: none;
+        margin: 0px;
+        line-height: 0px;
+        border-bottom: none;
+    }
+
+    label {
         display: none;
-        /* Hidden by default */
-        position: fixed;
-        /* Stay in place */
-        z-index: 1;
-        /* Sit on top */
-        padding-top: 150px;
-        /* Location of the box */
-        left: 0;
+    }
+
+    /* Lavet med inspiration fra https://www.littlesnippets.net/snip1275 */
+    .snip1275 {
+        text-align: center;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+
+    .snip1275 * {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transition: all 0.35s ease;
+        transition: all 0.35s ease;
+    }
+
+    .snip1275 li {
+        display: inline-block;
+    }
+
+    .snip1275 a {
+        color: rgba(255, 255, 255, 0.5);
+        position: relative;
+    }
+
+    .snip1275 a:before,
+    .snip1275 a:after {
+        height: 3px;
+        position: absolute;
+        content: '';
+        -webkit-transition: all 0.35s ease;
+        transition: all 0.35s ease;
+        background-color: #7E1515;
+        width: 0;
+    }
+
+    .snip1275 a:before {
         top: 0;
+        right: 0;
+    }
+
+    .snip1275 a:after {
+        bottom: 0;
+        left: 0;
+    }
+
+    .snip1275 a:hover,
+    .snip1275 .current a {
+        color: #ffffff;
+    }
+
+    .snip1275 a:hover:before,
+    .snip1275 .current a:before,
+    .snip1275 a:hover:after,
+    .snip1275 .current a:after {
         width: 100%;
-        /* Full width */
-        height: 100%;
-        /* Full height */
-        overflow: auto;
-        /* Enable scroll if needed */
-        background-color: rgb(0, 0, 0);
-        /* Fallback color */
-        background-color: rgba(0, 0, 0, 0.7);
-        /* Black w/ opacity */
     }
 
-
-
-
-    /* Modal Content */
-    .modal-content {
-        background: #7e1515;
-        margin: auto;
-
-
-        margin: auto;
-        padding: 30px;
-
-
-        width: 90%;
+    /* ----- FORSIDE ----- */
+    /* ----- HEADER ----- */
+    #bookingknap a {
+        width: 350px;
+        margin-top: 350px;
+        z-index: 2;
     }
 
-    .modal-indhold1 {
-        background: #7e1515;
-        margin: auto;
-        padding: 30px;
-        width: 90%;
+    #bookingknap a:hover {
+        background-color: #e51721;
+        -webkit-transition: all 0.6s;
+        -moz-transition: all 0.6s;
+        -o-transition: all 0.6s;
+        transition: all 0.6s;
+        z-index: 2;
     }
 
-
-    .modal-indhold {
-        background: #7e1515;
-
-        margin: auto;
-        padding: 30px;
-
-        width: 90%;
+    /* ----- LANDING IMG ----- */
+    #landing {
+        height: 90vh;
+        background-position: top;
     }
 
-    /* The Close Button */
-    .close,
-    .luk1 {
-        color: #ffff;
-        float: right;
-        font-size: 28px;
-        font-weight: bold;
+    .landingbox h1 {
+        top: 400px;
+        font-size: 70px;
     }
 
-    .close:hover,
-    .close:focus {
-        color: grey;
-        text-decoration: none;
-        cursor: pointer;
+    .landingbox h2 {
+        top: 470px;
+        font-size: 60px;
+
     }
 
-    .luk1:hover,
-    .luk1:focus {
-        color: grey;
-        text-decoration: none;
-        cursor: pointer;
+    .landingtext h2 {
+        font-size: 55px;
     }
 
-
-    .luk {
-        color: #ffff;
-        float: right;
-        font-size: 28px;
-        font-weight: bold;
+    /* ----- MARMOR BG ----- */
+    .marmorbox h2 {
+        text-align: center;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        font-size: 55px;
+        text-transform: uppercase;
     }
 
-    .luk:hover,
-    .luk:focus {
-        color: grey;
-        text-decoration: none;
-        cursor: pointer;
+    .marmorbox p {
+        text-align: center;
+        width: 60%;
+        margin-left: 20%;
+        font-size: 16px;
+        margin-top: 70px;
     }
 
-
-    .alkymisten {
-        position: relative;
+    .marmor {
+        width: 100%;
+        height: 650px;
+        z-index: -2;
+        opacity: 0.1;
+        position: absolute;
     }
 
-    .enigma {
-        position: relative;
+    .marmorgrid {
+        width: 80%;
+        margin-left: 10%;
+        grid-template-columns: auto auto auto auto auto auto;
+        font-size: 20px;
     }
 
- 
-
-
-    .oberst {
-        position: relative;
+    .marmorgrid img {
+        height: 80px;
     }
 
-    #myBtn,
-    #minknap,
-    #minknap1 {
+    .marmorgrid h3 {
+        margin-top: 30px;
+    }
 
+    /* ----- RØD TEKSTUR BG MED IKONER ----- */
+    .roedbox h2 {}
 
-        
-            background: #7c2000;
-            border: none;
+    .roedbox h3 {}
 
-            padding: 1% 5%;
-            font-size: 20px;
-            position: absolute;
-            top: 85%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+    #roed {
+        height: 500px;
+        width: 100%;
+    }
 
-        }
+    .content-for-alle {
+        width: 80%;
+        margin-left: 10%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
 
-        .tekstonimg {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-
-        }
-
-
-        /*-----VORES RUM SIDEN SLUTTER-----*/
-        /* ----- DESKTOP ----- */
-        @media (min-width:1025px) {
-
-            /* ----- MENU ----- */
-            nav {
-                width: 100%;
-
-            }
-
-            .nav {
-                height: 150px;
-                line-height: 150px;
-            }
-
-            .menu {
-                display: inline-block;
-                background: none;
-                font-size: 14px;
-            }
-
-            .menu a {
-                text-decoration: none;
-                margin: 0px;
-                line-height: 0px;
-                border-bottom: none;
-            }
-
-            label {
-                display: none;
-            }
-
-            /* Lavet med inspiration fra https://www.littlesnippets.net/snip1275 */
-            .snip1275 {
-                text-align: center;
-                font-weight: 500;
-                letter-spacing: 1px;
-            }
-
-            .snip1275 * {
-                -webkit-box-sizing: border-box;
-                box-sizing: border-box;
-                -webkit-transition: all 0.35s ease;
-                transition: all 0.35s ease;
-            }
-
-            .snip1275 li {
-                display: inline-block;
-            }
-
-            .snip1275 a {
-                color: rgba(255, 255, 255, 0.5);
-                position: relative;
-            }
-
-            .snip1275 a:before,
-            .snip1275 a:after {
-                height: 3px;
-                position: absolute;
-                content: '';
-                -webkit-transition: all 0.35s ease;
-                transition: all 0.35s ease;
-                background-color: #7E1515;
-                width: 0;
-            }
-
-            .snip1275 a:before {
-                top: 0;
-                right: 0;
-            }
-
-            .snip1275 a:after {
-                bottom: 0;
-                left: 0;
-            }
-
-            .snip1275 a:hover,
-            .snip1275 .current a {
-                color: #ffffff;
-            }
-
-            .snip1275 a:hover:before,
-            .snip1275 .current a:before,
-            .snip1275 a:hover:after,
-            .snip1275 .current a:after {
-                width: 100%;
-            }
-
-            /* ----- FORSIDE ----- */
-            /* ----- HEADER ----- */
-            #bookingknap a {
-                width: 350px;
-                margin-top: 350px;
-                z-index: 2;
-            }
-
-            #bookingknap a:hover {
-                background-color: #e51721;
-                -webkit-transition: all 0.6s;
-                -moz-transition: all 0.6s;
-                -o-transition: all 0.6s;
-                transition: all 0.6s;
-                z-index: 2;
-            }
-
-            /* ----- LANDING IMG ----- */
-            #landing {
-                height: 90vh;
-                background-position: top;
-            }
-
-            .landingbox h1 {
-                top: 400px;
-                font-size: 70px;
-            }
-
-            .landingbox h2 {
-                top: 470px;
-                font-size: 60px;
-
-            }
-
-            .landingtext h2 {
-                font-size: 55px;
-            }
-
-            /* ----- MARMOR BG ----- */
-            .marmorbox h2 {
-                text-align: center;
-                padding-top: 70px;
-                padding-bottom: 70px;
-                font-size: 55px;
-                text-transform: uppercase;
-            }
-
-            .marmorbox p {
-                text-align: center;
-                width: 60%;
-                margin-left: 20%;
-                font-size: 16px;
-                margin-top: 70px;
-            }
-
-            .marmor {
-                width: 100%;
-                height: 650px;
-                z-index: -2;
-                opacity: 0.1;
-                position: absolute;
-            }
-
-            .marmorgrid {
-                width: 80%;
-                margin-left: 10%;
-                grid-template-columns: auto auto auto auto auto auto;
-                font-size: 20px;
-            }
-
-            .marmorgrid img {
-                height: 80px;
-            }
-
-            .marmorgrid h3 {
-                margin-top: 30px;
-            }
-
-            /* ----- RØD TEKSTUR BG MED IKONER ----- */
-            .roedbox h2 {}
-
-            .roedbox h3 {}
-
-            #roed {
-                height: 500px;
-                width: 100%;
-            }
-
-            .content-for-alle {
-                width: 80%;
-                margin-left: 10%;
-                display: grid;
-                grid-template-columns: auto auto auto;
-            }
-=======
     .ikon-forside {}
 
     .content-for-alle h3 {}
->>>>>>> e05eeeac944aba987899a5bec6b2f63f922ea176
 
-            .ikon-forside {}
+    .ikon-forside {}
 
-            .content-for-alle h3 {}
+    .content-for-alle h3 {}
 
-            .content-for-alle p {
-                width: 100%;
-                margin-left: 0;
-            }
+    .content-for-alle p {
+        width: 100%;
+        margin-left: 0;
+    }
 
-            /* ----- FORSIDE SLUT ----- */
-            /*----VORES RUM SIDEN STARTER-----*/
-            .detrerum {
-                display: flex;
-                justify-content: space-around;
-            }
-
-<<<<<<< HEAD
-            .detrerum {
-=======
+    /* ----- FORSIDE SLUT ----- */
+    /*----VORES RUM SIDEN STARTER-----*/
     .detrerum {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    HEAD .detrerum {
 
         width: auto;
 
@@ -980,43 +972,37 @@ label {
         width: 310px;
         height: 400px;
     }
->>>>>>> e05eeeac944aba987899a5bec6b2f63f922ea176
 
-                width: auto;
-
-            }
-
-            .detrerum img {
-                width: 310px;
-                height: 400px;
-            }
+    width: auto;
 
 
-<<<<<<< HEAD
-            /*-----VORES RUM SIDEN SLUTTER-----*/
-            /* ---------TEAMBUILDING START ----- */
-            /* HEADERBILLDE på TEAMBUILDING-siden */
-            .teambuilding-header {
-                height: 80vh;
-            }
-=======
->>>>>>> e05eeeac944aba987899a5bec6b2f63f922ea176
+
+    .detrerum img {
+        width: 310px;
+        height: 400px;
+    }
 
 
-            /* DE TO BOKSE, FORDELE OG PRAKTISK INFO */
-            .wrapper-bokse {
-                text-align: center;
+    /*-----VORES RUM SIDEN SLUTTER-----*/
+    /* ---------TEAMBUILDING START ----- */
+    /* HEADERBILLDE på TEAMBUILDING-siden */
+    .teambuilding-header {
+        height: 80vh;
+    }
 
-<<<<<<< HEAD
-            }
+    /* DE TO BOKSE, FORDELE OG PRAKTISK INFO */
+    .wrapper-bokse {
+        text-align: center;
+    }
 
-            #fordele {
-                display: inline-block;
-                width: 25%;
-                height: 35vh;
-                padding: 1% 2% 2% 2%;
-                vertical-align: top;
-=======
+    #fordele {
+        display: inline-block;
+        width: 25%;
+        height: 35vh;
+        padding: 1% 2% 2% 2%;
+        vertical-align: top;
+    }
+
     /* HEADERBILLDE på TEAMBUILDING-siden */
 
     .teambuilding-header {
@@ -1030,18 +1016,17 @@ label {
         text-align: center;
 
     }
->>>>>>> e05eeeac944aba987899a5bec6b2f63f922ea176
 
-            }
 
-<<<<<<< HEAD
-            #praktisk-info {
-                display: inline-block;
-                width: 25%;
-                height: 35vh;
-                padding: 1% 2% 2% 2%;
-                vertical-align: top;
-=======
+
+
+    #praktisk-info {
+        display: inline-block;
+        width: 25%;
+        height: 35vh;
+        padding: 1% 2% 2% 2%;
+        vertical-align: top;
+
     }
 
     #praktisk-info {
@@ -1050,62 +1035,47 @@ label {
         height: 35vh;
         padding: 1% 2% 2% 2%;
         vertical-align: top;
->>>>>>> e05eeeac944aba987899a5bec6b2f63f922ea176
 
-            }
+    }
 
-            .teambuilding-h2 {
-                font-size: 200%;
-            }
-
-
-            #bookingknap-teambuilding {
-                width: 30%;
-
-            }
+    .teambuilding-h2 {
+        font-size: 200%;
+    }
 
 
-<<<<<<< HEAD
-            .teambuilding-tekstafsnit {
-                padding: 0% 8% 0% 8%;
-            }
-=======
+    #bookingknap-teambuilding {
+        width: 30%;
+
+    }
+
+
     .teambuilding-tekstafsnit {
         padding: 0% 8% 0% 8%;
     }
->>>>>>> e05eeeac944aba987899a5bec6b2f63f922ea176
 
+    .teambuilding-tekstafsnit {
+        padding: 0% 8% 0% 8%;
+    }
 
-            .fulde-udbytte {
-                padding: 0% 8% 0% 8%;
+    .fulde-udbytte {
+        padding: 0% 8% 0% 8%;
 
-            }
+    }
 
-            #kontakt-knap {
-                width: 20%;
-            }
+    #kontakt-knap {
+        width: 20%;
+    }
 
-<<<<<<< HEAD
-            .teambuilding-tekstafsnit {
-                padding: 0% 15% 0% 15%;
-=======
     .teambuilding-tekstafsnit {
         padding: 0% 15% 0% 15%;
->>>>>>> e05eeeac944aba987899a5bec6b2f63f922ea176
+    }
 
-            }
-
-
-            .fulde-udbytte {
-                padding: 0% 15% 0% 15%;
-            }
+    .teambuilding-tekstafsnit {
+        padding: 0% 15% 0% 15%;
+    }
 
 
-
-<<<<<<< HEAD
-            /* ---------TEAMBUILDING SLUT ----- */
-        }
-=======
-    /* ---------TEAMBUILDING SLUT ----- */
+    .fulde-udbytte {
+        padding: 0% 15% 0% 15%;
+    }
 }
->>>>>>> e05eeeac944aba987899a5bec6b2f63f922ea176
