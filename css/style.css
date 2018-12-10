@@ -322,8 +322,7 @@ footer a {
 
 /* ----- MARMOR BG MED PRISER PÅ FORSIDE ----- */
 
-#lilleh3 {
-    margin-top: -25px;
+.lilleh3 {
     font-size: 15px;
 }
 
@@ -454,8 +453,6 @@ footer a {
     padding: 3%;
     background-position: top;
 }
-
-/* BAGGRUNDBILLEDE ved Teambuilding-tekstafsnittet */
 
 /* BAGGRUNDBILLEDE ved Teambuilding-tekstafsnittet */
 
@@ -897,7 +894,13 @@ button:hover {
 
 /* HER SLUTTER KONTAKT-SIDEN ------- */ 
 
+/* ----- PRISER OG BOOKING START ----- */
 
+.booking {
+    padding-top: 120px;
+}
+
+/* ----- PRISER OG BOOKING SLUT ----- */
 
 /* ----- DESKTOP ----- */
 
@@ -1151,8 +1154,7 @@ button:hover {
 
     /* ----- MARMOR BG MED PRISER PÅ FORSIDE ----- */
 
-    #lilleh3 {
-        margin-top: -50px;
+    .lilleh3 {
         font-size: 20px;
     }
 
@@ -1323,5 +1325,11 @@ button:hover {
     
         /* --------- KONTAKT-SIDEN DESKTOP SLUT ----------*/ 
 
-
+    /* ----- PRISER OG BOOKING STARTER ----- */
+    
+    .booking {
+        padding-top: 200px;
+    }
+    
+    /* ----- PRISER OG BOOKING SLUTTER ----- */
 }
