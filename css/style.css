@@ -72,6 +72,7 @@ p {
     position: absolute;
     z-index: 3;
     margin-top: 30px;
+    margin-left: 20px;
     color: #b11f25;
 }
 
@@ -79,26 +80,22 @@ p {
     position: absolute;
     z-index: 3;
     margin-top: 30px;
-    margin-left: 55px;
+    margin-left: 75px;
 }
 
 /* ----- MENU ----- */
 
 nav {
-    position: absolute;
+    position: fixed;
     width: 100%;
-    z-index: 2;
+    z-index: 5;
     background-color: #252525;
-
-
 }
 
 .nav {
     text-align: right;
     height: 50px;
-    line-height: 30px;
-
-
+    line-height: 30px; 
 }
 
 label {
