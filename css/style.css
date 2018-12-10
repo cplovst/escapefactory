@@ -588,6 +588,24 @@ footer a {
 
 /*----VORES RUM SIDEN STARTER-----*/
 
+
+#voresrum-header {
+    display: flex;
+    height: 50vh;
+    background-size: cover;
+    background-image: url(../images/voresrum-header.jpg);
+    background-position: center;
+}
+
+.voresrum-h1 {
+     text-align: center;
+    padding: 2%;
+}
+
+
+
+
+
 .detrerum img {
 
     width: 100%;
@@ -711,7 +729,7 @@ footer a {
     position: relative;
 }
 
-/*styling af knapper*/
+/*styling af knapper i vores rum*/
 
 #myBtn,
 #minknap,
@@ -892,6 +910,7 @@ button:hover {
 
 
 
+
 /* HER SLUTTER KONTAKT-SIDEN ------- */ 
 
 /* ----- PRISER OG BOOKING START ----- */
@@ -925,6 +944,8 @@ button:hover {
     /* ----- HEADER SLUT ----- */
 
     /* ----- MENU ----- */
+
+    
     nav {
         width: 100%;
 
@@ -951,6 +972,7 @@ button:hover {
     label {
         display: none;
     }
+    
 
     /* Lavet med inspiration fra https://www.littlesnippets.net/snip1275 */
     .snip1275 {
@@ -1200,7 +1222,21 @@ button:hover {
     /* ----- FORSIDE SLUTTER ----- */
 
 
-    /*---RUMMENE STARTER---*/
+    /*---RUMMENE STARTER DESKTOP---*/
+     #voresrum-header {
+        height: 75vh;
+         
+         
+    }
+    
+    .voresrum-h1 {
+     text-align: center;
+    padding: 2%;
+        font-size: 300%;
+}
+
+    
+    
     .detrerum {
         display: flex;
         justify-content: space-around;
