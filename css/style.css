@@ -132,6 +132,51 @@ label {
     display: block;
 }
 
+/* ----- FOOTER ----- */
+
+footer {
+    text-align: center;
+}
+
+footer h3 {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 21px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.logo {
+    width: 60%;
+    margin-top: 50px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    padding: 20px;
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.copyright {
+    background: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* ----- FOOTER SLUT ----- */
+'
+
 /* ----- FORSIDE ----- */
 
 /* ----- LANDING IMG ----- */
@@ -275,6 +320,28 @@ label {
     font-size: 35px;
 }
 
+/* ----- BAGGRUND TIL SPIL PÅ FORSIDE ----- */
+
+#hegn {
+    background-size: cover;
+    background-image: url(../images/hegn.jpg);
+    background-position: top;
+    height: 500px;
+    text-align: center;
+}
+
+#hegn h2 {
+    padding-top: 40px;
+    font-size: 25px;
+}
+
+#hegn p {
+    padding-top: 30px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+
 /* ----- FORSIDE SLUT ----- */
 
 /*------ TEAMBUILDINGSIDE \/ ------ */
@@ -288,6 +355,7 @@ label {
     background-image: url(../images/bog-paa-bord.jpg);
     background-position: center;
 }
+
 /*---- Øverste to info-bokse på siden: FORDELE OG PRAKTISK INFO ---- */
 
 .teambuilding-h2 {
@@ -656,29 +724,31 @@ label {
 /*Booking knap ovenpå billedet inde i modal box*/
 
 
-#ikoner-i-modal img{
+#ikoner-i-modal img {
     width: 8%;
     height: 8%;
-      
+
 }
 
-#ikoner-i-modal1 img{
-      width: 8%;
+#ikoner-i-modal1 img {
+    width: 8%;
     height: 8%;
-    
+
 }
 
 #ikoner-i-modal2 img {
-      width: 8%;
+    width: 8%;
     height: 8%;
-    
+
 }
 
-#ikoner-i-modal, #ikoner-i-modal1, #ikoner-i-modal2 {
+#ikoner-i-modal,
+#ikoner-i-modal1,
+#ikoner-i-modal2 {
     display: flex;
-    
+
     justify-content: center;
-    
+
 }
 
 /*-----VORES RUM SIDEN SLUTTER-----*/
@@ -857,7 +927,7 @@ Modificeret snippet fra CodePen: https://codepen.io/bootpen/pen/BooWaR
     }
 
     /* ----- MARMOR BG ----- */
-    
+
     .marmorbox h2 {
         padding-top: 70px;
         padding-bottom: 70px;
@@ -892,14 +962,18 @@ Modificeret snippet fra CodePen: https://codepen.io/bootpen/pen/BooWaR
         font-size: 55px;
         padding-top: 70px;
     }
-    
+
     .roedbox h3 {
         font-size: 20px;
     }
-    
+
     .content-for-alle {
         display: grid;
         grid-template-columns: 10% 26.67% 26.67% 26.67% 10%;
+    }
+
+    .content-for-alle p {
+        font-size: 16px;
     }
 
     .familie {
@@ -935,34 +1009,44 @@ Modificeret snippet fra CodePen: https://codepen.io/bootpen/pen/BooWaR
         margin-top: -50px;
         font-size: 20px;
     }
-    
+
     .pris-box {
         margin-left: 0;
         height: 200px;
         padding-top: 20px;
     }
-    
+
     #pris-grid {
         display: grid;
         grid-template-columns: 25% 20% 10% 20% 25%;
     }
-    
+
     #pris1 {
         grid-column-start: 2;
         width: 100%;
     }
-    
+
     #pris2 {
         grid-column-start: 4;
         width: 100%;
     }
-    
+
     .pris-box {
         font-size: 30px;
     }
-    
+
     .pris {
         font-size: 100px;
+    }
+
+    /* ----- BAGGRUND TIL SPIL PÅ FORSIDE ----- */
+
+    #hegn h2 {
+        font-size: 55px;
+    }
+
+    #hegn p {
+        font-size: 16px;
     }
 
     /* ----- FORSIDE SLUTTER ----- */
@@ -980,33 +1064,35 @@ Modificeret snippet fra CodePen: https://codepen.io/bootpen/pen/BooWaR
         width: 299px;
         height: 411px;
     }
-    
-    
+
+
     /*billede inde i modal box*/
-    
-    #alkymist2, #oberst2, #enigma2 {
+
+    #alkymist2,
+    #oberst2,
+    #enigma2 {
         width: 100%;
         height: 350px;
-        
+
     }
-    
+
     /*ikoner i modal*/
-    
-    #ikoner-i-modal img{
-    width: 4%;
-   
-}
-    
-     #ikoner-i-modal1 img{
-    width: 4%;
-   
-}
-    
-    #ikoner-i-modal2 img{
-    width: 4%;
-   
-}
-    
+
+    #ikoner-i-modal img {
+        width: 4%;
+
+    }
+
+    #ikoner-i-modal1 img {
+        width: 4%;
+
+    }
+
+    #ikoner-i-modal2 img {
+        width: 4%;
+
+    }
+
     /*---RUMMENE SLUTTER--*/
 
 
@@ -1073,8 +1159,8 @@ Modificeret snippet fra CodePen: https://codepen.io/bootpen/pen/BooWaR
 
 
     /* ---------TEAMBUILDING DESKTOP SLUT ----- */
-    
-    
-    
-    
+
+
+
+
 }
