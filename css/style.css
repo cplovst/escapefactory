@@ -149,6 +149,7 @@ footer a {
     color: white;
     font-size: 14px;
     line-height: 19px;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 .logo {
@@ -174,8 +175,11 @@ footer a {
     padding-bottom: 20px;
 }
 
+.footer-links a {
+    text-decoration: underline;
+}
+
 /* ----- FOOTER SLUT ----- */
-'
 
 /* ----- FORSIDE ----- */
 
@@ -972,7 +976,27 @@ button:hover {
     .footer-grid {
         display: grid;
         grid-template-columns: 10% 20% 20% 20% 20% 10%;
-        grid-template-rows: auto auto auto;
+        margin-bottom: 50px;
+    }
+    
+    .logo {
+        width: 20%;
+    }
+    
+    .footer-kontakt {
+        grid-column-start: 2;
+    }
+    
+    .footer-aabning {
+        grid-column-start: 3;
+    }
+    
+    .footer-links {
+        grid-column-start: 4;
+    }
+    
+    .footer-follow {
+        grid-column-start: 5;
     }
     
     /* ----- FOOTER ----- */
