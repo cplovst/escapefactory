@@ -589,7 +589,14 @@ footer a {
 
 /* -----------HER SLUTTER KODE FOR TEAMBUILDING-SIDEN--------- */
 
-/*----VORES RUM SIDEN STARTER-----*/
+/*----DE 3 RUM/VORES RUM SIDEN STARTER-----*/
+
+#marmor-baggrund-rum {
+    background-image: url(../images/marmor.jpg);
+}
+
+
+
 
 
 #voresrum-header {
