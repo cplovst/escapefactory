@@ -1,3 +1,6 @@
+
+/*---GLOBAL---*/
+
 * {
     margin: 0px;
     padding: 0px;
@@ -602,6 +605,33 @@ footer a {
     padding: 2%;
 }
 
+ .voresrum p {
+    
+      
+    padding: 1% 10% 4% 10%;
+         
+    
+}
+
+.tekst-i-modal {
+        padding: 4% 2% 4% 2%;
+    
+    text-align: justify;
+    word-break: keep-all;
+    word-break: 
+     
+
+}
+
+
+.detrerum h2 {
+    
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
 
 
 
@@ -888,6 +918,7 @@ textarea {
   resize:vertical;
 }
 
+
 button {
   max-width: 450px;
   width: 100%;
@@ -911,6 +942,8 @@ button:hover {
 
 
 
+
+
 /* HER SLUTTER KONTAKT-SIDEN ------- */ 
 
 /* ----- PRISER OG BOOKING START ----- */
@@ -920,6 +953,38 @@ button:hover {
 }
 
 /* ----- PRISER OG BOOKING SLUT ----- */
+
+
+/*-------MOBILE------*/
+	@media (max-width:780px){
+        
+        .detrerum img {
+            padding: 4%;
+        }
+        
+        #myBtn,
+#minknap,
+        #minknap1 {
+            display: none;
+        }
+        
+        
+        
+        
+        
+        
+ }
+
+
+
+
+/*------TABLET-------*/
+
+
+
+
+
+
 
 /* ----- DESKTOP ----- */
 
@@ -1225,8 +1290,7 @@ button:hover {
     /*---RUMMENE STARTER DESKTOP---*/
      #voresrum-header {
         height: 75vh;
-         
-         
+  
     }
     
     .voresrum-h1 {
@@ -1236,10 +1300,21 @@ button:hover {
 }
 
     
+    .voresrum p {
+    
+        margin: 0% 15% 0% 15%; 
+    padding-bottom: 2%;
+    
+     
+        
+    
+}
+    
     
     .detrerum {
         display: flex;
         justify-content: space-around;
+        
 
     }
 
@@ -1247,7 +1322,9 @@ button:hover {
 
         width: 299px;
         height: 411px;
+        
     }
+    
 
 
     /*billede inde i modal box*/
