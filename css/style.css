@@ -800,6 +800,84 @@ Modificeret snippet fra CodePen: https://codepen.io/bootpen/pen/BooWaR
 /*-----FAQ SIDEN SLUTTER-----*/
 
 
+/* -----------> KONTAKT-SIDEN START  */ 
+
+
+#kontakt-header {
+    display: flex;
+    height: 50vh;
+    background-size: cover;
+    background-image: url(../images/old-phone.jpeg);
+    background-position: center;
+}
+
+.kontakt-siden {
+        padding: 0% 10% 0% 10%;
+    }
+
+.kontakt-overskrift {
+    
+    margin: 5% 0% 5% 0%;
+    text-align: center;
+}
+
+
+
+/* KONTAKTFORMULAR LAVET MED INSPIRATION FRA: https://codepen.io/GabGi/pen/RVXxqo */ 
+
+.f-input::placeholder {
+  color: white;
+  opacity:0.9;
+}
+
+.f-input {
+  background-color: #7E1515;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+    color:black;
+  font-size: 18px;
+  border-radius: 4px;
+  line-height: 22px;
+  text-align:left;
+}
+
+.f-input:focus { 
+  border:2px solid #3a3939; }
+
+textarea {
+  height: 250px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+button {
+  max-width: 450px;
+  width: 100%;
+  background: #7E1515;
+  border-radius:10px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+text-align:center;
+  transition: all 0.3s;
+  font-weight:600; 
+}
+button:hover {
+  
+ background: #000; 
+}
+
+
+
+/* HER SLUTTER KONTAKT-SIDEN ------- */ 
+
+
 
 /* ----- DESKTOP ----- */
 
@@ -1161,6 +1239,21 @@ Modificeret snippet fra CodePen: https://codepen.io/bootpen/pen/BooWaR
     /* ---------TEAMBUILDING DESKTOP SLUT ----- */
 
 
+    /* --------- KONTAKT-SIDEN DESKTOP START ----------*/ 
+    
+    
+    #kontakt-header {
+            background-position: top;
+            height: 80vh;
+    }
+    
+    #kontakt-tekst {
+        margin: 0% 15% 0% 15%; 
+        
+    }
+    
+    
+        /* --------- KONTAKT-SIDEN DESKTOP SLUT ----------*/ 
 
 
 }
