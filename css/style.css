@@ -888,6 +888,16 @@ Modificeret snippet fra CodePen: https://codepen.io/bootpen/pen/BooWaR
     .snip1275 .current a:after {
         width: 100%;
     }
+    
+    /* ----- FOOTER ----- */
+    
+    .footer-grid {
+        display: grid;
+        grid-template-columns: 10% 20% 20% 20% 20% 10%;
+        grid-template-rows: auto auto auto;
+    }
+    
+    /* ----- FOOTER ----- */
 
     /* ----- FORSIDE ----- */
     /* ----- HEADER ----- */
