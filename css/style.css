@@ -554,8 +554,6 @@ footer a {
     margin-top: 25%;
     text-decoration: none;
     color: #fff;
-
-
 }
 
 #kontakt-knap a:hover {
@@ -566,18 +564,14 @@ footer a {
     transition: all 0.6s;
 }
 
-
 /* -----------HER SLUTTER KODE FOR TEAMBUILDING-SIDEN--------- */
 
 /*----DE 3 RUM/VORES RUM SIDEN STARTER-----*/
 
 #marmor-baggrund-rum {
+    height: 700px;
     background-image: url(../images/marmor.jpg);
 }
-
-
-
-
 
 #voresrum-header {
     display: flex;
@@ -593,40 +587,25 @@ footer a {
 }
 
 .voresrum p {
-
-
     padding: 1% 10% 4% 10%;
-
-
 }
 
 .tekst-i-modal {
     padding: 4% 2% 4% 2%;
-
     text-align: justify;
     word-break: keep-all;
     margin-bottom: 10px;
-
-
 }
 
-
 .detrerum h2 {
-
     text-align: center;
     font-size: 30px;
 }
 
-
-
-
 .detrerum img {
-
     /*ikonerne*/
     width: 100%;
-
 }
-
 
 #oberstimg {
     width: 100%;
@@ -1481,11 +1460,11 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     }
 
     /* ----- RØD TEKSTUR BG MED IKONER ----- */
-    
+
     .roedbox {
         height: 500px;
     }
-    
+
     .roedbox h2 {
         font-size: 40px;
         padding-top: 70px;
@@ -1602,10 +1581,9 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     }
 
     .detrerum {
+        margin-top: 50px;
         display: flex;
         justify-content: space-around;
-
-
     }
 
     .tekstonimg1 {
