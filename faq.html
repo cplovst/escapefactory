@@ -15,8 +15,14 @@
 
 <body>
   
-  <header>
-        <nav>
+  <header id="kontakt-header">
+       
+        <nav><img class="header-logo" src="images/logo.png" alt="Logo">
+            <a href="booking.html">
+                <h6 class="header-booking">BOOKING |</h6>
+            </a>
+            <h6 class="header-tlf">+45 81 20 50 00</h6>
+
             <div class="nav">
                 <label for="toggle">&#9776;</label>
                 <input type="checkbox" id="toggle" />
@@ -36,77 +42,44 @@
     </header>
   
   <section>
+  <h2 class="kontakt-overskrift">KONTAKT</h2>
+
   	
-  	<div class="container">
-<div class="panel-group">
-<div class="panel panel-default">
-<div class="panel-heading" role="tab">
-<h4 class="panel-title">
-<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-<i class="more-less glyphicon glyphicon-plus"></i>
-	Hvorfor har jeg ikke modtaget nogen bekræftelse?
-	</a>
-				</h4>
-			</div>
-			<div id="collapseOne" class="panel-collapse collapse" role="tabpanel">
-				<div class="panel-body">
-					  SVAR
-				</div>
-			</div>
+<div class="container">	
+	<div class="lista-item">
+		<input class="trigger-input" id="faq-titulo-1" type="checkbox">
+		<div class="trigger-container">
+			<label for="faq-titulo-1">
+				<h2 class="faq-titulo">Kan vi være flere end 5 deltagere i et rum?</h2>
+			</label>
+			<p class="faq-conteudo">Vi anbefaler ikke, at man er flere end 5 deltagere i et rum. I kan godt være 6 deltagere på et hold, men vær opmærksom på at dette koster 150 kroner ekstra. I kan ikke være flere end 6 deltagere i et rum.</p>
 		</div>
-
-		<div class="panel panel-default">
-			<div class="panel-heading" role="tab" id="headingTwo">
-				<h4 class="panel-title">
-					<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-						<i class="more-less glyphicon glyphicon-plus"></i>
-						Hvornår skal vi ankomme?
-					</a>
-				</h4>
-			</div>
-			<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-				<div class="panel-body">
-					SVAR
-				</div>
-			</div>
-		</div>
-
-		<div class="panel panel-default">
-			<div class="panel-heading" role="tab" id="headingThree">
-				<h4 class="panel-title">
-					<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-						<i class="more-less glyphicon glyphicon-plus"></i>
-						Hvor kan vi parkere?
-					</a>
-				</h4>
-			</div>
-			<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-				<div class="panel-body">
-					SVAR
-				</div>
-			</div>
-		</div>
-
-	</div><!-- panel-group -->
+	</div>
 	
-</div><!-- container -->
+	<div class="lista-item">
+		<input class="trigger-input" id="faq-titulo-2" type="checkbox">
+		<div class="trigger-container">
+			<label for="faq-titulo-2">
+				<h2 class="faq-titulo">Hvor lang tid tager spillet?</h2>
+			</label>
+			<p class="faq-conteudo">Se um dia você vir um lobo na sua frente, no mínimo demonstrará respeito.</p>
+		</div>
+	</div>
+	
+	<div class="lista-item">
+		<input class="trigger-input" id="faq-titulo-3" type="checkbox">
+		<div class="trigger-container">
+			<label for="faq-titulo-3">
+				<h2 class="faq-titulo">Hvor kan vi parkere?</h2>
+			</label>
+			<p class="faq-conteudo">Não, o acesso é ilimitado e você pode assistir 24h/7.</p>
+		</div>
+	</div>
+</div>
+<!-- FAQ -->
+	
   	
-  	</section>
-  	
-  	<script type="text/javascript" >
-	  /*******************************
-* ACCORDION WITH TOGGLE ICONS
-*******************************/
-	function toggleIcon(e) {
-        $(e.target)
-            .prev('.panel-heading')
-            .find(".more-less")
-            .toggleClass('glyphicon-plus glyphicon-minus');
-    }
-    $('.panel-group').on('hidden.bs.collapse', toggleIcon);
-    $('.panel-group').on('shown.bs.collapse', toggleIcon);
-	  
-	  </script>
+	</section>
   	
   
    
