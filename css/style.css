@@ -860,7 +860,7 @@ footer a {
 /*-----FAQ SIDEN STARTER-----*/
 
 /*******************************
-Modificeret snippet fra CodePen: https://codepen.io/bootpen/pen/BooWaR
+Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
 *******************************/
 
 
@@ -873,15 +873,15 @@ Modificeret snippet fra CodePen: https://codepen.io/bootpen/pen/BooWaR
 .lista-item {
     background: #7E1515;
     margin-bottom: 10px;
-    padding: 5px;
+    padding: 10px;
 }
 
 .faq-titulo {
     cursor: pointer;
     font-size: 16px;
-    color: #252525;
+    color: #fff;
+	font-weight: lighter;
     font-family: 'Merriweather Sans', sans-serif;
-
 }
 
 
@@ -892,8 +892,8 @@ Modificeret snippet fra CodePen: https://codepen.io/bootpen/pen/BooWaR
 }
 
 .faq-conteudo {
-    padding: 15px;
-    color: #fff;
+    padding-top: 20px;
+    color: #252525;
     font-size: 14px;
     display: none;
 
@@ -1138,9 +1138,7 @@ ul {
     }
 
     .header-tlf {
-        margin-top: 78px;
-        margin-left: 245px;
-        font-size: 12px;
+        display: none;
     }
 
     .header-logo {
@@ -1247,56 +1245,15 @@ ul {
 	/*-----FAQ SIDEN STARTER-----*/
 
 /*******************************
-Modificeret snippet fra CodePen: https://codepen.io/bootpen/pen/BooWaR
+Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
 *******************************/
 
 
 .container {
-	width: 90%;
+	width: 60%;
 	margin: 0 auto;
 	padding-top: 10px;
-}
-
-
-.lista-item {
-	background: #7E1515;
-	margin-bottom: 10px;
-	padding: 5px;
-}
-
-.faq-titulo {
-	cursor: pointer;
-	font-size: 16px;
-	color: #252525;
-	font-family: 'Merriweather Sans', sans-serif;
-
-}
-
-
-.faq-titulo::after {
-	content: '+';
-	float: right;
-	transition: transform .3s ease;
-}
-
-.faq-conteudo {
-	padding: 15px;
-	color: #fff;
-	font-size: 14px;
-	display: none;
-
-}
-
-.trigger-input {
-	display: none;
-}
-
-.trigger-input:checked + .trigger-container .faq-conteudo {
-	display: block;
-}
-
-.trigger-input:checked + .trigger-container .faq-titulo::after {
-	transform: rotate(45deg) scale(1.08);
+	height: 600px;
 }
 
 
