@@ -1138,10 +1138,9 @@ ul {
     }
 
     .header-tlf {
-	display: none;
-  margin-top: 78px;
-  margin-left: 245px;
-  font-size: 12px;
+        margin-top: 78px;
+        margin-left: 245px;
+        font-size: 12px;
     }
 
     .header-logo {
@@ -1157,7 +1156,6 @@ ul {
     /* ----- HEADER SLUT ----- */
 
     /* ----- MENU ----- */
-
 
     nav {
       width: 100%;
