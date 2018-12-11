@@ -873,7 +873,7 @@ textarea {
   resize:vertical;
 }
 
-button {
+.send-knap  {
   max-width: 450px;
   width: 100%;
   background: #7E1515;
@@ -884,11 +884,12 @@ button {
   font-size:24px;
   padding-top:10px;
   padding-bottom:10px;
-text-align:center;
+    text-align: center;
   transition: all 0.3s;
   font-weight:600; 
 }
-button:hover {
+
+.send-knap:hover {
   
  background: #000; 
 }
