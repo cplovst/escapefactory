@@ -87,7 +87,7 @@ p {
     z-index: 3;
     margin-top: 18px;
     margin-left: 20px;
-	font-size: 25px;
+    font-size: 25px;
 }
 
 /* ----- MENU ----- */
@@ -1002,10 +1002,75 @@ textarea {
 /* ----- PRISER OG BOOKING START ----- */
 
 .booking {
-    padding-top: 120px;
+    padding-top: 80px;
 }
 
+/* Dropdown knap lavet med inspiration fra https://www.w3schools.com/howto/howto_css_dropdown.asp */
+.dropbtn p {
+    font-size: 16px;
+    margin-top: 0px;
+    margin-left: 20px;
+    width: 200px;
+    color: #7E1515;
+    float: left;
+}
 
+.fa {
+    color: #7E1515;
+    position: absolute;
+    margin-left: -10px;
+}
+
+.dropbtn {
+    width: 250px;
+    background-color: #ddd;
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+    height: 40px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #7E1515;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #7E1515;
+}
+
+.dropdown:hover p {
+    color: #ddd;
+}
+
+.dropdown:hover .fa {
+    color: #ddd;
+}
 
 ul {
     list-style-type: none;
@@ -1017,7 +1082,7 @@ ul {
     width: 90%;
     background: #7E1515;
     margin-left: 5%;
-    margin-top: 50px;
+    margin-top: 20px;
     font-family: 'Mate SC', serif;
 }
 
