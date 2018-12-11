@@ -1,3 +1,6 @@
+
+/*---GLOBAL---*/
+
 * {
     margin: 0px;
     padding: 0px;
@@ -590,13 +593,78 @@ footer a {
 
 /* -----------HER SLUTTER KODE FOR TEAMBUILDING-SIDEN--------- */
 
-/*----VORES RUM SIDEN STARTER-----*/
+/*----DE 3 RUM/VORES RUM SIDEN STARTER-----*/
+
+#marmor-baggrund-rum {
+    background-image: url(../images/marmor.jpg);
+}
+
+
+
+
+
+#voresrum-header {
+    display: flex;
+    height: 50vh;
+    background-size: cover;
+    background-image: url(../images/voresrum-header.jpg);
+    background-position: center;
+}
+
+.voresrum-h1 {
+     text-align: center;
+    padding: 2%;
+}
+
+ .voresrum p {
+    
+      
+    padding: 1% 10% 4% 10%;
+         
+    
+}
+
+.tekst-i-modal {
+        padding: 4% 2% 4% 2%;
+    
+    text-align: justify;
+    word-break: keep-all;
+    margin-bottom: 10px;
+     
+
+}
+
+
+.detrerum h2 {
+    
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
 
 .detrerum img {
-
+    
+    /*ikonerne*/
     width: 100%;
-    height: 150px;
+        
+}
 
+
+#oberstimg {
+    width: 100%;
+    height: 200px;
+}
+
+#enigmaimg {
+     width: 100%;
+    height: 200px;
+}
+
+#alkymistimg {
+     width: 100%;
+    height: 200px;
 }
 
 
@@ -605,7 +673,7 @@ footer a {
 .oberstimg {
 
     width: 100%;
-    height: 180px;
+    height: 150px;
 
 }
 
@@ -648,6 +716,32 @@ footer a {
     padding: 30px;
     width: 90%;
 }
+
+.booknu-rum {
+    
+width: 50%;
+  background: none;
+border: solid 1.5px;
+  cursor:pointer;
+  color:white;
+  font-size:18px;
+    margin-bottom: 6px;
+    padding: 3px;
+text-align:center;
+     position: absolute;
+     left: 50%;
+    transform: translate(-50%, -25%);
+    
+    
+   
+   
+}
+.booknu-rum:hover {
+  
+ background: brown; 
+}
+
+
 
 
 
@@ -715,7 +809,7 @@ footer a {
     position: relative;
 }
 
-/*styling af knapper*/
+/*styling af knapper i vores rum*/
 
 #myBtn,
 #minknap,
@@ -735,42 +829,30 @@ footer a {
 
 .tekstonimg {
     position: absolute;
-    top: 50%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+
+.tekstonimg1 {
+    /*ikonerne*/
+    width: 20%;
+    position: absolute;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
 
 }
 
 
-/*Booking knap ovenpå billedet inde i modal box*/
 
 
-#ikoner-i-modal img {
-    width: 8%;
-    height: 8%;
 
-}
 
-#ikoner-i-modal1 img {
-    width: 8%;
-    height: 8%;
 
-}
-
-#ikoner-i-modal2 img {
-    width: 8%;
-    height: 8%;
-
-}
-
-#ikoner-i-modal,
-#ikoner-i-modal1,
-#ikoner-i-modal2 {
-    display: flex;
-
-    justify-content: center;
-
-}
 
 /*-----VORES RUM SIDEN SLUTTER-----*/
 
@@ -886,6 +968,7 @@ textarea {
   resize:vertical;
 }
 
+
 button {
   max-width: 450px;
   width: 100%;
@@ -908,6 +991,10 @@ button:hover {
 
 
 
+
+
+
+
 /* HER SLUTTER KONTAKT-SIDEN ------- */ 
 
 /* ----- PRISER OG BOOKING START ----- */
@@ -917,6 +1004,38 @@ button:hover {
 }
 
 /* ----- PRISER OG BOOKING SLUT ----- */
+
+
+/*-------MOBILE------*/
+	@media (max-width:780px){
+        
+        .detrerum img {
+            padding: 4%;
+        }
+        
+        #myBtn,
+#minknap,
+        #minknap1 {
+            display: none;
+        }
+        
+        
+        
+        
+        
+        
+ }
+
+
+
+
+/*------TABLET-------*/
+
+
+
+
+
+
 
 /* ----- DESKTOP ----- */
 
@@ -952,6 +1071,8 @@ button:hover {
     /* ----- HEADER SLUT ----- */
 
     /* ----- MENU ----- */
+
+    
     nav {
         width: 100%;
 
@@ -978,6 +1099,7 @@ button:hover {
     label {
         display: none;
     }
+    
 
     /* Lavet med inspiration fra https://www.littlesnippets.net/snip1275 */
     .snip1275 {
@@ -1227,18 +1349,72 @@ button:hover {
     /* ----- FORSIDE SLUTTER ----- */
 
 
-    /*---RUMMENE STARTER---*/
+    /*---RUMMENE STARTER DESKTOP---*/
+     #voresrum-header {
+        height: 75vh;
+  
+    }
+    
+    .voresrum-h1 {
+     text-align: center;
+    padding: 2%;
+        font-size: 300%;
+}
+
+    
+    .voresrum p {
+    
+        margin: 0% 15% 0% 15%; 
+    padding-bottom: 2%;
+    
+     
+        
+    
+}
+    
+    
     .detrerum {
         display: flex;
         justify-content: space-around;
+        
+    
+    }
+    
+    .tekstonimg1 {
+    /*ikonerne*/
+    width: 30%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
+}
+    
+    
+    
+    
+    .detrerum img{
+        width: 100%;
     }
 
-    .detrerum img {
-
-        width: 299px;
+    
+    #oberstimg {
+    width: 299px;
         height: 411px;
-    }
+}
+
+#enigmaimg {
+    width: 299px;
+        height: 411px;
+}
+
+#alkymistimg {
+     width: 299px;
+        height: 411px;
+}
+    
+    
+   
 
 
     /*billede inde i modal box*/
@@ -1246,27 +1422,20 @@ button:hover {
     #alkymist2,
     #oberst2,
     #enigma2 {
-        width: 100%;
-        height: 350px;
+        width: 80%;
+        height: 250px;
+        
 
     }
-
-    /*ikoner i modal*/
-
-    #ikoner-i-modal img {
-        width: 4%;
-
+    
+    
+    .booknu-rum {
+    
+width: 20%;
+ 
     }
 
-    #ikoner-i-modal1 img {
-        width: 4%;
-
-    }
-
-    #ikoner-i-modal2 img {
-        width: 4%;
-
-    }
+   
 
     /*---RUMMENE SLUTTER--*/
 
