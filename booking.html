@@ -16,7 +16,7 @@
 
 <body>
 
-    <header>
+    <header id="booking-baggrund">
         <nav>
             <img class="header-logo" src="images/logo.png" alt="Logo">
             <a href="tel:+4581205000">
@@ -42,7 +42,7 @@
 
     <div class="marmorbox">
         <section class="booking">
-            <h2>priser og booking</h2>
+            <h1 class="sub-h1">priser og booking</h1>
             <h3 class="lilleh3">Pris pr. rum</h3>
             <h3 class="lilleh3">For hold på 2-5 personer</h3>
             <div id="pris-grid">
@@ -58,7 +58,9 @@
         </section>
         <section>
             <div class="dropdown">
-                <button class="dropbtn"><p>Vælg et rum</p><i style="font-size:20px" class="fa">&#xf107;</i></button>
+                <button class="dropbtn">
+                    <p>Vælg et rum</p><i style="font-size:20px" class="fa">&#xf107;</i>
+                </button>
                 <div class="dropdown-content">
                     <a href="#">Enigma</a>
                     <a href="#">Alkymisten</a>
@@ -73,13 +75,13 @@
                 </ul>
             </div>
             <ul class="dage">
-                <li>Ma</li>
-                <li>Ti</li>
-                <li>On</li>
-                <li>To</li>
-                <li>Fr</li>
-                <li>Lø</li>
-                <li>Sø</li>
+                <li class="ma">Ma</li>
+                <li class="ti">Ti</li>
+                <li class="on">On</li>
+                <li class="to">To</li>
+                <li class="fr">Fr</li>
+                <li class="lo">Lø</li>
+                <li class="so">Sø</li>
             </ul>
             <ul class="dato">
                 <li class="andenmaaned">26</li>
@@ -127,6 +129,42 @@
             </ul>
         </section>
     </div>
+
+    <footer>
+        <img class="logo" src="images/logo.png" alt="Logo">
+        <div class="footer-grid">
+            <div class="footer-kontakt">
+                <h3>KONTAKT</h3>
+                <p>Mejlgade 52, st.</p>
+                <p>8000 Aarhus C</p>
+                <p>+45 51 15 50 80</p>
+                <p>CVR: 36253371</p>
+            </div>
+            <div class="footer-aabning">
+                <h3>ÅBNINGSTIDER</h3>
+                <p>Mandag: 14-21</p>
+                <p>Tirsdag: 14-21</p>
+                <p>Onsdag: 14-21</p>
+                <p>Torsdag: 14-21</p>
+                <p>Fredag: 13-22</p>
+                <p>Lørdag: 09-22</p>
+                <p>Søndag: 09-22</p>
+            </div>
+            <div class="footer-links">
+                <h3>LINKS</h3>
+                <a href="faq.html">FAQ</a><br>
+                <a href="teambuilding.html">Teambuilding</a><br>
+                <a href="vores-rum.html">Vores rum</a>
+            </div>
+            <div class="footer-follow">
+                <h3>FØLG OS PÅ</h3>
+                <a href="https://www.facebook.com/escapefactory/" target="_blank"><img class="fb" src="images/fb.png" alt="Facebook"></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2018 - Escape Factory - All Rights Reserved</p>
+        </div>
+    </footer>
 
     <script src="javascript/script.js"></script>
 </body>

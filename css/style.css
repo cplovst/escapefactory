@@ -191,14 +191,6 @@ footer a {
     margin-top: 50px;
 }
 
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-    padding: 20px;
-    width: 50px;
-    margin-bottom: 15px;
-}
-
 .fa:hover {
     opacity: 0.7;
 }
@@ -211,6 +203,11 @@ footer a {
 
 .footer-links a {
     text-decoration: underline;
+}
+
+.fb {
+    width: 20%;
+    margin-top: 5px;
 }
 
 /* ----- FOOTER SLUT ----- */
@@ -877,7 +874,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     cursor: pointer;
     font-size: 16px;
     color: #fff;
-	font-weight: lighter;
+    font-weight: lighter;
     font-family: 'Merriweather Sans', sans-serif;
 }
 
@@ -998,8 +995,11 @@ textarea {
 
 /* ----- PRISER OG BOOKING START ----- */
 
-.booking {
-    padding-top: 80px;
+#booking-baggrund {
+    height: 30vh;
+    background-size: cover;
+    background-image: url(../images/haandjern.jpg);
+    background-position: center;
 }
 
 /* Dropdown knap lavet med inspiration fra https://www.w3schools.com/howto/howto_css_dropdown.asp */
@@ -1218,7 +1218,7 @@ ul {
     /* ----- MENU ----- */
 
     nav {
-      width: 100%;
+        width: 100%;
     }
 
     .nav {
@@ -1242,7 +1242,7 @@ ul {
 
     }
 
-   .burger {
+    .burger {
         display: none;
 
     }
@@ -1304,23 +1304,23 @@ ul {
         width: 100%;
     }
 
-	/*-----FAQ SIDEN STARTER-----*/
+    /*-----FAQ SIDEN STARTER-----*/
 
-/*******************************
+    /*******************************
 Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
 *******************************/
 
 
-.container {
-	width: 60%;
-	margin: 0 auto;
-	padding-top: 10px;
-	height: 600px;
-}
+    .container {
+        width: 60%;
+        margin: 0 auto;
+        padding-top: 10px;
+        height: 600px;
+    }
 
 
 
-/*-----FAQ SIDEN SLUTTER-----*/
+    /*-----FAQ SIDEN SLUTTER-----*/
 
 
     /* ----- FOOTER ----- */
@@ -1694,8 +1694,75 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
 
     /* ----- PRISER OG BOOKING STARTER ----- */
 
-    .booking {
-        padding-top: 200px;
+    #booking-baggrund {
+    height: 60vh;
+    }
+
+    .dropdown {
+        margin-top: 100px;
+    }
+
+    .dropbtn p {
+        margin-top: 0px;
+    }
+
+    .maaned {
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 50px;
+        padding: 20px;
+    }
+    
+    .dage li {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .dage {
+        width: 40%;
+        margin-left: 30%;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 14.3% 14.3% 14.3% 14.3% 14.3% 14.3% 14.3%;
+    }
+
+    .ma {
+        grid-column-start: 1;
+    }
+    
+    .ti {
+        grid-column-start: 2;
+    }
+    
+    .on {
+        grid-column-start: 3;
+    }
+    
+    .to {
+        grid-column-start: 4;
+    }
+    
+    .fr {
+        grid-column-start: 5;
+    }
+    
+    .lo {
+        grid-column-start: 6;
+    }
+    
+    .so {
+        grid-column-start: 7;
+    }
+
+    .dato {
+        width: 40%;
+        margin-left: 30%;
+        line-height: 80px;
+        text-align: center;
+    }
+
+    .dato li {
+        font-size: 16px;
     }
 
     /* ----- PRISER OG BOOKING SLUTTER ----- */
