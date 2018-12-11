@@ -41,17 +41,6 @@ p {
     color: #fff;
 }
 
-.sub-h1 {
-    text-align: center;
-	font-size: 25px;
-	padding:20px 0px 20px 0px;
-}
-
-.sub-section {
-	margin-right: 18px;
-	margin-left: 18px;
-}
-
 /* ----- HEADER ----- */
 
 #bookingknap a {
@@ -217,7 +206,7 @@ footer a {
 /* ----- LANDING IMG ----- */
 
 #landing {
-    height: 45vh;
+    height: 60vh;
     background-size: cover;
     background-image: url(../images/landingimg.jpg);
     background-position: top;
@@ -288,12 +277,12 @@ footer a {
 
 .marmorgrid img {
     width: auto;
-    height: 40px;
+    height: 30px;
 }
 
 .marmorgrid h3 {
-    margin-top: 5px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 /* ----- RØD TEKSTUR BG MED IKONER ----- */
@@ -302,7 +291,7 @@ footer a {
     background-size: cover;
     background-image: url(../images/rod-tekstur.jpg);
     background-position: top;
-	padding-bottom: 50px;
+    height: 850px;
 }
 
 .roedbox h2 {
@@ -384,7 +373,7 @@ footer a {
 
 .teambuilding-header {
     display: flex;
-    height: 30vh;
+    height: 40vh;
     background-size: cover;
     background-image: url(../images/bog-paa-bord.jpg);
     background-position: center;
@@ -395,12 +384,7 @@ footer a {
 .teambuilding-h2 {
     text-align: center;
     padding: 2%;
-	font-size: 20px;
 
-}
-.teambuilding-h1 {
-    text-align: center;
-	font-size: 25px;
 }
 
 
@@ -417,6 +401,7 @@ footer a {
 
 
 #fordele {
+
     display: inline-block;
     width: 80%;
     height: 30vh;
@@ -614,14 +599,29 @@ footer a {
 }
 
 
+
+
+
 #voresrum-header {
     display: flex;
-    height: 30vh;
+    height: 50vh;
     background-size: cover;
     background-image: url(../images/voresrum-header.jpg);
     background-position: center;
 }
 
+.voresrum-h1 {
+    text-align: center;
+    padding: 2%;
+}
+
+.voresrum p {
+
+
+    padding: 1% 10% 4% 10%;
+
+
+}
 
 .tekst-i-modal {
     padding: 4% 2% 4% 2%;
@@ -629,6 +629,7 @@ footer a {
     text-align: justify;
     word-break: keep-all;
     margin-bottom: 10px;
+
 
 }
 
@@ -790,6 +791,10 @@ footer a {
 
 
 
+
+
+
+
 /*De tre billeder*/
 
 .alkymisten {
@@ -859,7 +864,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
 
 
 .container {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     padding-top: 10px;
 }
@@ -915,7 +920,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
 
 #kontakt-header {
     display: flex;
-    height: 30vh;
+    height: 50vh;
     background-size: cover;
     background-image: url(../images/old-phone.jpeg);
     background-position: center;
@@ -1153,6 +1158,54 @@ ul {
 
 /* ----- PRISER OG BOOKING SLUT ----- */
 
+/* ----- GAVEKORT SIDE STARTER ----- */
+
+#gavekort-baggrund {
+    height: 30vh;
+    background-size: cover;
+    background-image: url(../images/skrivebord.jpg);
+    background-position: center;
+}
+
+.marmorgavekort {
+    background-image: url(../images/marmor.jpg);
+    text-align: center;
+    height: 310px;
+}
+
+.marmorgavekort p {
+    width: 90%;
+    margin-left: 5%;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+#gaveknap {
+    text-align: center;
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 40px;
+    background: #b11f25;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Mate', serif;
+    border-bottom: 5px solid #e51721;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#gaveknap a {
+    text-decoration: none;
+    color: white;
+}
+
+/* ----- GAVEKORT SIDE SLUTTER ----- */
+
 
 /*-------MOBILE------*/
 @media (max-width:780px) {
@@ -1372,7 +1425,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
 
     /* ----- LANDING IMG ----- */
     #landing {
-        height: 85vh;
+        height: 90vh;
         background-position: top;
     }
 
@@ -1413,12 +1466,11 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     }
 
     .marmorgrid img {
-        height: 70px;
+        height: 80px;
     }
 
     .marmorgrid h3 {
-        margin-top: 20px;
-		font-size: 18px;
+        margin-top: 30px;
     }
 
     /* ----- RØD TEKSTUR BG MED IKONER ----- */
@@ -1522,14 +1574,14 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
 
 
     #voresrum-header {
-        height: 60vh;
+        height: 75vh;
 
     }
 
     .voresrum-h1 {
         text-align: center;
         padding: 2%;
-        font-size: 25px;
+        font-size: 300%;
     }
 
 
@@ -1617,7 +1669,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     /* Headerbillede på teambuilding-siden */
 
     .teambuilding-header {
-        height: 60vh;
+        height: 90vh;
     }
 
 
@@ -1648,7 +1700,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     }
 
     .teambuilding-h2 {
-        font-size: 25px;
+        font-size: 200%;
     }
 
 
@@ -1681,7 +1733,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
 
     #kontakt-header {
         background-position: top;
-        height: 60vh;
+        height: 80vh;
     }
 
     #kontakt-tekst {
@@ -1695,7 +1747,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     /* ----- PRISER OG BOOKING STARTER ----- */
 
     #booking-baggrund {
-    height: 60vh;
+        height: 60vh;
     }
 
     .dropdown {
@@ -1712,7 +1764,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
         margin-top: 50px;
         padding: 20px;
     }
-    
+
     .dage li {
         font-size: 18px;
         width: 100%;
@@ -1729,27 +1781,27 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     .ma {
         grid-column-start: 1;
     }
-    
+
     .ti {
         grid-column-start: 2;
     }
-    
+
     .on {
         grid-column-start: 3;
     }
-    
+
     .to {
         grid-column-start: 4;
     }
-    
+
     .fr {
         grid-column-start: 5;
     }
-    
+
     .lo {
         grid-column-start: 6;
     }
-    
+
     .so {
         grid-column-start: 7;
     }
@@ -1766,4 +1818,12 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     }
 
     /* ----- PRISER OG BOOKING SLUTTER ----- */
+
+    /* ----- GAVEKORT SIDE STARTER ----- */
+
+    #gavekort-baggrund {
+        height: 60vh;
+    }
+
+    /* ----- GAVEKORT SIDE SLUTTER ----- */
 }
