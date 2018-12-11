@@ -180,14 +180,6 @@ footer a {
     margin-top: 50px;
 }
 
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-    padding: 20px;
-    width: 50px;
-    margin-bottom: 15px;
-}
-
 .fa:hover {
     opacity: 0.7;
 }
@@ -200,6 +192,11 @@ footer a {
 
 .footer-links a {
     text-decoration: underline;
+}
+
+.fb {
+    width: 20%;
+    margin-top: 5px;
 }
 
 /* ----- FOOTER SLUT ----- */
