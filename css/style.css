@@ -465,9 +465,10 @@ footer a {
 
 /* BOOK HER-KNAP PÅ TEAMBUILDING SIDEN */
 
-.bookingknap-teambuilding {
+.bookingknap-teambuilding p {
     text-align: center;
     width: 80%;
+    height: 50px;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
@@ -554,9 +555,10 @@ footer a {
 
 /* ---- HERUNDER kontakt-knap til TEAMBUILDING SIDEN ---- */
 
-#kontakt-knap {
+#kontakt-knap p {
     text-align: center;
     width: 80%;
+    height: 50px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -1493,13 +1495,13 @@ width: 20%;
     }
 
 
-    #bookingknap-teambuilding {
-        width: 30%;
+    .bookingknap-teambuilding p {
+        width: 40%;
 
     }
 
-    #kontakt-knap {
-        width: 20%;
+    #kontakt-knap p {
+        width: 30%;
     }
 
     .teambuilding-tekstafsnit {
