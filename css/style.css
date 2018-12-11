@@ -43,19 +43,22 @@ p {
 
 .sub-h1 {
     text-align: center;
-	font-size: 25px;
-	padding:20px 0px 20px 0px;
+    font-size: 40px;
+    padding: 20px 0px 20px 0px;
+    text-transform: uppercase;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .sub-h2 {
     text-align: center;
-	font-size: 18px;
-	padding:20px 0px 20px 0px;
+    font-size: 18px;
+    padding: 20px 0px 20px 0px;
 }
 
 .sub-section {
-	margin-right: 18px;
-	margin-left: 18px;
+    margin-right: 18px;
+    margin-left: 18px;
 }
 
 /* ----- HEADER ----- */
@@ -389,8 +392,7 @@ footer a {
 /* --- MORTEN HEADER TEAMBUILDING --- */
 
 .teambuilding-header {
-    display: flex;
-    height: 40vh;
+    height: 30vh;
     background-size: cover;
     background-image: url(../images/bog-paa-bord.jpg);
     background-position: center;
@@ -398,12 +400,16 @@ footer a {
 
 /*---- Øverste to info-bokse på siden: FORDELE OG PRAKTISK INFO ---- */
 
+#teambuilding-tekstur {
+    background-size: cover;
+    background-image: url(../images/marmor.jpg);
+    background-position: center;
+}
+
 .teambuilding-h2 {
     text-align: center;
     padding: 2%;
-
 }
-
 
 .wrapper-bokse h3 {
     padding: 3%;
@@ -413,69 +419,33 @@ footer a {
 .wrapper-bokse {
     text-align: center;
     padding: 3%;
-
 }
 
-
 #fordele {
-
-    display: inline-block;
     width: 80%;
-    height: 30vh;
-    border: 1px solid #7E1515;
+    margin-left: 10%;
     background-color: #7E1515;
-    margin: 3vh;
     padding-left: 3%;
     color: #fff;
     list-style-position: inside;
     text-align: left;
-
+    margin-bottom: 20px;
+    height: 160px;
 }
 
 #praktisk-info {
-    display: inline-block;
     width: 80%;
-    height: 30vh;
-    border: 1px solid #7E1515;
+    margin-left: 10%;
     background-color: #7E1515;
-    margin: 3vh;
     padding-left: 3%;
     color: #fff;
     list-style-position: inside;
     text-align: left;
+    margin-bottom: 20px;
+    height: 160px;
 }
-
 
 /* KODE FOR DE TO INFOBOKSE SLUTTER HER ^ */
-
-/* TEKST-AFSNIT: "Hos Escape Factory tilbyder vi teambuilding..." */
-
-.teambuilding-tekstafsnit {
-    letter-spacing: 0.6px;
-    background-size: cover;
-    background-image: url(../images/lys-i-loft.jpg);
-    background-position: top;
-
-}
-
-
-/*
- background-size: cover;
-    background-image: url(../images/landingimg.jpg);
-    background-position: top;
-
-*/
-
-.teambuilding-tekstafsnit {
-
-    letter-spacing: 0.6px;
-    padding: 3%;
-    background-position: bottom;
-    padding: 3%;
-    background-position: top;
-}
-
-/* BAGGRUNDBILLEDE ved Teambuilding-tekstafsnittet */
 
 /* BOOK HER-KNAP PÅ TEAMBUILDING SIDEN */
 
@@ -545,8 +515,8 @@ footer a {
     background-size: cover;
     background-image: url(../images/teambuliding-baggrund.jpg);
     background-position: center;
-	padding-right: 18px;
-	padding-left: 18px;
+    padding-right: 18px;
+    padding-left: 18px;
 
 }
 
@@ -559,7 +529,7 @@ footer a {
 /* ---- HERUNDER kontakt-knap til TEAMBUILDING SIDEN ---- */
 
 #kontakt-knap p {
-	margin-top: 30px;
+    margin-top: 30px;
     text-align: center;
     width: 300px;
     height: 50px;
@@ -611,7 +581,7 @@ footer a {
 
 #voresrum-header {
     display: flex;
-    height: 50vh;
+    height: 30vh;
     background-size: cover;
     background-image: url(../images/voresrum-header.jpg);
     background-position: center;
@@ -869,6 +839,19 @@ footer a {
 Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
 *******************************/
 
+#faq-header {
+    height: 30vh;
+    background-size: cover;
+    background-image: url(../images/atlas.jpg);
+    background-position: center;
+}
+
+#faq-tekstur {
+    background-size: cover;
+    background-image: url(../images/marmor.jpg);
+    background-position: center;
+    height: 1000px;
+}
 
 .container {
     width: 90%;
@@ -926,10 +909,9 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
 
 
 #kontakt-header {
-    display: flex;
-    height: 50vh;
+    height: 30vh;
     background-size: cover;
-    background-image: url(../images/old-phone.jpeg);
+    background-image: url(../images/old-phone.jpg);
     background-position: center;
 }
 
@@ -943,7 +925,13 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     text-align: center;
 }
 
-
+#kontakt-tekstur {
+    background-size: cover;
+    background-image: url(../images/marmor.jpg);
+    background-position: center;
+    text-align: center;
+    height: 850px;
+}
 
 /* KONTAKTFORMULAR LAVET MED INSPIRATION FRA: https://codepen.io/GabGi/pen/RVXxqo */
 
@@ -1081,7 +1069,15 @@ textarea {
     color: #ddd;
 }
 
-ul {
+.maaned ul {
+    list-style-type: none;
+}
+
+.dage ul {
+    list-style-type: none;
+}
+
+.dato ul {
     list-style-type: none;
 }
 
@@ -1177,14 +1173,13 @@ ul {
 .marmorgavekort {
     background-image: url(../images/marmor.jpg);
     text-align: center;
-    height: 310px;
+    height: 380px;
 }
 
 .marmorgavekort p {
     width: 90%;
     margin-left: 5%;
-    font-size: 12px;
-    margin-top: 15px;
+    font-size: 14px;
 }
 
 #gaveknap {
@@ -1373,7 +1368,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
 
     .container {
         width: 60%;
-        margin: 0 auto;
+        margin-top: 30px;
         padding-top: 10px;
         height: 600px;
     }
@@ -1383,10 +1378,10 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     /*-----FAQ SIDEN SLUTTER-----*/
 
 
-.sub-section {
-	margin-right: 25%;
-	margin-left: 25%;
-}
+    .sub-section {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
 
     /* ----- FOOTER ----- */
 
@@ -1460,7 +1455,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     .marmorbox h2 {
         padding-top: 70px;
         padding-bottom: 70px;
-        font-size: 55px;
+        font-size: 40px;
     }
 
     .marmorbox p {
@@ -1486,9 +1481,13 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     }
 
     /* ----- RØD TEKSTUR BG MED IKONER ----- */
-
+    
+    .roedbox {
+        height: 500px;
+    }
+    
     .roedbox h2 {
-        font-size: 55px;
+        font-size: 40px;
         padding-top: 70px;
     }
 
@@ -1570,7 +1569,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     /* ----- BAGGRUND TIL SPIL PÅ FORSIDE ----- */
 
     #hegn h2 {
-        font-size: 55px;
+        font-size: 40px;
     }
 
     #hegn p {
@@ -1586,7 +1585,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
 
 
     #voresrum-header {
-        height: 75vh;
+        height: 60vh;
 
     }
 
@@ -1642,10 +1641,6 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
         height: 411px;
     }
 
-
-
-
-
     /*billede inde i modal box*/
 
     #alkymist2,
@@ -1675,7 +1670,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     /* Headerbillede på teambuilding-siden */
 
     .teambuilding-header {
-        height: 90vh;
+        height: 60vh;
     }
 
 
@@ -1684,31 +1679,26 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     .wrapper-bokse {
         text-align: center;
         line-height: 150%;
-
     }
 
     #fordele {
         display: inline-block;
-        width: 35%;
-        height: 35vh;
+        width: 40%;
         padding: 1% 2% 2% 2%;
-        vertical-align: top;
-
+        height: 190px;
+        margin-left: 0px;
     }
 
     #praktisk-info {
         display: inline-block;
-        width: 35%;
-        height: 35vh;
+        width: 40%;
         padding: 1% 2% 2% 2%;
-        vertical-align: top;
-
+        height: 190px;
     }
 
     .teambuilding-h2 {
         font-size: 200%;
     }
-
 
     .bookingknap-teambuilding p {
         width: 40%;
@@ -1726,9 +1716,9 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
 
 
     .fulde-udbytte {
-       padding-right: 25%;
-	padding-left: 25%;
-		height: 450px;
+        padding-right: 25%;
+        padding-left: 25%;
+        height: 450px;
     }
 
 
@@ -1741,7 +1731,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
 
     #kontakt-header {
         background-position: top;
-        height: 80vh;
+        height: 60vh;
     }
 
     #kontakt-tekst {
@@ -1834,4 +1824,8 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     }
 
     /* ----- GAVEKORT SIDE SLUTTER ----- */
+
+    #faq-header {
+        height: 60vh;
+    }
 }
