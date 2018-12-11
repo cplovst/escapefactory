@@ -41,6 +41,17 @@ p {
     color: #fff;
 }
 
+.sub-h1 {
+    text-align: center;
+	font-size: 25px;
+	padding:20px 0px 20px 0px;
+}
+
+.sub-section {
+	margin-right: 18px;
+	margin-left: 18px;
+}
+
 /* ----- HEADER ----- */
 
 #bookingknap a {
@@ -209,7 +220,7 @@ footer a {
 /* ----- LANDING IMG ----- */
 
 #landing {
-    height: 60vh;
+    height: 45vh;
     background-size: cover;
     background-image: url(../images/landingimg.jpg);
     background-position: top;
@@ -280,12 +291,12 @@ footer a {
 
 .marmorgrid img {
     width: auto;
-    height: 30px;
+    height: 40px;
 }
 
 .marmorgrid h3 {
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 
 /* ----- RØD TEKSTUR BG MED IKONER ----- */
@@ -294,7 +305,7 @@ footer a {
     background-size: cover;
     background-image: url(../images/rod-tekstur.jpg);
     background-position: top;
-    height: 850px;
+	padding-bottom: 50px;
 }
 
 .roedbox h2 {
@@ -376,7 +387,7 @@ footer a {
 
 .teambuilding-header {
     display: flex;
-    height: 40vh;
+    height: 30vh;
     background-size: cover;
     background-image: url(../images/bog-paa-bord.jpg);
     background-position: center;
@@ -387,7 +398,12 @@ footer a {
 .teambuilding-h2 {
     text-align: center;
     padding: 2%;
+	font-size: 20px;
 
+}
+.teambuilding-h1 {
+    text-align: center;
+	font-size: 25px;
 }
 
 
@@ -404,7 +420,6 @@ footer a {
 
 
 #fordele {
-
     display: inline-block;
     width: 80%;
     height: 30vh;
@@ -602,29 +617,14 @@ footer a {
 }
 
 
-
-
-
 #voresrum-header {
     display: flex;
-    height: 50vh;
+    height: 30vh;
     background-size: cover;
     background-image: url(../images/voresrum-header.jpg);
     background-position: center;
 }
 
-.voresrum-h1 {
-    text-align: center;
-    padding: 2%;
-}
-
-.voresrum p {
-
-
-    padding: 1% 10% 4% 10%;
-
-
-}
 
 .tekst-i-modal {
     padding: 4% 2% 4% 2%;
@@ -632,7 +632,6 @@ footer a {
     text-align: justify;
     word-break: keep-all;
     margin-bottom: 10px;
-
 
 }
 
@@ -794,10 +793,6 @@ footer a {
 
 
 
-
-
-
-
 /*De tre billeder*/
 
 .alkymisten {
@@ -867,7 +862,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
 
 
 .container {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     padding-top: 10px;
 }
@@ -923,7 +918,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
 
 #kontakt-header {
     display: flex;
-    height: 50vh;
+    height: 30vh;
     background-size: cover;
     background-image: url(../images/old-phone.jpeg);
     background-position: center;
@@ -1377,7 +1372,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
 
     /* ----- LANDING IMG ----- */
     #landing {
-        height: 90vh;
+        height: 85vh;
         background-position: top;
     }
 
@@ -1418,11 +1413,12 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     }
 
     .marmorgrid img {
-        height: 80px;
+        height: 70px;
     }
 
     .marmorgrid h3 {
-        margin-top: 30px;
+        margin-top: 20px;
+		font-size: 18px;
     }
 
     /* ----- RØD TEKSTUR BG MED IKONER ----- */
@@ -1526,14 +1522,14 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
 
 
     #voresrum-header {
-        height: 75vh;
+        height: 60vh;
 
     }
 
     .voresrum-h1 {
         text-align: center;
         padding: 2%;
-        font-size: 300%;
+        font-size: 25px;
     }
 
 
@@ -1621,7 +1617,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     /* Headerbillede på teambuilding-siden */
 
     .teambuilding-header {
-        height: 90vh;
+        height: 60vh;
     }
 
 
@@ -1652,7 +1648,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     }
 
     .teambuilding-h2 {
-        font-size: 200%;
+        font-size: 25px;
     }
 
 
@@ -1685,7 +1681,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
 
     #kontakt-header {
         background-position: top;
-        height: 80vh;
+        height: 60vh;
     }
 
     #kontakt-tekst {
