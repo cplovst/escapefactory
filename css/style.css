@@ -1611,6 +1611,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     .modal-indhold1,
     .modal-indhold {
         width: 60%;
+        margin-top: 0%;
     }
 
     .content-billede {
