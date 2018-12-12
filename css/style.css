@@ -1456,6 +1456,8 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
 
     .marmorgrid h3 {
         margin-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     /* ----- RØD TEKSTUR BG MED IKONER ----- */
