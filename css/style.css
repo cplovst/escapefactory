@@ -896,6 +896,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
 
 .container h2 {
     font-size: 20px;
+    font-family: 'Mate', serif;
 }
 
 .lista-item {
@@ -1408,11 +1409,8 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
         height: 100%;
         margin-bottom: 100px;
     }
-    
-   
 
     /*-----FAQ SIDEN SLUTTER-----*/
-
 
     .sub-section {
         margin-left: 25%;
