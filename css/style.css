@@ -223,9 +223,10 @@ footer a {
 /* ----- TESTIMONIALS ----- */
 
 .main-gallery {
-	height: 300px;
+	height: 250px;
 	background-size: cover;
-    background-image: url(../images/buckingham-palace.jpg);
+    background-image: url(../images/tripadvisor-bg.jpg);
+	background-position: center;
 }
 
 .gallery-cell {
@@ -262,7 +263,7 @@ footer a {
 }
 
 .flickity-page-dots {
-  top: 250px;
+  top: 200px;
 }
 
 .flickity-page-dots .dot.is-selected {
@@ -1602,6 +1603,22 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
         font-size: 40px;
     }
 
+/* ----- TESTIMONIALS ----- */	
+
+.main-gallery {
+	height: 230px;
+}
+
+.testimonial {
+  margin: 30px 25% 50px 25%;
+}
+	
+.flickity-page-dots {
+  top: 170px;
+}
+	
+/* ----- TESTIMONIALS SLUTTER ----- */
+	
     /* ----- FORSIDE SLUTTER ----- */
 
 
