@@ -832,13 +832,17 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     background-size: cover;
     background-image: url(../images/marmor.jpg);
     background-position: center;
-    min-height: 1100px;
+    height: 100%;
 }
 
 .container {
     width: 90%;
     margin: 0 auto;
     padding-top: 10px;
+}
+
+.container h2 {
+    font-size: 20px;
 }
 
 .lista-item {
@@ -852,7 +856,6 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     font-size: 16px;
     color: #fff;
     font-weight: lighter;
-    font-family: 'Merriweather Sans', sans-serif;
 }
 
 
@@ -864,10 +867,8 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
 
 .faq-conteudo {
     padding-top: 20px;
-    color: #252525;
     font-size: 14px;
     display: none;
-
 }
 
 .trigger-input {
@@ -1347,15 +1348,17 @@ textarea {
 Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
 *******************************/
 
-
     .container {
         width: 60%;
         margin-top: 30px;
         padding-top: 10px;
         height: 600px;
+        margin-bottom: 100px;
     }
-
-
+    
+    #faq-tekstur {
+        height: 100%;
+    }
 
     /*-----FAQ SIDEN SLUTTER-----*/
 
