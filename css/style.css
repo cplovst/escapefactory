@@ -566,7 +566,7 @@ footer a {
 /*----DE 3 RUM/VORES RUM SIDEN STARTER-----*/
 
 #marmor-baggrund-rum {
-    height: 700px;
+    height: 1050px;
     background-image: url(../images/marmor.jpg);
 }
 
@@ -607,29 +607,44 @@ footer a {
 #oberstimg {
     width: 100%;
     height: 200px;
+    background-size: cover;
+    background-image: url(../images/oberst.jpg);
+    background-position: center;
 }
 
 #enigmaimg {
     width: 100%;
     height: 200px;
+    background-size: cover;
+    background-image: url(../images/enigma.png);
+    background-position: center;
 }
 
 #alkymistimg {
     width: 100%;
     height: 200px;
+    background-size: cover;
+    background-image: url(../images/alkymisten.jpg);
+    background-position: center;
 }
 
+.alkymisten {
+    margin-top: 30px;
+}
 
-.enigmaimg,
-.alkymistimg,
-.oberstimg {
+.enigma {
+    margin-top: 30px;
+}
 
+.oberst {
+    margin-top: 30px;
+}
+
+.content-billede {
     width: 100%;
-    height: 150px;
-
 }
 
-/*med inspiration fra https://www.w3schools.com/howto/howto_css_modals.asp*/
+/* med inspiration fra https://www.w3schools.com/howto/howto_css_modals.asp */
 
 /* The Modal (background) */
 
@@ -1197,22 +1212,9 @@ textarea {
         display: none;
     }
 
-
-
-
-
-
 }
 
-
-
-
 /*------TABLET-------*/
-
-
-
-
-
 
 
 /* ----- DESKTOP ----- */
@@ -1556,12 +1558,12 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
 
     /*---RUMMENE STARTER DESKTOP---*/
 
-
-
+    #marmor-baggrund-rum {
+        height: 750px;
+    }
 
     #voresrum-header {
         height: 60vh;
-
     }
 
     .voresrum-h1 {
@@ -1578,8 +1580,21 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
 
     .detrerum {
         margin-top: 50px;
-        display: flex;
-        justify-content: space-around;
+        display: grid;
+        grid-template-columns: 30% 10% 30% 10% 30%;
+        margin-left: -10%;
+    }
+
+    .alkymisten {
+        grid-column-start: 1;
+    }
+
+    .enigma {
+        grid-column-start: 3;
+    }
+
+    .oberst {
+        grid-column-start: 5;
     }
 
     .tekstonimg1 {
@@ -1589,16 +1604,18 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
         top: 70%;
         left: 50%;
         transform: translate(-50%, -50%);
-
     }
 
-
-
+    .modal-content,
+    .modal-indhold1,
+    .modal-indhold {
+        margin-top: 10%;
+        width: 60%;
+    }
 
     .detrerum img {
         width: 100%;
     }
-
 
     #oberstimg {
         width: 299px;
@@ -1622,18 +1639,11 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     #enigma2 {
         width: 80%;
         height: 250px;
-
-
     }
-
 
     .booknu-rum {
-
         width: 20%;
-
     }
-
-
 
     /*---RUMMENE SLUTTER--*/
 
@@ -1656,7 +1666,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
         display: grid;
         grid-template-columns: 45% 10% 45%;
     }
-    
+
     #fordele {
         display: inline-block;
         width: 100%;
