@@ -223,7 +223,9 @@ footer a {
 /* ----- TESTIMONIALS ----- */
 
 .main-gallery {
-  background: #fff;
+	height: 300px;
+	background-size: cover;
+    background-image: url(../images/buckingham-palace.jpg);
 }
 
 .gallery-cell {
@@ -232,9 +234,8 @@ footer a {
 
 .testimonial {
   text-align: center;
-  max-width: 850px;
-  margin: 100px auto 130px auto;
-  padding: 0 20px;
+  margin: 30px auto 50px auto;
+  padding: 0 18px;
 }
 
 .testimonial-h2 {
@@ -249,7 +250,7 @@ footer a {
 
 .testimonial-quote {
   display: block;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: lighter;
   padding: 5px 0;
 }
@@ -261,7 +262,7 @@ footer a {
 }
 
 .flickity-page-dots {
-  bottom: 50px;
+  top: 250px;
 }
 
 .flickity-page-dots .dot.is-selected {
