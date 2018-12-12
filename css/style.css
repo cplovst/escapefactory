@@ -70,7 +70,7 @@ p {
     left: 50%;
     transform: translateX(-50%);
     line-height: 40px;
-    background: #b11f25;
+    background: #7E1515;
     top: 260px;
     display: inline-block;
     font-weight: 700;
@@ -78,7 +78,7 @@ p {
     color: #f8f6ee;
     font-family: 'Mate', serif;
     text-decoration: none;
-    border-bottom: 5px solid #e51721;
+    border-bottom: 5px solid #b11f25;
     text-transform: uppercase;
     letter-spacing: 0.6px;
     z-index: 1;
@@ -462,8 +462,7 @@ footer a {
     display: inline-block;
     font-weight: 700;
     font-size: 16px;
-    color: #f8f6ee;
-    border-bottom: 8px solid #e51721;
+    border-bottom: 8px solid #b11f25;
     text-transform: uppercase;
     letter-spacing: 0.6px;
     margin-top: 10%;
@@ -542,8 +541,7 @@ footer a {
     display: inline-block;
     font-weight: 700;
     font-size: 16px;
-    color: #f8f6ee;
-    border-bottom: 8px solid #e51721;
+    border-bottom: 8px solid #b11f25;
     text-transform: uppercase;
     letter-spacing: 0.6px;
 
@@ -1168,12 +1166,12 @@ textarea {
     left: 50%;
     transform: translateX(-50%);
     line-height: 40px;
-    background: #b11f25;
+    background: #7e1515;
     display: inline-block;
     font-weight: 700;
     font-size: 16px;
     font-family: 'Mate', serif;
-    border-bottom: 5px solid #e51721;
+    border-bottom: 5px solid #b11f25;
     text-transform: uppercase;
     letter-spacing: 0.6px;
     margin-top: 50px;
