@@ -1352,13 +1352,11 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
         width: 60%;
         margin-top: 30px;
         padding-top: 10px;
-        height: 600px;
+        height: 100%;
         margin-bottom: 100px;
     }
     
-    #faq-tekstur {
-        height: 100%;
-    }
+   
 
     /*-----FAQ SIDEN SLUTTER-----*/
 
