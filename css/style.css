@@ -1581,21 +1581,13 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
 
     .detrerum {
         margin-top: 50px;
-        display: grid;
-        grid-template-columns: 30% 10% 30% 10% 30%;
-        margin-left: -10%;
+        display: flex;
+        justify-content: space-around;
     }
 
-    .alkymisten {
-        grid-column-start: 1;
-    }
-
-    .enigma {
-        grid-column-start: 3;
-    }
-
-    .oberst {
-        grid-column-start: 5;
+    .rum-margin {
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     .tekstonimg1 {
