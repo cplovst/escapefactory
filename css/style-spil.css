@@ -1,0 +1,244 @@
+/*GLOBAL*/
+
+body {
+    width: 100%;
+    margin: 0%;
+}
+
+/*-----SPILLET---styling af baggrundsbilleder*/
+
+
+.baggrundimg {
+    width: 100%;
+}
+
+
+.baggrund-spil {
+    /*index-første side*/
+    position: relative;
+}
+
+
+.baggrund1-spil {
+    /*gaaden*/
+    position: relative;
+
+}
+
+.baggrund3-spil {
+
+    /*rum1*/
+    position: relative;
+}
+
+.baggrund4-spil {
+
+    /*rum2*/
+    position: relative;
+}
+
+.baggrund5-spil {
+
+    /*rum3*/
+    position: relative;
+}
+
+.baggrund6-spil {
+
+    /*hængelås*/
+    position: relative;
+}
+
+
+
+
+
+
+
+#demo {
+    position: absolute;
+    font-size: 20px;
+    background: #7c2000;
+    font-family: mate sc;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+/*pile der er på alle sider, i højre og venstre side
+container styler også knappen med før mig til hængelåsen*/
+
+.pilhojre {
+
+    position: absolute;
+    width: 33px;
+
+    top: 50%;
+    right: 0%;
+
+
+
+
+
+}
+
+.pilvenstre {
+    width: 33px;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+
+
+
+}
+
+
+/*styling af jeg har knækket koden-knap*/
+
+.knaekketkoden {
+
+    background: #7c2000;
+    border: none;
+    padding: 1% 2%;
+    font-size: 15px;
+    font-family: mate sc;
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+}
+
+
+/*styling af forsiden, hvor man sætter spillet igang*/
+
+.startspil {
+    background: #7c2000;
+    border: none;
+    padding: 1% 5%;
+    font-size: 20px;
+    font-family: mate sc;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+
+
+/*styling af gaade siden*/
+
+#fjernsynet {
+    width: 25%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+
+
+}
+
+/*styling af rum 2*/
+
+.stikkontakt {
+
+    width: 5%;
+
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+
+/*styling af hængelåsrum */
+
+.padlock {
+    position: absolute;
+    width: 30%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+
+}
+
+
+
+
+/*-----------styling af gaadesiden---------*/
+
+/*---------styling af gådesiden med fjernsyn slut--------*/
+
+/*---------------MOBIL---------------------*/
+
+@media (max-width: 767px) {
+   
+
+    .startspil {
+
+        top: 83%;
+    
+
+    }
+
+
+}
+
+
+/*----------------------------TABLET OG DEROVER------------------------------*/
+
+@media(min-width: 768px) {
+    .baggrundimg {
+        /*gaaden*/
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .stikkontakt {
+        width: 3%;
+
+
+
+    }
+
+    #demo {
+        position: absolute;
+        font-size: 35px;
+        background: #7c2000;
+        text-align: center;
+        font-family: mate sc;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+
+    .pilhojre {
+
+
+        width: 40px;
+
+    }
+
+    .pilvenstre {
+        width: 40px;
+
+    }
+
+}
+
+/*------------------------------LAPTOP OG DEROVER----------------------------------*/
+
+@media(min-width: 1027px) {
+    .startspil {
+        margin-top: 7%;
+    }
+    
+    
+    
+    
+}
