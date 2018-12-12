@@ -783,16 +783,16 @@ footer a {
 #myBtn,
 #minknap,
 #minknap1 {
-
-    background: #7c2000;
+    background: #7E1515;
     border: none;
-
     padding: 1% 5%;
     font-size: 20px;
+    color: white;
     position: absolute;
     top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-family: 'Merriweather Sans', sans-serif;
 
 }
 
@@ -815,13 +815,6 @@ footer a {
     transform: translate(-50%, -50%);
 
 }
-
-
-
-
-
-
-
 
 /*-----VORES RUM SIDEN SLUTTER-----*/
 
@@ -976,12 +969,6 @@ textarea {
 
     background: #000;
 }
-
-
-
-
-
-
 
 /* HER SLUTTER KONTAKT-SIDEN ------- */
 
@@ -1210,7 +1197,25 @@ textarea {
     #myBtn,
     #minknap,
     #minknap1 {
-        display: none;
+        width: 20%;
+        font-size: 12px;
+        padding: 5px;
+        margin-top: 5px;
+    }
+
+    .alkymisten {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .enigma {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .oberst {
+        width: 90%;
+        margin-left: 5%;
     }
 
 }
@@ -1604,7 +1609,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     .modal-content,
     .modal-indhold1,
     .modal-indhold {
-        
+
         width: 60%;
         margin-top: 0%;
     }
