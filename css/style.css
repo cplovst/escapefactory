@@ -308,9 +308,8 @@ footer a {
 /* ----- RØD TEKSTUR BG MED IKONER ----- */
 
 .roedbox {
-    background-size: cover;
-    background-image: url(../images/rod-tekstur.jpg);
-    background-position: top;
+    background-image: url(../images/pattern-bg.jpg);
+	background-repeat: repeat;
     height: 850px;
 }
 
