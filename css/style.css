@@ -107,8 +107,8 @@ p {
     z-index: 3;
     margin-top: 27px;
     margin-left: 20px;
-	width: 24px;
-	height: auto;
+    width: 24px;
+    height: auto;
 }
 
 /* ----- MENU ----- */
@@ -310,7 +310,7 @@ footer a {
 
 .roedbox {
     background-image: url(../images/pattern-bg.jpg);
-	background-repeat: repeat;
+    background-repeat: repeat;
     height: 850px;
 }
 
@@ -682,6 +682,7 @@ footer a {
     margin: auto;
     padding: 30px;
     width: 90%;
+    margin-top: -15%;
 }
 
 .booknu-rum {
@@ -1609,8 +1610,12 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     .modal-content,
     .modal-indhold1,
     .modal-indhold {
-        margin-top: 10%;
         width: 60%;
+    }
+
+    .content-billede {
+        width: 50%;
+        margin-left: 25%;
     }
 
     .detrerum img {
