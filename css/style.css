@@ -832,7 +832,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     background-size: cover;
     background-image: url(../images/marmor.jpg);
     background-position: center;
-    height: 1000px;
+    min-height: 1000px;
 }
 
 .container {
