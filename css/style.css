@@ -105,9 +105,10 @@ p {
 .header-tlf {
     position: absolute;
     z-index: 3;
-    margin-top: 18px;
+    margin-top: 27px;
     margin-left: 20px;
-    font-size: 25px;
+	width: 24px;
+	height: auto;
 }
 
 /* ----- MENU ----- */
@@ -308,9 +309,8 @@ footer a {
 /* ----- RØD TEKSTUR BG MED IKONER ----- */
 
 .roedbox {
-    background-size: cover;
-    background-image: url(../images/rod-tekstur.jpg);
-    background-position: top;
+    background-image: url(../images/pattern-bg.jpg);
+	background-repeat: repeat;
     height: 850px;
 }
 
