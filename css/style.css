@@ -105,9 +105,10 @@ p {
 .header-tlf {
     position: absolute;
     z-index: 3;
-    margin-top: 18px;
+    margin-top: 27px;
     margin-left: 20px;
-    font-size: 25px;
+	width: 24px;
+	height: auto;
 }
 
 /* ----- MENU ----- */
