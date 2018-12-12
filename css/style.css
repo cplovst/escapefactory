@@ -215,8 +215,8 @@ footer a {
 }
 
 .fb {
-    width: 20%;
-    margin-top: 5px;
+    width: 50px;
+    margin-bottom: 10px;
 }
 
 /* ----- FOOTER SLUT ----- */
@@ -1393,7 +1393,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     /* ----- HEADER ----- */
     #bookingknap a {
         width: 350px;
-        margin-top: 350px;
+        margin-top: 18%;
         z-index: 2;
     }
 
@@ -1413,12 +1413,12 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     }
 
     .landingbox h1 {
-        top: 400px;
+        top: 40%;
         font-size: 70px;
     }
 
     .landingbox h2 {
-        top: 470px;
+        top: 48%;
         font-size: 60px;
     }
 
