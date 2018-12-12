@@ -418,14 +418,13 @@ footer a {
 
 .wrapper-bokse {
     text-align: center;
-    padding: 3%;
 }
 
 #fordele {
     width: 80%;
     margin-left: 10%;
     background-color: #7E1515;
-    padding-left: 3%;
+    padding: 3%;
     color: #fff;
     list-style-position: inside;
     text-align: left;
@@ -437,7 +436,7 @@ footer a {
     width: 80%;
     margin-left: 10%;
     background-color: #7E1515;
-    padding-left: 3%;
+    padding: 3%;
     color: #fff;
     list-style-position: inside;
     text-align: left;
