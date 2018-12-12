@@ -37,7 +37,7 @@ h6 {
 p {
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 14px;
-    line-height: 19px;
+    line-height: 25px;
     color: #fff;
 }
 
@@ -273,13 +273,6 @@ footer a {
     text-transform: uppercase;
 }
 
-.marmorbox p {
-    width: 90%;
-    margin-left: 5%;
-    font-size: 12px;
-    margin-top: 15px;
-}
-
 .marmor {
     width: 100%;
     height: 600px;
@@ -311,7 +304,7 @@ footer a {
 .roedbox {
     background-image: url(../images/pattern-bg.jpg);
     background-repeat: repeat;
-    height: 850px;
+    height: 920px;
 }
 
 .roedbox h2 {
@@ -339,7 +332,6 @@ footer a {
 
 .content-for-alle p {
     margin-top: 10px;
-    font-size: 12px;
     width: 90%;
     margin-left: 5%;
 }
@@ -352,8 +344,7 @@ footer a {
 
 .pris-box {
     margin-top: 50px;
-    padding-top: 8px;
-    min-height: 80px;
+    min-height: 90px;
     background-color: rgba(126, 21, 21, 0.5);
     width: 50%;
     margin-left: 25%;
@@ -361,6 +352,12 @@ footer a {
 
 .pris {
     font-size: 35px;
+    padding-top: 12px;
+}
+
+.pris-dage {
+    font-size: 16px;
+    padding-top: 10px;
 }
 
 /* ----- BAGGRUND TIL SPIL PÅ FORSIDE ----- */
@@ -566,7 +563,7 @@ footer a {
 /*----DE 3 RUM/VORES RUM SIDEN STARTER-----*/
 
 #marmor-baggrund-rum {
-    height: 1050px;
+    height: 1100px;
     background-image: url(../images/marmor.jpg);
 }
 
@@ -1227,14 +1224,16 @@ textarea {
 
 @media (min-width:1025px) {
 
+    p {
+        font-size: 16px;
+    }
+
     /* ----- HEADER ----- */
 
     .header-booking {
         margin-top: 78px;
         margin-left: 180px;
         font-size: 12px;
-
-
     }
 
     .header-tlf {
@@ -1441,18 +1440,12 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
         font-size: 40px;
     }
 
-    .marmorbox p {
-        width: 60%;
-        margin-left: 20%;
-        font-size: 16px;
-        margin-top: 70px;
-    }
-
     .marmorgrid {
         width: 80%;
         margin-left: 10%;
         grid-template-columns: auto auto auto auto auto auto;
         font-size: 20px;
+        margin-bottom: 70px;
     }
 
     .marmorgrid img {
@@ -1483,10 +1476,6 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     .content-for-alle {
         display: grid;
         grid-template-columns: 10% 26.67% 26.67% 26.67% 10%;
-    }
-
-    .content-for-alle p {
-        font-size: 16px;
     }
 
     .familie {
@@ -1524,7 +1513,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
 
     .pris-box {
         margin-left: 0;
-        min-height: 200px;
+        min-height: 170px;
         padding-top: 20px;
     }
 
@@ -1535,20 +1524,23 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
 
     #pris1 {
         grid-column-start: 2;
-        width: 100%;
+        width: 80%;
+        margin-left: 10%;
     }
 
     #pris2 {
         grid-column-start: 4;
-        width: 100%;
+        width: 80%;
+        margin-left: 10%;
     }
 
-    .pris-box {
+    .pris-dage {
         font-size: 30px;
     }
 
     .pris {
-        font-size: 100px;
+        font-size: 60px;
+        padding-top: 50px;
     }
 
     /* ----- BAGGRUND TIL SPIL PÅ FORSIDE ----- */
@@ -1557,17 +1549,13 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
         font-size: 40px;
     }
 
-    #hegn p {
-        font-size: 16px;
-    }
-
     /* ----- FORSIDE SLUTTER ----- */
 
 
     /*---RUMMENE STARTER DESKTOP---*/
 
     #marmor-baggrund-rum {
-        height: 750px;
+        height: 800px;
     }
 
     #voresrum-header {
@@ -1751,8 +1739,8 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     }
 
     .maaned {
-        width: 40%;
-        margin-left: 30%;
+        width: 30%;
+        margin-left: 35%;
         margin-top: 50px;
         padding: 20px;
     }
@@ -1763,8 +1751,8 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     }
 
     .dage {
-        width: 40%;
-        margin-left: 30%;
+        width: 30%;
+        margin-left: 35%;
         padding: 20px;
         display: grid;
         grid-template-columns: 14.3% 14.3% 14.3% 14.3% 14.3% 14.3% 14.3%;
@@ -1799,9 +1787,9 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     }
 
     .dato {
-        width: 40%;
-        margin-left: 30%;
-        line-height: 80px;
+        width: 30%;
+        margin-left: 35%;
+        line-height: 50px;
         text-align: center;
     }
 
