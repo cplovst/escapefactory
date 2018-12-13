@@ -5,10 +5,36 @@ body {
     margin: 0%;
 }
 
+/* ----- Fonte ----- */
 
+h1,
+h2 {
+    font-family: 'Mate SC', serif;
+    color: #7E1515;
+    text-transform: uppercase;
+    padding-top: 50px;
+    font-size: 60px;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Mate', serif;
+    color: #fff;
+}
+
+p {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    color: #fff;
+    padding-top: 20px;
+    width: 80%;
+    margin-left: 10%;
+}
 
 /*-----SPILLET---styling af baggrundsbilleder*/
-
 
 .baggrundimg {
     width: 100%;
@@ -17,7 +43,9 @@ body {
 
 .baggrund-spil {
     /*index-første side*/
-    position: relative;
+    background-size: cover;
+    background-image: url(../images/startspil-img.jpg);
+    background-repeat: no-repeat;
 }
 
 
@@ -51,12 +79,6 @@ body {
     position: relative;
 }
 
-
-
-
-
-
-
 #demo {
     position: absolute;
     font-size: 20px;
@@ -65,25 +87,16 @@ body {
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
-
 
 /*pile der er på alle sider, i højre og venstre side
 container styler også knappen med før mig til hængelåsen*/
 
 .pilhojre {
-
     position: absolute;
     width: 33px;
-
     top: 50%;
     right: 0%;
-
-
-
-
-
 }
 
 .pilvenstre {
@@ -91,17 +104,12 @@ container styler også knappen med før mig til hængelåsen*/
     position: absolute;
     top: 50%;
     left: 0%;
-
-
-
 }
-
 
 /*styling af jeg har knækket koden-knap*/
 
 .knaekketkoden {
-
-    background: #7c2000;
+    background: #7E1515;
     border: none;
     padding: 1% 2%;
     font-size: 15px;
@@ -109,26 +117,40 @@ container styler også knappen med før mig til hængelåsen*/
     position: absolute;
     bottom: 4px;
     right: 4px;
+    color: white;
 }
 
 
 /*styling af forsiden, hvor man sætter spillet igang*/
 
 .startspil {
-    background: #7c2000;
+    background: #7E1515;
     border: none;
     padding: 1% 5%;
     font-size: 20px;
-    font-family: mate sc;
+    font-family: 'Mate SC', serif;
     position: absolute;
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-
+    color: white;
+    text-transform: uppercase;
 }
 
+button:hover {
+    opacity: 0.8;
+}
 
+.startside-bg {
+    z-index: 1;
+    width: 60%;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-left: 20%;
+    margin-top: 5%;
+    text-align: center;
+    border-radius: 2px;
+}
 
 /*styling af gaade siden*/
 
