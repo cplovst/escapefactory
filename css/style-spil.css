@@ -26,7 +26,7 @@ h6 {
 
 .startside-bg p {
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 40px;
     color: #fff;
     padding-top: 20px;
@@ -41,6 +41,7 @@ h6 {
     background-size: cover;
     background-image: url(../images/startspil-img.jpg);
     background-repeat: no-repeat;
+    height: 100vh;
 }
 
 
@@ -139,7 +140,7 @@ container styler også knappen med før mig til hængelåsen*/
     font-size: 20px;
     font-family: 'Mate SC', serif;
     position: absolute;
-    top: 70%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -152,10 +153,10 @@ container styler også knappen med før mig til hængelåsen*/
 
 .startside-bg {
     z-index: 1;
-    width: 60%;
-    height: 800px;
+    width: 80%;
+    height: 700px;
     background-color: rgba(0, 0, 0, 0.8);
-    margin-left: 20%;
+    margin-left: 10%;
     margin-top: 5%;
     text-align: center;
     border-radius: 2px;
@@ -206,18 +207,7 @@ container styler også knappen med før mig til hængelåsen*/
 
 /*---------------MOBIL---------------------*/
 
-@media (max-width: 767px) {
 
-
-    .startspil {
-
-        top: 83%;
-
-
-    }
-
-
-}
 
 
 /*----------------------------TABLET OG DEROVER------------------------------*/
@@ -226,7 +216,6 @@ container styler også knappen med før mig til hængelåsen*/
 
     .stikkontakt {
         width: 3%;
-
 
 
     }
@@ -254,15 +243,6 @@ container styler også knappen med før mig til hængelåsen*/
     .pilvenstre {
         width: 40px;
 
-    }
-
-}
-
-/*------------------------------LAPTOP OG DEROVER----------------------------------*/
-
-@media(min-width: 1027px) {
-    .startspil {
-        margin-top: 7%;
     }
 
 }
