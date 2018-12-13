@@ -869,6 +869,21 @@ footer a {
 
 /*-----VORES RUM SIDEN SLUTTER-----*/
 
+/*-----SPILLET-----*/
+
+.startspilimg {
+    width: 80%;
+   margin-top: 30px;
+    
+    
+}
+
+/*SPILLET SLUTTER----*/
+
+
+
+
+
 /*-----FAQ SIDEN STARTER-----*/
 
 /*******************************
@@ -1775,6 +1790,25 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
 
 
     /* ---------TEAMBUILDING DESKTOP SLUT ----- */
+    
+    /*-----SPILLET DESKTOP-----*/
+
+.startspilimg {
+    width: 40%;
+    
+    margin-top: 10px;
+   
+    
+    
+}
+
+/*SPILLET SLUTTER----*/
+
+    
+    
+    
+    
+    
 
 
     /* --------- KONTAKT-SIDEN DESKTOP START ----------*/
