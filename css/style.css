@@ -561,13 +561,12 @@ footer a {
 /*EL-KHOLY muligheden - tekstafsnit */
 
 .fulde-udbytte {
-    height: 600px;
+    height: 750px;
     background-size: cover;
     background-image: url(../images/teambuliding-baggrund.jpg);
     background-position: center;
     padding-right: 18px;
     padding-left: 18px;
-
 }
 
 
@@ -1770,7 +1769,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     .fulde-udbytte {
         padding-right: 25%;
         padding-left: 25%;
-        height: 450px;
+        height: 500px;
     }
 
 
