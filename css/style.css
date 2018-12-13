@@ -561,7 +561,7 @@ footer a {
 /*EL-KHOLY muligheden - tekstafsnit */
 
 .fulde-udbytte {
-    height: 750px;
+    height: 820px;
     background-size: cover;
     background-image: url(../images/teambuliding-baggrund.jpg);
     background-position: center;
@@ -569,6 +569,16 @@ footer a {
     padding-left: 18px;
 }
 
+.fulde-udbytte h2 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#teambuilding-tekstur h3 {
+    text-align: center;
+}
 
 #consult-tekst {
     margin: 2%;
@@ -881,10 +891,7 @@ footer a {
 /*SPILLET SLUTTER----*/
 
 
-
-
-
-/*-----FAQ SIDEN STARTER-----*/
+/*---- SIDEN STARTER-----*/
 
 /*******************************
 Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
@@ -1739,10 +1746,10 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     /* DE TO BOKSE, FORDELE OG PRAKTISK INFO -- på TEAMBUILDING-SIDEN */
 
     .wrapper-bokse {
-        text-align: center;
         line-height: 150%;
         display: grid;
         grid-template-columns: 45% 10% 45%;
+        margin-bottom: 20px;
     }
 
     #fordele {
@@ -1777,18 +1784,20 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
 
     .teambuilding-tekstafsnit {
         padding: 0% 15% 0% 15%;
-
     }
 
 
     .fulde-udbytte {
         padding-right: 25%;
         padding-left: 25%;
-        height: 500px;
+        height: 550px;
     }
-
-
-
+    
+    .fulde-udbytte h2 {
+        font-size: 25px;
+    }
+    
+        
     /* ---------TEAMBUILDING DESKTOP SLUT ----- */
     
     /*-----SPILLET DESKTOP-----*/
