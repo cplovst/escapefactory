@@ -41,7 +41,6 @@ h6 {
     background-size: cover;
     background-image: url(../images/startspil-img.jpg);
     background-repeat: no-repeat;
-    height: 100vh;
 }
 
 
@@ -140,7 +139,7 @@ container styler også knappen med før mig til hængelåsen*/
     font-size: 20px;
     font-family: 'Mate SC', serif;
     position: absolute;
-    top: 85%;
+    margin-top: 80px;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -193,56 +192,4 @@ container styler også knappen med før mig til hængelåsen*/
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-
-
-}
-
-
-
-
-/*-----------styling af gaadesiden---------*/
-
-/*---------styling af gådesiden med fjernsyn slut--------*/
-
-/*---------------MOBIL---------------------*/
-
-
-
-
-/*----------------------------TABLET OG DEROVER------------------------------*/
-
-@media(min-width: 768px) {
-
-    .stikkontakt {
-        width: 3%;
-
-
-    }
-
-    #demo {
-        position: absolute;
-        font-size: 35px;
-        background: #7c2000;
-        text-align: center;
-        font-family: mate sc;
-        top: 35%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-
-    }
-
-
-    .pilhojre {
-
-
-        width: 40px;
-
-    }
-
-    .pilvenstre {
-        width: 40px;
-
-    }
-
 }
