@@ -359,7 +359,7 @@ footer a {
 .roedbox {
     background-image: url(../images/pattern-bg.jpg);
     background-repeat: repeat;
-    height: 920px;
+    height: 950px;
 }
 
 .roedbox h2 {
@@ -984,7 +984,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     background-image: url(../images/marmor.jpg);
     background-position: center;
     text-align: center;
-    height: 850px;
+    height: 950px;
 }
 
 /* KONTAKTFORMULAR LAVET MED INSPIRATION FRA: https://codepen.io/GabGi/pen/RVXxqo */
@@ -1190,7 +1190,7 @@ textarea {
 .dato li {
     list-style-type: none;
     display: inline-block;
-    width: 13.6%;
+    width: 13.5%;
     text-align: center;
     margin-bottom: 5px;
     font-size: 12px;
@@ -1530,7 +1530,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     /* ----- RØD TEKSTUR BG MED IKONER ----- */
 
     .roedbox {
-        height: 500px;
+        height: 550px;
     }
 
     .roedbox h2 {
