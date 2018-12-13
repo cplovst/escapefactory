@@ -513,8 +513,8 @@ footer a {
     color: #fff;
 }
 
-.bookingknap-teambuilding a:hover {
-    background-color: #7E1515;
+.bookingknap-teambuilding p:hover {
+    background-color: #b11f25;
     -webkit-transition: all 0.6s;
     -moz-transition: all 0.6s;
     -o-transition: all 0.6s;
@@ -601,8 +601,8 @@ footer a {
     color: #fff;
 }
 
-#kontakt-knap a:hover {
-    background-color: #7E1515;
+#kontakt-knap p:hover {
+    background-color: #b11f25;
     -webkit-transition: all 0.6s;
     -moz-transition: all 0.6s;
     -o-transition: all 0.6s;
@@ -889,7 +889,11 @@ footer a {
 }
 
 .spil-knap:hover {
-    opacity: 0.7;
+    background-color: #b11f25;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;
 }
 
 .startspilimg {
@@ -1048,6 +1052,10 @@ textarea {
 
 .send-knap:hover {
     background: #000;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;
 }
 
 /* HER SLUTTER KONTAKT-SIDEN ------- */
@@ -1249,11 +1257,16 @@ textarea {
     text-transform: uppercase;
     letter-spacing: 0.6px;
     margin-top: 50px;
-}
-
-#gaveknap a {
     text-decoration: none;
     color: white;
+}
+
+#gaveknap:hover {
+    background-color: #b11f25;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;
 }
 
 /* ----- GAVEKORT SIDE SLUTTER ----- */
@@ -1484,7 +1497,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     }
 
     #bookingknap a:hover {
-        background-color: #e51721;
+        background-color: #b11f25;
         -webkit-transition: all 0.6s;
         -moz-transition: all 0.6s;
         -o-transition: all 0.6s;
@@ -1818,7 +1831,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     }
 
     #kontakt-knap p {
-        width: 30%;
+        width: 20%;
     }
 
     .teambuilding-tekstafsnit {
