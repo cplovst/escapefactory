@@ -75,7 +75,7 @@ p {
     display: inline-block;
     font-weight: 700;
     font-size: 16px;
-    color: #f8f6ee;
+    color: white;
     font-family: 'Mate', serif;
     text-decoration: none;
     border-bottom: 5px solid #b11f25;
@@ -223,51 +223,51 @@ footer a {
 /* ----- TESTIMONIALS ----- */
 
 .main-gallery {
-	height: 250px;
-	background-size: cover;
+    height: 250px;
+    background-size: cover;
     background-image: url(../images/tripadvisor-bg.jpg);
-	background-position: center;
+    background-position: center;
 }
 
 .gallery-cell {
-  width: 100%;
+    width: 100%;
 }
 
 .testimonial {
-  text-align: center;
-  margin: 30px auto 50px auto;
-  padding: 0 18px;
+    text-align: center;
+    margin: 30px auto 50px auto;
+    padding: 0 18px;
 }
 
 .testimonial-h2 {
-  display: block;
-  font-size: 22px;
-  padding: 10px 0;
-	color: #fff;
-	font-family: 'Mate', serif;
-	
+    display: block;
+    font-size: 22px;
+    padding: 10px 0;
+    color: #fff;
+    font-family: 'Mate', serif;
+
 }
 
 .testimonial-quote {
-  display: block;
-  font-size: 13px;
-  font-weight: lighter;
-  padding: 5px 0;
-	color: #fff;
+    display: block;
+    font-size: 13px;
+    font-weight: lighter;
+    padding: 5px 0;
+    color: #fff;
 }
 
 .testimonial-author {
-  display: block;
-  font-weight: 800;
-  color: #7E1515;
+    display: block;
+    font-weight: 800;
+    color: #7E1515;
 }
 
 .flickity-page-dots {
-  top: 200px;
+    top: 200px;
 }
 
 .flickity-page-dots .dot.is-selected {
-  background: #7E1515;
+    background: #7E1515;
 }
 
 
@@ -415,7 +415,7 @@ footer a {
     padding-top: 10px;
 }
 
-/* ----- BAGGRUND TIL SPIL PÅ FORSIDE ----- */
+/* ----- SPIL PÅ FORSIDE ----- */
 
 #hegn {
     background-size: cover;
@@ -435,7 +435,6 @@ footer a {
     width: 90%;
     margin-left: 5%;
 }
-
 
 /* ----- FORSIDE SLUT ----- */
 
@@ -881,11 +880,37 @@ footer a {
 
 /*-----SPILLET-----*/
 
+.spil-knap {
+    text-align: center;
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 40px;
+    background: #7E1515;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    font-family: 'Mate', serif;
+    text-decoration: none;
+    border-bottom: 5px solid #b11f25;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    z-index: 1;
+    margin-top: 30%;
+}
+
+.spil-knap:hover {
+    opacity: 0.7;
+}
+
 .startspilimg {
-    width: 80%;
-   margin-top: 30px;
-    
-    
+    width: 90%;
+    margin-top: 30px;
 }
 
 /*SPILLET SLUTTER----*/
@@ -1041,7 +1066,6 @@ textarea {
 }
 
 .send-knap:hover {
-
     background: #000;
 }
 
@@ -1467,6 +1491,10 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     .footer-follow {
         grid-column-start: 5;
     }
+    
+    .footer-follow img:hover {
+        opacity: 0.7;
+    }
 
     /* ----- FOOTER ----- */
 
@@ -1623,23 +1651,40 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     #hegn h2 {
         font-size: 40px;
     }
+    
+    #hegn {
+        height: 750px;
+    }
+    
+    /*-----SPILLET DESKTOP-----*/
 
-/* ----- TESTIMONIALS ----- */	
+    .startspilimg {
+        width: 40%;
+        margin-top: 50px;
+    }
+    
+    .spil-knap {
+        margin-top: 15%;
+    }
 
-.main-gallery {
-	height: 230px;
-}
+    /*SPILLET SLUTTER----*/
 
-.testimonial {
-  margin: 30px 25% 50px 25%;
-}
-	
-.flickity-page-dots {
-  top: 170px;
-}
-	
-/* ----- TESTIMONIALS SLUTTER ----- */
-	
+    /* ----- TESTIMONIALS ----- */
+
+    .main-gallery {
+        height: 230px;
+    }
+
+    .testimonial {
+        margin: 30px 25% 50px 25%;
+    }
+
+    .flickity-page-dots {
+        top: 170px;
+    }
+
+    /* ----- TESTIMONIALS SLUTTER ----- */
+
     /* ----- FORSIDE SLUTTER ----- */
 
 
@@ -1792,33 +1837,13 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
         padding-left: 25%;
         height: 570px;
     }
-    
+
     .fulde-udbytte h2 {
         font-size: 25px;
     }
-    
-        
+
+
     /* ---------TEAMBUILDING DESKTOP SLUT ----- */
-    
-    /*-----SPILLET DESKTOP-----*/
-
-.startspilimg {
-    width: 40%;
-    
-    margin-top: 10px;
-   
-    
-    
-}
-
-/*SPILLET SLUTTER----*/
-
-    
-    
-    
-    
-    
-
 
     /* --------- KONTAKT-SIDEN DESKTOP START ----------*/
 
