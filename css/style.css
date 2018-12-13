@@ -222,8 +222,8 @@ footer a {
 
 /* ----- TESTIMONIALS ----- */
 
-.main-gallery {
-    height: 250px;
+#testimonial-tekstur {
+    height: 280px;
     background-size: cover;
     background-image: url(../images/tripadvisor-bg.jpg);
     background-position: center;
@@ -270,7 +270,12 @@ footer a {
     background: #7E1515;
 }
 
-
+#tripadvisor {
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: -20px;
+    padding-top: 10px;
+}
 
 /* ----- TESTIMONIALS SLUT ----- */
 
@@ -1491,7 +1496,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     .footer-follow {
         grid-column-start: 5;
     }
-    
+
     .footer-follow img:hover {
         opacity: 0.7;
     }
@@ -1651,18 +1656,18 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     #hegn h2 {
         font-size: 40px;
     }
-    
+
     #hegn {
         height: 750px;
     }
-    
+
     /*-----SPILLET DESKTOP-----*/
 
     .startspilimg {
         width: 40%;
         margin-top: 50px;
     }
-    
+
     .spil-knap {
         margin-top: 15%;
     }
@@ -1681,6 +1686,12 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
 
     .flickity-page-dots {
         top: 170px;
+    }
+
+    #tripadvisor {
+        width: 15%;
+        margin-left: 42.5%;
+        padding-top: 20px;
     }
 
     /* ----- TESTIMONIALS SLUTTER ----- */
