@@ -225,7 +225,7 @@ footer a {
 #testimonial-tekstur {
     height: 280px;
     background-size: cover;
-    background-image: url(../images/tripadvisor-bg.jpg);
+    background-image: url(../images/old-books.jpg);
     background-position: center;
 }
 
@@ -1537,7 +1537,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
         width: 80%;
         margin-left: 10%;
         grid-template-columns: auto auto auto auto auto auto;
-        font-size: 20px;
+        font-size: 16px;
         margin-bottom: 70px;
     }
 
