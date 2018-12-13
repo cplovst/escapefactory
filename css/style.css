@@ -422,24 +422,7 @@ footer a {
 
 /* ----- SPIL PÅ FORSIDE ----- */
 
-#hegn {
-    background-size: cover;
-    background-image: url(../images/hegn.jpg);
-    background-position: top;
-    height: 500px;
-    text-align: center;
-}
 
-#hegn h2 {
-    padding-top: 40px;
-    font-size: 25px;
-}
-
-#hegn p {
-    padding-top: 30px;
-    width: 90%;
-    margin-left: 5%;
-}
 
 /* ----- FORSIDE SLUT ----- */
 
@@ -1307,6 +1290,10 @@ textarea {
         margin-left: 5%;
     }
 
+    #hegn {
+        display: none;
+    }
+
 }
 
 /*------TABLET-------*/
@@ -1639,11 +1626,22 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     /* ----- BAGGRUND TIL SPIL PÅ FORSIDE ----- */
 
     #hegn h2 {
+        padding-top: 40px;
         font-size: 40px;
     }
 
     #hegn {
+        background-size: cover;
+        background-image: url(../images/hegn.jpg);
+        background-position: top;
         height: 750px;
+        text-align: center;
+    }
+
+    #hegn p {
+        padding-top: 30px;
+        width: 90%;
+        margin-left: 5%;
     }
 
     /*-----SPILLET DESKTOP-----*/
