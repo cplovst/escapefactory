@@ -120,6 +120,10 @@ container styler også knappen med før mig til hængelåsen*/
     color: white;
 }
 
+.knaekketkoden:hover {
+    opacity: 0.9;
+}
+
 
 /*styling af forsiden, hvor man sætter spillet igang*/
 
@@ -137,7 +141,7 @@ container styler også knappen med før mig til hængelåsen*/
     text-transform: uppercase;
 }
 
-button:hover {
+.startspil:hover {
     opacity: 0.8;
 }
 

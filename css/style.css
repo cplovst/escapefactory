@@ -751,7 +751,6 @@ footer a {
 }
 
 .booknu-rum {
-
     width: 50%;
     background: none;
     border: solid 1.5px;
@@ -764,14 +763,14 @@ footer a {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -25%);
+}
 
-
-
-
+.booknu-rum a {
+    text-decoration: none;
+    color: white;
 }
 
 .booknu-rum:hover {
-
     background: brown;
 }
 
@@ -896,17 +895,14 @@ footer a {
     display: inline-block;
     font-weight: 700;
     font-size: 16px;
-    color: white;
     font-family: 'Mate', serif;
-    text-decoration: none;
     border-bottom: 5px solid #b11f25;
-    border-top: none;
-    border-left: none;
-    border-right: none;
     text-transform: uppercase;
     letter-spacing: 0.6px;
     z-index: 1;
     margin-top: 30%;
+    text-decoration: none;
+    color: white;
 }
 
 .spil-knap:hover {
@@ -947,11 +943,6 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     padding-top: 10px;
 }
 
-.container h2 {
-    font-size: 20px;
-    font-family: 'Mate', serif;
-}
-
 .lista-item {
     background: #7E1515;
     margin-bottom: 10px;
@@ -960,9 +951,11 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
 
 .faq-titulo {
     cursor: pointer;
-    font-size: 16px;
+    font-size: 20px;
     color: #fff;
     font-weight: lighter;
+    font-family: 'Mate', serif;
+
 }
 
 
@@ -1086,19 +1079,10 @@ textarea {
 }
 
 /* Dropdown knap lavet med inspiration fra https://www.w3schools.com/howto/howto_css_dropdown.asp */
-.dropbtn p {
-    font-size: 16px;
-    margin-top: 0px;
-    margin-left: 20px;
-    width: 200px;
-    color: #7E1515;
-    float: left;
-}
 
-.fa {
-    color: #7E1515;
+.dropbtn i {
     position: absolute;
-    margin-left: -10px;
+    margin-left: 25px;
 }
 
 .dropbtn {
@@ -1108,6 +1092,11 @@ textarea {
     border: none;
     border-radius: 2px;
     height: 40px;
+    font-size: 16px;
+    margin-top: 0px;
+    width: 200px;
+    color: #7E1515;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 .dropdown {
@@ -1144,11 +1133,7 @@ textarea {
     background-color: #7E1515;
 }
 
-.dropdown:hover p {
-    color: #ddd;
-}
-
-.dropdown:hover .fa {
+.dropdown:hover {
     color: #ddd;
 }
 
