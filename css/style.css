@@ -259,7 +259,7 @@ footer a {
 .testimonial-author {
     display: block;
     font-weight: 800;
-    color: #7E1515;
+    color: #b11f25;
 }
 
 .flickity-page-dots {
@@ -267,7 +267,7 @@ footer a {
 }
 
 .flickity-page-dots .dot.is-selected {
-    background: #7E1515;
+    background: #b11f25;
 }
 
 #tripadvisor {
