@@ -223,7 +223,7 @@ footer a {
 /* ----- TESTIMONIALS ----- */
 
 #testimonial-tekstur {
-    height: 280px;
+    height: 350px;
     background-size: cover;
     background-image: url(../images/old-books.jpg);
     background-position: center;
@@ -270,11 +270,20 @@ footer a {
     background: #b11f25;
 }
 
+
 #tripadvisor {
     width: 60%;
     margin-left: 20%;
     margin-bottom: -20px;
     padding-top: 10px;
+}
+.stars {
+	padding-top: 30px;
+	color: rgb(56, 163, 77);
+	text-align: center;
+	font-size: 40px;
+	letter-spacing: 5px;
+
 }
 
 /* ----- TESTIMONIALS SLUT ----- */
@@ -1675,7 +1684,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     /* ----- TESTIMONIALS ----- */
 
     .main-gallery {
-        height: 230px;
+        height: 330px;
     }
 
     .testimonial {
@@ -1685,6 +1694,11 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     .flickity-page-dots {
         top: 170px;
     }
+
+	.stars {
+		padding-top: 40px;
+	}
+	
 
     #tripadvisor {
         width: 15%;
