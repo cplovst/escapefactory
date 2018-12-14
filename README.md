@@ -3,7 +3,7 @@
 Velkommen til vores udgave af en hjemmeside til virksomheden Escape Factory.
 
 Udviklet af:
-Christian Plovst
-Dan Klessen Hansen
-Ida Rosenbæk Lund
+Christian Plovst,
+Dan Klessen Hansen,
+Ida Rosenbæk Lund,
 Morten Jeppesen
