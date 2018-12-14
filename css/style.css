@@ -658,6 +658,7 @@ footer a {
     background-size: cover;
     background-image: url(../images/oberst.jpg);
     background-position: center;
+	
 }
 
 #enigmaimg {
@@ -840,6 +841,7 @@ footer a {
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Merriweather Sans', sans-serif;
+	cursor: pointer;
 
 }
 
@@ -1721,11 +1723,13 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
         margin-top: 50px;
         display: flex;
         justify-content: space-around;
+		
     }
 
     .rum-margin {
         margin-left: 10%;
         margin-right: 10%;
+		
     }
 
     .tekstonimg1 {
@@ -1735,6 +1739,7 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
         top: 70%;
         left: 50%;
         transform: translate(-50%, -50%);
+		cursor: pointer;
     }
 
     .modal-content,
@@ -1748,25 +1753,31 @@ Modificeret snippet fra CodePen: https://codepen.io/origamid/pen/oeYQpK
     .content-billede {
         width: 50%;
         margin-left: 25%;
+		
     }
 
     .detrerum img {
         width: 100%;
+		cursor: pointer;
     }
 
     #oberstimg {
         width: 299px;
         height: 411px;
+		cursor: pointer;
+		
     }
 
     #enigmaimg {
         width: 299px;
         height: 411px;
+		cursor: pointer;
     }
 
     #alkymistimg {
         width: 299px;
         height: 411px;
+		cursor: pointer;
     }
 
     /*billede inde i modal box*/
